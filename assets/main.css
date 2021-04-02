@@ -1,4 +1,141 @@
-h1{
-    color: red;
-    font-size: 100px;
+
+/*------------------logo-----------------*/
+
+header{
+    width: 100%;
+    height: 7rem;
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5.1rem;
+}
+
+nav img{
+    width: 15rem; 
+}
+
+/*-------------profiles-------------*/
+
+main{
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .profile-title{
+    width: 100%;
+    font-size: 3.5vw;
+    letter-spacing: 1px;
+}
+
+ul{
+    margin: 2rem 0;
+}
+ul > li {
+    display: inline-block;
+}
+
+li{
+    width: 10vw;
+    height: 12.3vw;
+    margin: 0 2vw 0 0;
+    cursor: pointer;
+}
+li:hover{
+    --hover-color: white;
+}
+
+#li-add{
+    margin: 0;
+}
+#li-add:hover{
+    --add-img-background: #e5e5e5;
+}
+
+
+.profile-pic{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: var(--hover-color, grey);
+}
+
+.profile-pic .profile-img, .profile-pic .add-img{ 
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.profile-pic .add-img{
+    background-color: var(--add-img-background, #141414);
+}
+
+.profile-pic .add-img img{
+    width: 10vw;
+}
+
+.profile-border{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 0.25vw solid var(--hover-color, transparent);
+}
+
+a .profile-name{
+    font-size: 1.3vw;
+    position: relative;
+    top: 11vw;
+}
+
+
+
+#profile1{
+    background-image: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
+    background-size: cover;
+}
+
+#profile2{
+    background-image: url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg");
+    background-size: cover;
+}
+
+#profile3{
+    background-image: url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#app {
+    background: #141414;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
