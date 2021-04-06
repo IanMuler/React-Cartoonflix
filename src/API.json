@@ -110,113 +110,103 @@
       }
     ],
 
-  "disney": [
+    "disney": [
 
-    {
-      "id": "16",
-      "title": "artattack",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/ZM63w8h/List-artattack.webp"
-    },
-    {
-      "id": "17",
-      "title": "brandy",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/YX3cPL7/List-brandy.png"
-    },
-    {
-      "id": "18",
-      "title": "buzz",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/8B1CJX8/List-buzz.jpg"
-    },
-    {
-      "id": "19",
-      "title": "dave",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/T8PH1xx/List-dave.jpg"
-    },
-    {
-      "id": "20",
-      "title": "gargoyle",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/Pr4tJmX/List-gargoyle.jpg"
-    },
-    {
-      "id": "21",
-      "title": "hannamontan",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/41pg86w/List-hannamontan.jpg"
-    },
-    {
-      "id": "22",
-      "title": "jakelong",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/YT2Fx0k/List-jakelong.webp"
-    },
-    {
-      "id": "23",
-      "title": "kimpossible",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/X4RRJLs/List-kimpossible.jpg"
-    },
-    {
-      "id": "24",
-      "title": "kuzcoserie",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/dG79bGw/List-kuzcoserie.jpg"
-    },
-    {
-      "id": "25",
-      "title": "liloystitchserie",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/HYP4N1P/List-liloystitchserie.jpg"
-    },
-    {
-      "id": "26",
-      "title": "lizziemcguire",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/1R0jsZc/List-lizziemcguire.jpg"
-    },
-    {
-      "id": "27",
-      "title": "phineasyferb",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/2yBcj4K/List-phineasyferb.webp"
-    },
-    {
-      "id": "28",
-      "title": "recess",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/25Jp32w/List-recess.jpg"
-    },
-    {
-      "id": "29",
-      "title": "thats-so-raven",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/gZbJ9SV/List-thats-so-raven.png"
-    },
-    {
-      "id": "30",
-      "title": "zackandcody",
-      "seasons": 3,
-      "categorie": "+7",
-      "img": "https://i.ibb.co/N3nhxtz/List-zackandcody.jpg"
-    }
-  ]
-}
+      {
+        "id": "16",
+        "title": "artattack",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/ZM63w8h/List-artattack.webp"
+      },
+      {
+        "id": "17",
+        "title": "brandy",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/YX3cPL7/List-brandy.png"
+      },
+      {
+        "id": "18",
+        "title": "buzz",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/8B1CJX8/List-buzz.jpg"
+      },
+      {
+        "id": "19",
+        "title": "dave",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/T8PH1xx/List-dave.jpg"
+      },
+      {
+        "id": "20",
+        "title": "gargoyle",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/Pr4tJmX/List-gargoyle.jpg"
+      }, {
+        "id": "21",
+        "title": "hannamontan",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/41pg86w/List-hannamontan.jpg"
+      }, {
+        "id": "22",
+        "title": "jakelong",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/YT2Fx0k/List-jakelong.webp"
+      }, {
+        "id": "23",
+        "title": "kimpossible",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/X4RRJLs/List-kimpossible.jpg"
+      }, {
+        "id": "24",
+        "title": "kuzcoserie",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/dG79bGw/List-kuzcoserie.jpg"
+      }, {
+        "id": "25",
+        "title": "liloystitchserie",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/HYP4N1P/List-liloystitchserie.jpg"
+      }, {
+        "id": "26",
+        "title": "lizziemcguire",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/1R0jsZc/List-lizziemcguire.jpg"
+      }, {
+        "id": "27",
+        "title": "phineasyferb",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/2yBcj4K/List-phineasyferb.webp"
+      }, {
+        "id": "28",
+        "title": "recess",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/25Jp32w/List-recess.jpg"
+      }, {
+        "id": "29",
+        "title": "thats-so-raven",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/gZbJ9SV/List-thats-so-raven.png"
+      }, {
+        "id": "30",
+        "title": "zackandcody",
+        "seasons": 3,
+        "categorie": "+7",
+        "img": "https://i.ibb.co/N3nhxtz/List-zackandcody.jpg"
+      }
+    ]
+  }
 }

@@ -9,7 +9,7 @@ function Home_carousels(props) {
     const seriesDisney = props.media.series.disney;
 return (
     <Fragment>
-        <Carousel series={seriesCn} classPic="cn" title="Cartoon Network"/>
+        <Carousel series={seriesCn} classPic="cn" title="Cartoon Network" top="true"/>
         <Carousel series={seriesDisney} classPic="disney" title="Disney"/>
     </Fragment>
 )
