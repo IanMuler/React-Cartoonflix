@@ -1,0 +1,151 @@
+.home__header{
+    width: 100%;
+    height: 7rem;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    transition: background-color 0.4s;
+    z-index: 2;
+}
+
+.home__header.background-dark{
+    background-color: rgba(20, 20, 20);
+}
+
+.home__nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-container); 
+}
+
+.nav-primary{
+    display: flex;
+    align-items: center;
+}
+
+.home__nav img{
+    width: 15rem;
+    margin-right: 2.5rem;
+}
+
+/*---------------nav-list----------------*/
+
+ul > li {
+    display: inline-block;
+}
+
+.nav-list li{
+    margin-left: 2rem;
+}
+.nav-list li a{
+    text-decoration: none;
+    transition: color 0.4s;
+    color: #e5e5e5;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    transition: color 0.4s;
+}
+.nav-list li a:hover{
+    color: #b3b3b3;
+}
+
+.nav-list li .a-active{
+    font-weight: 700;
+    cursor: default;
+    color: #e5e5e5;
+}
+
+.nav-list li .a-active:hover{
+    color: #e5e5e5;
+}
+
+/*------------nav-secondary------------*/
+
+.nav-secondary{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.nav-secondary .btn{
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    margin-right: 2rem;
+}
+
+.nav-dropdown{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-profile{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-right: 1.2rem;
+    border-radius: 5px;
+    background-image: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
+    background-size: cover;
+}
+
+.nav-dropdown-list{
+    position: absolute;
+    right: var(--right-container);
+    top: 60px;
+    width: 180px;
+    display: var(--display-visible, none);
+    flex-direction: column;
+    background-color: rgba(0,0,0,.9);
+    color: #fff !important;
+    font-size: 13px;
+    line-height: 21px;
+    border: solid 1px rgba(255,255,255,.15);
+    padding: 10px 0 5px 0;
+    border-radius: 5px;
+}
+
+.nav-profile-item:hover span, .profile-manage:hover{
+    text-decoration: underline;
+}
+
+.profile-manage{
+    padding: 10px 10px;
+}
+
+.nav-profile-item{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+a:-webkit-any-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-profile.nd {
+    background-image: url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg");
+    background-size: cover;
+}
+
+.nav-profile.rd {
+    background-image: url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg");
+    background-size: cover;
+}
+
+
+#transform-arrow{
+    font-size: 1rem;
+    transform: var(--transform-span, scaleX(1.9));
+    color: white;
+    transition: transform 367ms;
+}
+
+.nav-dropdown:hover, .nav-dropdown-list:hover{
+    --display-visible: flex;
+    --opacity-visible: 1;
+    --transform-span: scaleX(1.9) rotate(180deg);
+}

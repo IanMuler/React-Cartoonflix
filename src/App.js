@@ -1,16 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Intro from './pages/Intro.jsx';
+import Home from './pages/Home.jsx';
 import './assets/styles/App.css'
 
 function App (){
   
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/" component={Intro}/>
+        <Route exact path="/home" component={Home}/>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

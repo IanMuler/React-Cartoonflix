@@ -8,14 +8,17 @@ html{
     font-size: 62.5%;
 }
 
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
 #app {
+    font-family:'Netflix Sans', Arial, Helvetica, sans-serif;
     background: #141414;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    --padding-container: 0 5.1rem;
+    --right-container: 5.1rem
 }
