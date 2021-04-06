@@ -1,52 +1,48 @@
-
-/*------------------logo-----------------*/
-
-header{
+.intro__header{
     width: 100%;
     height: 7rem;
     position: fixed;
     top: 0;
+ 
 }
 
-nav{
+.intro__nav{
     height: 100%;
     display: flex;
     align-items: center;
     padding: 0 5.1rem;
 }
 
-nav img{
+.intro__nav img{
     width: 15rem; 
 }
-
-/*-------------profiles-------------*/
-
-main{
+.intro__main{
     text-align: center;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main .profile-title{
+.intro__main .profile-title{
     width: 100%;
     font-size: 3.5vw;
     letter-spacing: 1px;
 }
 
-ul{
+.intro__ul{
     margin: 2rem 0;
 }
-ul > li {
+
+.intro__ul > .intro__li {
     display: inline-block;
 }
 
-li{
+.intro__li{
     width: 10vw;
     height: 12.3vw;
     margin: 0 2vw 0 0;
     cursor: pointer;
 }
-li:hover{
+.intro__li:hover{
     --hover-color: white;
 }
 
@@ -61,8 +57,7 @@ li:hover{
 .profile-pic{
     width: auto;
     height: auto;
-    text-decoration: none;
-    color: var(--hover-color, grey);
+    text-decoration: none;   
 }
 
 .profile-pic .profile-img, .profile-pic .add-img{ 
@@ -95,6 +90,7 @@ a .profile-name{
     font-size: 1.3vw;
     position: relative;
     top: 11vw;
+    color: var(--hover-color, grey);
 }
 
 
@@ -116,8 +112,435 @@ a .profile-name{
 
 
 
+#intro {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #141414;
+}
+.home__header{
+    width: 100%;
+    height: 7rem;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    transition: background-color 0.4s;
+    z-index: 2;
+}
+
+.home__header.background-dark{
+    background-color: rgba(20, 20, 20);
+}
+
+.home__nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-container); 
+}
+
+.nav-primary{
+    display: flex;
+    align-items: center;
+}
+
+.home__nav img{
+    width: 15rem;
+    margin-right: 2.5rem;
+}
+
+/*---------------nav-list----------------*/
+
+ul > li {
+    display: inline-block;
+}
+
+.nav-list li{
+    margin-left: 2rem;
+}
+.nav-list li a{
+    text-decoration: none;
+    transition: color 0.4s;
+    color: #e5e5e5;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    transition: color 0.4s;
+}
+.nav-list li a:hover{
+    color: #b3b3b3;
+}
+
+.nav-list li .a-active{
+    font-weight: 700;
+    cursor: default;
+    color: #e5e5e5;
+}
+
+.nav-list li .a-active:hover{
+    color: #e5e5e5;
+}
+
+/*------------nav-secondary------------*/
+
+.nav-secondary{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.nav-secondary .btn{
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    margin-right: 2rem;
+}
+
+.nav-dropdown{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-profile{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-right: 1.2rem;
+    border-radius: 5px;
+    background-image: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
+    background-size: cover;
+}
+
+.nav-dropdown-list{
+    position: absolute;
+    right: var(--right-container);
+    top: 60px;
+    width: 180px;
+    display: var(--display-visible, none);
+    flex-direction: column;
+    background-color: rgba(0,0,0,.9);
+    color: #fff !important;
+    font-size: 13px;
+    line-height: 21px;
+    border: solid 1px rgba(255,255,255,.15);
+    padding: 10px 0 5px 0;
+    border-radius: 5px;
+}
+
+.nav-profile-item:hover span, .profile-manage:hover{
+    text-decoration: underline;
+}
+
+.profile-manage{
+    padding: 10px 10px;
+}
+
+.nav-profile-item{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+a:-webkit-any-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-profile.nd {
+    background-image: url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg");
+    background-size: cover;
+}
+
+.nav-profile.rd {
+    background-image: url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg");
+    background-size: cover;
+}
 
 
+#transform-arrow{
+    font-size: 1rem;
+    transform: var(--transform-span, scaleX(1.9));
+    color: white;
+    transition: transform 367ms;
+}
+
+.nav-dropdown:hover, .nav-dropdown-list:hover{
+    --display-visible: flex;
+    --opacity-visible: 1;
+    --transform-span: scaleX(1.9) rotate(180deg);
+}
+.principal-preview{
+    width: 100%;
+    min-height: 60rem;
+    height: 109vh;
+    background-image: url("https://i.ibb.co/th1ZQv3/Wall-knd2.jpg");
+    background-size: cover;
+    padding: var(--padding-container);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5vw;
+}
+
+.preview-container{
+    width: 36%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.principal-png-top{
+    width: 7vw;
+}
+
+.principal-png-btm{
+    width: 27vw;
+}
+
+.principal-preview{
+    font-size: 1.4vw;
+    color: white;
+}
+
+.principal-buttons{
+    margin-top: 2vw;
+    display: flex;
+}
+
+.play-btn{
+    padding: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    border: none;
+    font-weight: 700;
+    background: white;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.play-btn span{
+    font-size: 1.6vw; 
+    margin-right: .5rem;
+}
+
+.play-btn:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.info-btn{
+    padding: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    border: none;
+    font-weight: 700;
+    background-color: rgba(109, 109, 110, 0.7);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.info-btn:hover{
+    background-color:rgba(109, 109, 110, 0.4);
+}
+
+.icon-info{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1rem;
+}
+
+.age-categorie{
+    position: absolute;
+    right: 0;
+    top: 62%;
+    border: solid 3px #dcdcdc;
+    border-style: none none none solid;
+    background-color: rgba(51,51,51,.6);
+    font-size: 1.1vw;
+    padding: .5vw 3.6vw .5vw .8vw;
+}
+
+.principal-preview .synopsis{
+    color: #fff;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    font-size: 1.4vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    margin-top: 1.3vw;
+    -webkit-font-smoothing: antialiased;
+}
+.carousel-container{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom,rgba(20,20,20,0) 0%,rgba(20,20,20,1) 70%); 
+    color: white;
+    line-height: 1.25vw;
+    font-size: 1.1vw; 
+    margin-bottom: 3.5vw;
+}
+
+.carousel-container.top{
+    margin-top: -7vw;
+}
+
+.carousel-container h3{
+    padding: var(--padding-container);
+    margin-bottom: 1.4rem;
+}
+
+.carousel{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.left-arrow, .right-arrow{
+    border: none;
+    width: 5.1rem;
+    outline:none;
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.right-arrow{
+    right: 0;
+}
+
+.left-arrow img, .right-arrow img {
+    width: 3rem;
+    height: 4rem;
+    display: var(--arrow-display, none);
+}
+
+.left-arrow:hover, .right-arrow:hover{
+    --arrow-display: block;
+    background: rgba(0,0,0,.6);
+} 
+
+.pics{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: var(--padding-container);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    position: relative;
+}
+.serie-pic{
+    min-width: calc(20% - 0.3vw);
+    height: 10vw;
+    margin-right: 0.3vw;
+    border-radius: 5px;
+}
+
+.serie-pic.last-pic{
+    min-width: calc(20% - 0.3vw + 5.1rem);
+    padding-right: 5.1rem;
+}
+
+.serie-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+ 
+}
+
+/*-------------------hover on serie----------------*/
+
+#zoom-pic{
+    width: 25vw;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    color: white;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    background-color: #141414;
+    box-shadow: rgb(0 0 0 / 75%) 0px 3px 10px;
+}
+
+#zoom-pic img{
+    width: 100%;
+}
+
+#zoom-pic .zoom-pic-down{
+    width: 100%;
+    padding: 2rem 1.5rem;
+
+}
+#zoom-pic .zoom-pic-down-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+#zoom-pic .zoom-pic-down-buttons .buttons{
+    width: 2.7vw;
+    height: 2.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid rgb(175, 175, 175, 0.8);
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+#zoom-pic .zoom-pic-down-buttons .buttons:hover{
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+#zoom-pic .zoom-pic-down-buttons .buttons#zoom-pic__play-btn{
+    color: black; 
+    background-color: white; 
+    font-size: 2.3rem;
+}
+
+#zoom-pic .zoom-pic-down-buttons .buttons#zoom-pic__play-btn:hover{
+    background-color: rgb(255, 255, 255, 0.89);
+}
+
+#zoom-pic .zoom-pic-down-info{
+    width: 100% ;
+    margin-top: 1rem;
+}
+
+#zoom-pic .zoom-pic-down-info .categorie{
+    border: 1px solid grey;
+    padding: 0 0.6rem;
+    margin-right: 1rem;
+    color: rgb(26, 184, 26);
+    font-weight: 700;
+}
+
+#zoom-pic .zoom-pic-down-buttons .buttons span{
+    transform: scaleX(1.6);
+}
 *{
     padding: 0;
     margin: 0;
@@ -128,14 +551,18 @@ html{
     font-size: 62.5%;
 }
 
-#app {
-    background: #141414;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
 }
+
+#app {
+    font-family:'Netflix Sans', Arial, Helvetica, sans-serif;
+    background: #141414;
+
+    --padding-container: 0 5.1rem;
+    --right-container: 5.1rem
+}
+
