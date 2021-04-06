@@ -1,9 +1,12 @@
 import React from 'react'
 // import { Link } from 'react-router-dom';
-import '../assets/styles/Carousel.css'
 import SeriePic from '../components/SeriePic'
+import '../assets/styles/Carousel.css'
 
 function Carousel(props) {
+
+console.log(props)
+
 return (
 
 <section className="carousel-container top">
@@ -16,9 +19,9 @@ return (
 
                 <div className="pics">
 
-                    {requestedSeries.map(serie =>
+                    {props.series.map(serie =>
                         <SeriePic
-                        key={serie.title}    
+                        key={serie.key}
                         img={serie.img}
                         categorie={serie.categorie}
                         seasons={serie.seasons}               

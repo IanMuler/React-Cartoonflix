@@ -2,10 +2,10 @@ import React from 'react'
 // import { Link } from 'react-router-dom';
 import '../assets/styles/SeriePic.css'
 
-function SeriePic() {
+function SeriePic(props) {
 return (
     <div className="serie-pic">
-        <img src="" alt=""/>
+        <img src={props.img} alt={props.key}/>
     </div>
 )
 }
