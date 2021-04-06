@@ -31,7 +31,7 @@ return (
                 </button>
             </div>
 
-            <div className="age-categorie">ATP</div>
+            <div className="age-categorie">+7</div>
         </section>
 )
 }

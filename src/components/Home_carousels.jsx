@@ -14,51 +14,7 @@ return (
                 </button>
 
                 <div className="pics cn">
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-billymandy.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-chicassuperpoderas.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-dexter.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-edededdy.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-looneytunes.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-mansionfoster.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-muchalucha.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-scoobydoo.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-teentitans.webp" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-samuraijack.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-ben10.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-tomyjerry.jpg" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-knd.webp" alt=""/>
-                    </div>
-                    <div className="serie-pic">
-                        <img src="../img/List-CN/List-johnnybravo.png" alt=""/>
-                    </div>
-                    <div className="serie-pic last-pic">
-                        <img src="../img/List-CN/List-vacapollito.jpg" alt=""/>
-                    </div>
+                    
                 </div>
 
                 <button value="cn" dir="right" className="right-arrow">
