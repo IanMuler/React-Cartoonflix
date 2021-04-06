@@ -21,7 +21,7 @@ return (
 
                     {props.series.map(serie =>
                         <SeriePic
-                        key={serie.key}
+                        key={serie.id}
                         img={serie.img}
                         categorie={serie.categorie}
                         seasons={serie.seasons}               

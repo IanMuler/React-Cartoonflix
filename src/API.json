@@ -4,105 +4,105 @@
     "cn": [
 
       {
-        "key": "1",
+        "id": "1",
         "title": "ben10",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/1rR4hbR/List-ben10.jpg"
       },
       {
-        "key": "2",
+        "id": "2",
         "title": "billymandy",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/QYpBXtr/List-billymandy.jpg"
       },
       {
-        "key": "3",
+        "id": "3",
         "title": "chicassuperpoderas",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/rtGhCKm/List-chicassuperpoderas.jpg"
       },
       {
-        "key": "4",
+        "id": "4",
         "title": "johnnybravo",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/t8mRtMD/List-johnnybravo.png"
       },
       {
-        "key": "5",
+        "id": "5",
         "title": "knd",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/LQ0FkwK/List-knd.jpg"
       },
       {
-        "key": "6",
+        "id": "6",
         "title": "looneytunes",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/0n5bNmB/List-looneytunes.jpg"
       },
       {
-        "key": "7",
+        "id": "7",
         "title": "vacapollito",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/1JckTWQ/List-vacapollito.jpg"
       },
       {
-        "key": "8",
+        "id": "8",
         "title": "mansionfoster",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/PY5FFF2/List-mansionfoster.jpg"
       },
       {
-        "key": "9",
+        "id": "9",
         "title": "muchalucha",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/zFdg297/List-muchalucha.jpg"
       },
       {
-        "key": "10",
+        "id": "10",
         "title": "samuraijack",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/jH3vvWL/List-samuraijack.jpg"
       },
       {
-        "key": "11",
+        "id": "11",
         "title": "scoobydoo",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/1RD0Lb9/List-scoobydoo.jpg"
       },
       {
-        "key": "12",
+        "id": "12",
         "title": "teentitans",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/KFgnM3D/List-teentitans.webp"
       },
       {
-        "key": "13",
+        "id": "13",
         "title": "tomyjerry",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/rFztJpn/List-tomyjerry.jpg"
       },
       {
-        "key": "14",
+        "id": "14",
         "title": "dexter",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/3z4XhXs/List-dexter.jpg"
       },
       {
-        "key": "15",
+        "id": "15",
         "title": "edededdy",
         "seasons": 3,
         "categorie": "+7",
