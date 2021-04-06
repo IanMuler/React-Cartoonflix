@@ -4,7 +4,7 @@ import '../assets/styles/Home_header.css'
 
 function Home_header() {
 return (
-    <header className="home__header">
+    <header id="header" className="home__header">
         <nav className="home__nav">
             <div className="nav-primary">
                 <Link to="/">

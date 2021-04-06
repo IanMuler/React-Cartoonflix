@@ -5,7 +5,7 @@ import '../assets/styles/SeriePic.css'
 function SeriePic(props) {
 return (
     <div className="serie-pic">
-        <img src={props.img} alt={props.key}/>
+        <img src={props.img} alt={props.title}/>
     </div>
 )
 }

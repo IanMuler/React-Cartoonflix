@@ -5,6 +5,21 @@ import Home_carousels from '../components/Home_carousels'
 
 const Home = () => {
 
+/*---------------Scroll dark-----------------*/
+  window.addEventListener("scroll", function(){
+    let header = document.getElementById('header');
+    let app = document.getElementById('app');
+    let position = app.getBoundingClientRect().top;
+    
+    if (position === 0){
+        header.classList.remove('background-dark')
+    } else{
+        header.classList.add('background-dark')
+    }
+})
+/*---------------------------------------------*/
+
+
   const API = "https://raw.githubusercontent.com/IanMuler/React-Cartoonflix/main/src/API.json"
   const [media, setMedia] = useState([]);
 
