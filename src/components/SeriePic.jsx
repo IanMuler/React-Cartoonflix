@@ -3,8 +3,9 @@ import React from 'react'
 import '../assets/styles/SeriePic.css'
 
 function SeriePic(props) {
+
 return (
-    <div className="serie-pic">
+    <div className={props.className}>
         <img src={props.img} alt={props.title}/>
     </div>
 )

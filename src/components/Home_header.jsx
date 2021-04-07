@@ -1,8 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../assets/styles/Home_header.css'
 
 function Home_header() {
+
+const removeDropdownClass = () => {
+    
+    let dropdown = document.querySelector('.nav-dropdown-list')
+    let arrow = document.querySelector('.transform-arrow')
+    
+    window.mytimeout = setTimeout(function(){
+        dropdown.classList.remove('visible')
+        arrow.classList.remove('rotated')
+    }, 400);
+}
+
+const addDropdownClass = () => {
+
+    let dropdown = document.querySelector('.nav-dropdown-list');
+    let arrow = document.querySelector('.transform-arrow')
+
+    dropdown.classList.add('visible')
+    arrow.classList.add('rotated')
+
+
+    clearTimeout(window.mytimeout);    
+   
+}
+
 return (
     <header id="header" className="home__header">
         <nav className="home__nav">
@@ -20,9 +45,9 @@ return (
             </div>
             <div className="nav-secondary">
                 <div className="btn icon-search"></div>
-                <div className="nav-dropdown">
+                <div onMouseOver={addDropdownClass} onMouseLeave={removeDropdownClass} className="nav-dropdown">
                     <div className="nav-profile"></div>
-                    <span id="transform-arrow">▼</span>
+                    <span className="transform-arrow">▼</span>
 
                     <div className="nav-dropdown-list">
                         <Link to="/">

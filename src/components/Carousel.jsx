@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import { Link } from 'react-router-dom';
 import SeriePic from '../components/SeriePic'
 import '../assets/styles/Carousel.css'
@@ -7,21 +7,42 @@ function Carousel(props) {
 
 /*--------------------carousel function-----------------*/
 
+const [isMoving, setIsMoving] = useState(false);
+
 let leftArrow;
 
     const moveRight = () => {
+        if(isMoving === false){
         const carousel = document.querySelector(`.pics.${props.classPic}`);
         const carouselWidth = carousel.offsetWidth;
 
         leftArrow = document.querySelector(`.left-arrow.${props.classPic}`)
 
         carousel.scrollLeft += (carouselWidth - leftArrow.offsetWidth*2) 
+
+        setIsMoving(true);
+        setTimeout(
+            function() {
+                setIsMoving(false)}
+                ,600);
+        }
     } 
 
     const moveLeft = () => {
+        if(isMoving === false){
         const carousel = document.querySelector(`.pics.${props.classPic}`);
         const carouselWidth = carousel.offsetWidth;
+
+        leftArrow = document.querySelector(`.left-arrow.${props.classPic}`)
+
         carousel.scrollLeft -= (carouselWidth - leftArrow.offsetWidth*2)
+
+        setIsMoving(true);
+        setTimeout(
+            function() {
+                setIsMoving(false)}
+                ,600);
+        }
     } 
 
 /*------------------------------------------------------------------------*/
@@ -34,6 +55,8 @@ let divCarouselContainer;
 divCarouselContainer = "carousel-container top" :
 divCarouselContainer = "carousel-container"
 
+const seriesLength = props.series.length;
+
 return (
 
 <section className={divCarouselContainer} >
@@ -45,13 +68,24 @@ return (
                 </button>
 
                 <div className={divPics}>
-                    {props.series.map(serie =>
+                    {props.series.map((serie, i) =>
+                        (seriesLength === i + 1)?
                         <SeriePic
                         key={serie.id}
                         title={serie.title}
                         img={serie.img}
                         categorie={serie.categorie}
-                        seasons={serie.seasons}               
+                        seasons={serie.seasons} 
+                        className="serie-pic last-pic"              
+                        />
+                        :
+                        <SeriePic
+                        key={serie.id}
+                        title={serie.title}
+                        img={serie.img}
+                        categorie={serie.categorie}
+                        seasons={serie.seasons}  
+                        className="serie-pic"             
                         />
                     )}
                 </div>
