@@ -15,7 +15,7 @@ return (
                 </div>
                 <div className="buttons"><span className="down-arrow">˅</span></div>
             </div>
-            <h3>{props.title}</h3>
+            <h3 id="zoom-movie-pic_title">{props.title}</h3>
             <div className="zoom-pic-down-info">
                 <span className="categorie">{props.categorie}</span>
                 <span className="duration">{props.duration}</span>

@@ -85,6 +85,10 @@
     background-color: rgb(255, 255, 255, 0.89);
 }
 
+#zoom-movie-pic_title{
+    margin-top: 5px;
+}
+
 #zoom-movie-pic .zoom-pic-down-info{
     width: 100% ;
     margin-top: 1rem;

@@ -62,7 +62,7 @@ const moviesLength = props.movies?.length;
 return (
 
 <section className={divCarouselContainer} >
-            <h3>{props.title}</h3>
+            <h3 className="carousel-title">{props.title}</h3>
             <div className="carousel">
 
                 <button id="left-arrow" onClick={moveLeft} dir="left" className={buttonLeftArrow}>
@@ -80,7 +80,8 @@ return (
                         categorie={serie.categorie}
                         seasons={serie.seasons} 
                         className="serie-pic last-pic"  
-                        classPic={props.classPic}            
+                        classPic={props.classPic}
+                        isMoving={isMoving}            
                         />
                         :
                         <SeriePic
@@ -91,7 +92,8 @@ return (
                         categorie={serie.categorie}
                         seasons={serie.seasons}  
                         className="serie-pic"   
-                        classPic={props.classPic}          
+                        classPic={props.classPic}
+                        isMoving={isMoving}          
                         />   
                     )}
                     {props.movies?.map((movie, i) =>
@@ -104,7 +106,8 @@ return (
                         categorie={movie.categorie}
                         duration={movie.duration} 
                         className="movie-pic last-pic"  
-                        classPic={props.classPic}            
+                        classPic={props.classPic} 
+                        isMoving={isMoving}           
                         />
                         :
                         <MoviePic
@@ -113,9 +116,10 @@ return (
                         title={movie.title}
                         img={movie.img}
                         categorie={movie.categorie}
-                        seasons={movie.seasons}  
+                        duration={movie.duration}
                         className="movie-pic"   
-                        classPic={props.classPic}          
+                        classPic={props.classPic}   
+                        isMoving={isMoving}       
                         />  
                         )}
                 </div>

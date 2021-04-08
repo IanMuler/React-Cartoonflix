@@ -10,6 +10,7 @@ const [isHovering, setIsHovering] = useState(false)
 const [zoomValue, setZoomValue] = useState({});
 
 const hovering = (e) => {
+    if(props.isMoving === false){
     window.timer = setTimeout(function(){setIsHovering(true)},500);  
     const carousel = document.querySelector(`.pics.${props.classPic}`);
 
@@ -17,6 +18,7 @@ const hovering = (e) => {
     const width = e.target.offsetWidth
        
     setZoomValue({ left: left, width: width })
+    }
 }
 
 const deshovering = () => {

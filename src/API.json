@@ -172,7 +172,7 @@
         "img": "https://i.ibb.co/dG79bGw/List-kuzcoserie.jpg"
       }, {
         "id": "25",
-        "title": "liloystitchserie",
+        "title": "liloystitcherie",
         "seasons": 3,
         "categorie": "+7",
         "img": "https://i.ibb.co/HYP4N1P/List-liloystitchserie.jpg"
@@ -323,73 +323,73 @@
   "movies": [
     {
       "id": "46",
-      "title": "Finding Nemo",
-      "duration": "1hs 30mnts",
+      "title": "Toy story",
+      "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/Dgjv2Zr/List-buscandonemo.jpg" 
+      "img": "https://i.ibb.co/rGjPs8m/List-toystory.jpg" 
     },
     {
       "id": "47",
-      "title": "Cars",
-      "duration": "1hs 30mnts",
-      "categorie": "+7",
-      "img": "https://i.ibb.co/8YFg9mF/List-cars.jpg" 
-    },
-    {
-      "id": "48",
-      "title": "An extremely Goofy movie",
-      "duration": "1hs 30mnts",
-      "categorie": "+7",
-      "img": "https://i.ibb.co/dKZXDfR/List-goofy.jpg" 
-    },
-    {
-      "id": "49",
-      "title": "Hercules",
-      "duration": "1hs 30mnts",
-      "categorie": "+7",
-      "img": "https://i.ibb.co/LntQJKR/List-hercules.jpg" 
-    },
-    {
-      "id": "50",
-      "title": "The incredibles",
-      "duration": "1hs 30mnts",
-      "categorie": "+7",
-      "img": "https://i.ibb.co/m4g2fjj/List-losincreibles.jpg" 
-    },
-    {
-      "id": "51",
-      "title": "Pinocho",
-      "duration": "1hs 30mnts",
-      "categorie": "+7",
-      "img": "https://i.ibb.co/yYmy0zv/List-pinocho.jpg" 
-    },
-    {
-      "id": "52",
-      "title": "Tarzan",
-      "duration": "1hs 30mnts",
-      "categorie": "+7",
-      "img": "https://i.ibb.co/F01S2Hd/List-tarzan.jpg" 
-    },
-    {
-      "id": "53",
-      "title": "Mulan",
-      "duration": "1hs 30mnts",
-      "categorie": "+7",
-      "img": "https://i.ibb.co/L04Gdh9/list-mulan.jpg" 
-    },
-    {
-      "id": "54",
       "title": "Atlantis",
-      "duration": "1hs 30mnts",
+      "duration": "1h 30m",
       "categorie": "+7",
       "img": "https://i.ibb.co/bBxXtd8/List-atlantis.jpg" 
     },
     {
-      "id": "55",
-      "title": "Toy story",
-      "duration": "1hs 30mnts",
+      "id": "48",
+      "title": "Mulan",
+      "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/rGjPs8m/List-toystory.jpg" 
+      "img": "https://i.ibb.co/L04Gdh9/list-mulan.jpg" 
+    },
+    {
+      "id": "49",
+      "title": "Tarzan",
+      "duration": "1h 30m",
+      "categorie": "+7",
+      "img": "https://i.ibb.co/F01S2Hd/List-tarzan.jpg" 
+    },
+    {
+      "id": "50",
+      "title": "Pinocho",
+      "duration": "1h 30m",
+      "categorie": "+7",
+      "img": "https://i.ibb.co/yYmy0zv/List-pinocho.jpg" 
+    },
+    {
+      "id": "51",
+      "title": "The incredibles",
+      "duration": "1h 30m",
+      "categorie": "+7",
+      "img": "https://i.ibb.co/m4g2fjj/List-losincreibles.jpg" 
+    },
+    {
+      "id": "52",
+      "title": "Hercules",
+      "duration": "1h 30m",
+      "categorie": "+7",
+      "img": "https://i.ibb.co/LntQJKR/List-hercules.jpg" 
+    },
+    {
+      "id": "53",
+      "title": "An extremely Goofy movie",
+      "duration": "1h 30m",
+      "categorie": "+7",
+      "img": "https://i.ibb.co/dKZXDfR/List-goofy.jpg" 
+    },
+    {
+      "id": "54",
+      "title": "Cars",
+      "duration": "1h 30m",
+      "categorie": "+7",
+      "img": "https://i.ibb.co/8YFg9mF/List-cars.jpg" 
+    },
+    {
+      "id": "55",
+      "title": "Finding Nemo",
+      "duration": "1h 30m",
+      "categorie": "+7",
+      "img": "https://i.ibb.co/Dgjv2Zr/List-buscandonemo.jpg" 
     }
   ]
 }
