@@ -1,16 +1,15 @@
-#zoom-pic{
-    height: auto;
+#zoom-movie-pic{
+    height: 30vw;
     border-radius: 5px;
     overflow: hidden;
     color: white;
     font-size: 1.2rem;
     position: absolute;
     top: 0px;
-    /* margin: 0 var(--right-container); */
     background-color: #141414;
     box-shadow: rgb(0 0 0 / 75%) 0px 3px 10px;
     z-index: 2;
-    transform: scale(1.3);
+    transform: scale(1.2);
     animation: scale 0.2s;
 }
 
@@ -19,34 +18,38 @@
         transform: scale(1);
     }
     to{
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
 }
 
-#zoom-pic img{
+#zoom-movie-pic img{
     width: 100%;
-    height: 11vw;
+    height: 100%;
     cursor: pointer;
+    position: relative;
 }
 
-#zoom-pic .zoom-pic-down{
+#zoom-movie-pic .zoom-pic-down{
     width: 100%;
-    padding: 2rem 1.5rem;
+    padding: 3rem 1.5rem 2rem;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top,rgba(0,0,0, 1),rgba(0,0,0, 0.8),rgba(0,0,0, 0) );
 }
-#zoom-pic .zoom-pic-down-buttons{
+#zoom-movie-pic .zoom-pic-down-buttons{
     display: flex;
     justify-content: space-between;
 }
 
-#zoom-pic .zoom-pic-down-buttons .buttons-left{
+#zoom-movie-pic .zoom-pic-down-buttons .buttons-left{
     width: auto; 
     display: flex; 
     color: white;
 }
 
-#zoom-pic .zoom-pic-down-buttons .buttons{
-    width: 2.2vw;
-    height: 2.2vw;
+#zoom-movie-pic .zoom-pic-down-buttons .buttons{
+    width: 2.5vw;
+    height: 2.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,35 +62,35 @@
     cursor: pointer;
 }
 
-#zoom-pic .zoom-pic-down-buttons .buttons:hover{
+#zoom-movie-pic .zoom-pic-down-buttons .buttons:hover{
     border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
-#zoom-pic .zoom-pic-down-buttons .buttons#zoom-pic__play-btn{
+#zoom-movie-pic .zoom-pic-down-buttons .buttons#zoom-pic__play-btn{
     color: black; 
     background-color: white; 
-    font-size: 1.8rem;
+    font-size: 2.1rem;
 }
-#zoom-pic .zoom-pic-down-buttons .buttons .down-arrow{
+#zoom-movie-pic .zoom-pic-down-buttons .buttons .down-arrow{
     transform: scaleX(1.6);
     margin: 0
 }
 
-#zoom-pic .zoom-pic-down-buttons .buttons.plus{
-    font-size: 2.1rem;
+#zoom-movie-pic .zoom-pic-down-buttons .buttons.plus{
+    font-size: 2.4rem;
 
 }
 
-#zoom-pic .zoom-pic-down-buttons .buttons#zoom-pic__play-btn:hover{
+#zoom-movie-pic .zoom-pic-down-buttons .buttons#zoom-pic__play-btn:hover{
     background-color: rgb(255, 255, 255, 0.89);
 }
 
-#zoom-pic .zoom-pic-down-info{
+#zoom-movie-pic .zoom-pic-down-info{
     width: 100% ;
     margin-top: 1rem;
 }
 
-#zoom-pic .zoom-pic-down-info .categorie{
+#zoom-movie-pic .zoom-pic-down-info .categorie{
     border: 1px solid grey;
     padding: 0 0.6rem;
     margin-right: 1rem;

@@ -20,5 +20,7 @@ html{
     background: #141414;
 
     --padding-container: 0 5.1rem;
-    --right-container: 5.1rem
+    --right-container: 5.1rem;
+    
+    padding-bottom: 4vw;
 }

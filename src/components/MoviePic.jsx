@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react'
 // import { Link } from 'react-router-dom';
-import '../assets/styles/SeriePic.css'
-import ZoomPic from '../components/ZoomPic';
+import '../assets/styles/MoviePic.css'
+import ZoomMoviePic from '../components/ZoomMoviePic';
 
 function SeriePic(props) {
 
@@ -35,11 +35,12 @@ return (
         <img src={props.img} alt={props.title}/>
        </div>
     {isHovering &&
-    <ZoomPic onMouseLeave={deshovering} 
+    <ZoomMoviePic onMouseLeave={deshovering} 
     img={props.img} 
     style={zoomValue}
+    title={props.title}
     categorie={props.categorie}
-    seasons={props.seasons}/>
+    duration={props.duration}/>
     }
     </Fragment>   
 )

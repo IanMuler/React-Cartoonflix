@@ -1,6 +1,6 @@
 .movie-pic{
     min-width: calc(20% - 0.3vw);
-    height: 36.5vw;
+    height: 30vw;
     margin-right: 0.3vw;
     border-radius: 5px;
     cursor: pointer;

@@ -20,7 +20,7 @@ const hovering = (e) => {
 }
 
 const deshovering = () => {
-    setIsHovering(false)    
+    window.secondtimer = setTimeout(function(){setIsHovering(false)},300); 
     timeroff();
 }
 

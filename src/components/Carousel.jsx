@@ -1,8 +1,8 @@
-import React, { Fragment, useState } from 'react'
+import React, { useState } from 'react'
 // import { Link } from 'react-router-dom';
 import SeriePic from '../components/SeriePic'
+import MoviePic from '../components/MoviePic'
 import '../assets/styles/Carousel.css'
-import ZoomPic from '../components/ZoomPic';
 
 function Carousel(props) {
 
@@ -56,7 +56,8 @@ let divCarouselContainer;
 divCarouselContainer = "carousel-container top" :
 divCarouselContainer = "carousel-container"
 
-const seriesLength = props.series.length;
+const seriesLength = props.series?.length;
+const moviesLength = props.movies?.length;
 
 return (
 
@@ -69,7 +70,7 @@ return (
                 </button>
 
                 <div className={divPics}>
-                    {props.series.map((serie, i) =>
+                    {props.series?.map((serie, i) =>
                         (seriesLength === i + 1)?
                         <SeriePic
                         key={serie.id}
@@ -93,6 +94,30 @@ return (
                         classPic={props.classPic}          
                         />   
                     )}
+                    {props.movies?.map((movie, i) =>
+                        (moviesLength === i + 1)?
+                        <MoviePic
+                        key={movie.id}
+                        id={movie.id}
+                        title={movie.title}
+                        img={movie.img}
+                        categorie={movie.categorie}
+                        duration={movie.duration} 
+                        className="movie-pic last-pic"  
+                        classPic={props.classPic}            
+                        />
+                        :
+                        <MoviePic
+                        key={movie.id}
+                        id={movie.id}
+                        title={movie.title}
+                        img={movie.img}
+                        categorie={movie.categorie}
+                        seasons={movie.seasons}  
+                        className="movie-pic"   
+                        classPic={props.classPic}          
+                        />  
+                        )}
                 </div>
 
                 <button onClick={moveRight} dir="right" className="right-arrow">
