@@ -11,6 +11,7 @@ const [zoomValue, setZoomValue] = useState({});
 
 const hovering = (e) => {
     window.timer = setTimeout(function(){setIsHovering(true)},500);  
+
     const carousel = document.querySelector(`.pics.${props.classPic}`);
 
     const left = (e.target.offsetLeft - carousel.scrollLeft);
