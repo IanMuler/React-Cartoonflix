@@ -1,8 +1,9 @@
 .serie-pic{
     min-width: calc(20% - 0.3vw);
-    height: 10vw;
+    height: 11vw;
     margin-right: 0.3vw;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .serie-pic.last-pic{

@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 // import { Link } from 'react-router-dom';
 import SeriePic from '../components/SeriePic'
 import '../assets/styles/Carousel.css'
+import ZoomPic from '../components/ZoomPic';
 
 function Carousel(props) {
 
@@ -72,21 +73,25 @@ return (
                         (seriesLength === i + 1)?
                         <SeriePic
                         key={serie.id}
+                        id={serie.id}
                         title={serie.title}
                         img={serie.img}
                         categorie={serie.categorie}
                         seasons={serie.seasons} 
-                        className="serie-pic last-pic"              
+                        className="serie-pic last-pic"  
+                        classPic={props.classPic}            
                         />
                         :
                         <SeriePic
                         key={serie.id}
+                        id={serie.id}
                         title={serie.title}
                         img={serie.img}
                         categorie={serie.categorie}
                         seasons={serie.seasons}  
-                        className="serie-pic"             
-                        />
+                        className="serie-pic"   
+                        classPic={props.classPic}          
+                        />   
                     )}
                 </div>
 

@@ -1,13 +1,52 @@
-import React from 'react'
+import React, { Fragment, useState } from 'react'
 // import { Link } from 'react-router-dom';
 import '../assets/styles/SeriePic.css'
+import ZoomPic from '../components/ZoomPic';
 
 function SeriePic(props) {
 
+const [isHovering, setIsHovering] = useState(false)
+
+const [zoomValue, setZoomValue] = useState({});
+
+const hovering = (e) => {
+    window.timer = setTimeout(function(){setIsHovering(true)},500);  
+    const carousel = document.querySelector(`.pics.${props.classPic}`);
+    const leftArrow = document.querySelector(`.left-arrow.${props.classPic}`)
+
+    const left = (e.target.offsetLeft - carousel.scrollLeft);
+    const right = leftArrow.offsetWidth;
+    const width = e.target.offsetWidth
+    
+    if (props.id %5 ) {
+        setZoomValue({ left: left, width: width })
+    } else {
+        setZoomValue({right : right, width: width  })
+    }
+}
+
+const deshovering = () => {
+    setIsHovering(false)    
+    timeroff();
+}
+
+const timeroff = () => {
+    clearTimeout(window.timer)
+}
+
 return (
-    <div className={props.className}>
+    <Fragment>
+        <div onMouseOver={hovering} onMouseLeave={timeroff} onMouseOut={timeroff} className={props.className}>
         <img src={props.img} alt={props.title}/>
-    </div>
+       </div>
+    {isHovering &&
+    <ZoomPic onMouseLeave={deshovering} 
+    img={props.img} 
+    style={zoomValue}
+    categorie={props.categorie}
+    seasons={props.seasons}/>
+    }
+    </Fragment>   
 )
 }
 

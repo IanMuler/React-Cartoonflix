@@ -1,7 +1,9 @@
 import React, { useState, useEffect, Fragment } from 'react';
 import Home_header from '../components/Home_header';
+import Intro_header from '../components/Intro_header';
 import Home_preview from '../components/Home_preview';
 import Home_carousels from '../components/Home_carousels'
+import Home_loading from '../components/Home_loading';
 
 const Home = () => {
 
@@ -28,18 +30,17 @@ const Home = () => {
       .then(response => response.json())
       .then(data => setMedia(data));
   }, [] )
-
-    return media.length === 0 ?
+  return media.length === 0 ?
     <Fragment>
-    <Home_header/>
-    <h1>Loading</h1>
+    <Intro_header/>
+    <Home_loading/>
     </Fragment>
-    :
-    <Fragment>
-        <Home_header/>
-        <Home_preview/>
-        <Home_carousels media={media} />
-    </Fragment>
+     :
+     <Fragment>
+         <Home_header/>
+         <Home_preview/>
+         <Home_carousels media={media} />
+     </Fragment>
   ;
 }
 

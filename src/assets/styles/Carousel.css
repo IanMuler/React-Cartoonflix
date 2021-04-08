@@ -27,7 +27,7 @@
 
 .left-arrow, .right-arrow{
     border: none;
-    width: 5.1rem;
+    width: 5.13rem;
     outline:none;
     background: rgba(0,0,0,.4);
     position: absolute;
@@ -60,7 +60,6 @@
     height: auto;
     display: flex;
     padding: var(--padding-container);
-    overflow: hidden;
+    overflow-x: hidden;
     scroll-behavior: smooth;
-    position: relative;
 }
