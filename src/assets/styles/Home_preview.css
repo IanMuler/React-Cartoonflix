@@ -1,7 +1,6 @@
 .principal-preview{
     width: 100%;
-    height: 56.25vw;
-    background-image: url("https://i.ibb.co/th1ZQv3/Wall-knd2.jpg");
+    height: 50vw;
     background-size: cover;
     padding: var(--padding-container);
     display: flex;
@@ -16,10 +15,6 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-}
-
-.principal-png-top{
-    width: 7vw;
 }
 
 .principal-png-btm{

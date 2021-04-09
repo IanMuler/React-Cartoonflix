@@ -6,7 +6,10 @@ import Home_carousels from '../components/Home_carousels'
 import Home_loading from '../components/Home_loading';
 import Home_footer from '../components/Home_footer';
 
-const Home = (props) => {
+const Series = (props) => {
+
+const profile = props.profile;
+const preview = `props.media.${profile}.series` 
 
   return props.media.length === 0 ?
     <Fragment>
@@ -16,11 +19,11 @@ const Home = (props) => {
      :
      <Fragment>
          <Home_header/>
-         <Home_preview/>
-         <Home_carousels media={props.media} />
+         <Home_preview preview={preview}/>
+         <Home_carousels media={props.media} getSeries={true} />
          <Home_footer/>
      </Fragment>
   ;
 }
 
-export default Home;
+export default Series;

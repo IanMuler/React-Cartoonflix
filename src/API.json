@@ -391,5 +391,20 @@
       "categorie": "+7",
       "img": "https://i.ibb.co/Dgjv2Zr/List-buscandonemo.jpg" 
     }
-  ]
-}
+  ],
+
+  "profiles": {
+    "courage": {
+      "home" : {
+        "preview":"https://i.ibb.co/Vt0D61h/courage-preview.jpg",
+        "png": "https://i.ibb.co/t2fj2NW/courage-png.png",
+        "synopsis": "The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers."
+        }, 
+      "series" : {
+        "preview":"https://i.ibb.co/th1ZQv3/Wall-knd2.jpg",
+        "png": "https://i.ibb.co/dbk8WFb/Png-knd.png",
+        "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
+        }
+      }
+    }
+  }

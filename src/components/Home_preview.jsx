@@ -3,15 +3,19 @@ import { Link } from 'react-router-dom';
 import '../assets/styles/Home_preview.css'
 
 function Home_preview() {
+
+const previewStyle = {
+        backgroundImage: 'url("https://i.ibb.co/Vt0D61h/courage-preview.jpg")',
+      };
+
 return (
 
-        <section className="principal-preview">
+        <section className="principal-preview" style={previewStyle}>
             <div className="preview-container">
 
-                <img className="principal-png-btm" src="https://i.ibb.co/dbk8WFb/Png-knd.png" alt=""/>
+                <img className="principal-png-btm" src="https://i.ibb.co/t2fj2NW/courage-png.png" alt=""/>
 
-                <div className="synopsis"> The series follows the adventures of a group of children who operate from a
-                    high-tech tree house, fighting against adults with advanced technology.</div>
+                <div className="synopsis"> The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers.</div>
             </div>
             <div className="principal-buttons">
                 <Link to="/">
