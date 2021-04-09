@@ -4,6 +4,7 @@ import Intro_header from '../components/Intro_header';
 import Home_preview from '../components/Home_preview';
 import Home_carousels from '../components/Home_carousels'
 import Home_loading from '../components/Home_loading';
+import Home_footer from '../components/Home_footer';
 
 const Home = () => {
 
@@ -40,6 +41,7 @@ const Home = () => {
          <Home_header/>
          <Home_preview/>
          <Home_carousels media={media} />
+         <Home_footer/>
      </Fragment>
   ;
 }

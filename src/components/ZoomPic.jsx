@@ -12,8 +12,6 @@ return (
                 <div className="buttons-left">
                     <div id="zoom-pic__play-btn" className="buttons">►</div>
                     <div className="buttons plus">+</div>
-                    <div className="buttons icon-thumbs-up"></div>
-                    <div className="buttons icon-thumbs-down"></div>
                 </div>
                 <div className="buttons"><span className="down-arrow">˅</span></div>
             </div>

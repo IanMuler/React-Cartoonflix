@@ -1,7 +1,6 @@
 .principal-preview{
     width: 100%;
-    min-height: 60rem;
-    height: 109vh;
+    height: 56.25vw;
     background-image: url("https://i.ibb.co/th1ZQv3/Wall-knd2.jpg");
     background-size: cover;
     padding: var(--padding-container);

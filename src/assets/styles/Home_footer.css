@@ -1,0 +1,57 @@
+#footer{
+max-width: 980px;
+margin: 10rem auto 0;
+padding-bottom: 3.5rem;
+}
+
+.footer_container-links{
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 0 1.4rem 0;
+}
+
+.footer_link{
+    min-width: 25%;
+    list-style-type: none;
+    margin-bottom: 1.6rem;
+}
+
+.footer_link a span{
+    color: grey;
+}
+
+.footer_link a span:hover{
+    text-decoration: underline;
+}
+
+.footer_signature{
+    display: inline;  
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    border: 1px solid rgb(65, 65, 65);
+    cursor: pointer
+}
+
+.footer_signature a span{
+    color: grey;
+}
+
+.footer_signature:hover a span{
+    color: rgb(201, 201, 201);
+}
+
+.icon-github{
+    width: 3vw;
+    height: 3vw;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    background: url("https://i.ibb.co/X5NPFgt/Github.png");
+    background-size: cover;
+}
+
+.icon-github:hover{
+    filter: brightness(2);
+}
