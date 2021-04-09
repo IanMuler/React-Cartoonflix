@@ -52,7 +52,7 @@ const divPics = `pics ${props.classPic}`;
 const buttonLeftArrow = `left-arrow ${props.classPic}`
 
 let divCarouselContainer;
-(props.top === "true") ?
+(props.top) ?
 divCarouselContainer = "carousel-container top" :
 divCarouselContainer = "carousel-container"
 

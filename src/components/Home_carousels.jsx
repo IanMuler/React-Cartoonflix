@@ -13,13 +13,13 @@ return (
     <Fragment>
         {props.getSeries &&
         <Fragment>
-        <Carousel series={seriesCn} classPic="cn" title="Cartoon Network" top="true"/>
+        <Carousel series={seriesCn} classPic="cn" title="Cartoon Network" top={true}/>
         <Carousel series={seriesDisney} classPic="disney" title="Disney"/>
         <Carousel series={seriesFoxKids} classPic="fox-kids" title="Fox Kids / Jetix"/>
         </Fragment>
         }
         {props.getMovies &&
-        <Carousel movies={movies} classPic="movies" title="Movies"/>
+        <Carousel movies={movies} classPic="movies" title="Movies" top={props.top}/>
         }
     </Fragment>
 )

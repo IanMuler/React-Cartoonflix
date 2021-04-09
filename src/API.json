@@ -406,12 +406,51 @@
         "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
         },
       "movies" : {
-        "preview":"https://i.ibb.co/sFHWVTC/courage-movie-preview.jpg",
+        "preview":"https://i.ibb.co/dgxrk1Z/courage-movie-preview.jpg",
         "png": "https://i.ibb.co/54SVCgt/courage-movie-png.png",
         "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
         }
-      }
+    },
+      "woody": {
+        "home" : {
+          "preview":"https://i.ibb.co/7G47xDD/woody-preview.jpg",
+          "png": "https://i.ibb.co/Zmq0Qny/woody-png.png",
+          "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire. Yzma, his former advisor, schemes to sabotage him so she can be empress instead."
+          }, 
+        "series" : {
+          "preview":"https://i.ibb.co/s66Ppkn/woody-series-preview.jpg",
+          "png": "https://i.ibb.co/fFTv28N/woody-series-png.png",
+          "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
+          },
+        "movies" : {
+          "preview":"https://i.ibb.co/41f1ZdS/woody-movies-preview.jpg",
+          "png": "https://i.ibb.co/R7dPzdM/woody-movies-png.png",
+          "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
+          }
+        },
+        "ranger": {
+          "home" : {
+            "preview":"https://i.ibb.co/HYBwG1c/ranger-preview.jpg",
+            "png": "https://i.ibb.co/0FQCqp1/ranger-png.png",
+            "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire. Yzma, his former advisor, schemes to sabotage him so she can be empress instead."
+            }, 
+          "series" : {
+            "preview":"https://i.ibb.co/P9YH3pF/ranger-series-preview.png",
+            "png": "https://i.ibb.co/9YX0f0d/ranger-series-png.png",
+            "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
+            },
+          "movies" : {
+            "preview":"https://i.ibb.co/D4bMMxm/ranger-movies-preview.jpg",
+            "png": "https://i.ibb.co/X7jrr5h/ranger-movies-png.png",
+            "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
+            }
+          }
     }
   }
 
-  
+
+
+
+
+
+
