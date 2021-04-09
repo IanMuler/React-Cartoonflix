@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/styles/Intro_main.css'
 
-function Intro_main() {
+function Intro_main(props) {
+
 return (
     <main className="intro__main">
     <div className="profile-title">Who's watching?</div>
@@ -11,7 +12,7 @@ return (
             <li className="intro__li">             
                 <Link className="profile-pic" to="/home">
                     <div id="profile1" className="profile-img">
-                        <div className="profile-border">
+                        <div className="profile-border" value="courage" onClick={props.getProfile}>
                     </div>
                     </div>
                     <div className="profile-name">Courage</div>
@@ -20,7 +21,7 @@ return (
             <li className="intro__li">
                 <Link className="profile-pic" to="/home">
                     <div id="profile2"className="profile-img">
-                        <div className="profile-border">
+                        <div className="profile-border" value="woody" onClick={props.getProfile}>
                     </div>
                     </div>
                     <div className="profile-name">Woody</div>
@@ -29,7 +30,7 @@ return (
             <li className="intro__li">
                 <Link className="profile-pic" to="/home">
                     <div id="profile3"className="profile-img">
-                        <div className="profile-border">
+                        <div className="profile-border" value="ranger" onClick={props.getProfile}>
                     </div>
                     </div>
                     <div className="profile-name">Ranger</div>

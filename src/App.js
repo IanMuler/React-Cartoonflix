@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Intro from './pages/Intro.jsx';
 import Home from './pages/Home.jsx';
+import Series from './pages/Series.jsx';
+import Movies from './pages/Movies.jsx';
 import './assets/styles/App.css'
 
 function App (){
@@ -18,8 +20,8 @@ function App (){
         header.classList.add('background-dark')
     }
 })
-/*---------------------------------------------*/
 
+/*-----------------get API data------------------*/
   const API = "https://raw.githubusercontent.com/IanMuler/React-Cartoonflix/main/src/API.json"
   const [media, setMedia] = useState([]);
 
@@ -29,11 +31,27 @@ function App (){
       .then(data => setMedia(data));
   }, [] )
 
-  return (
-    <HashRouter>
+/*-----------------get profile value--------------*/
+
+const [profile, setProfile] = useState("")
+
+const getProfile = (e) => {
+  setProfile(e.target.getAttribute("value"))
+}
+
+if(profile){
+localStorage.setItem("profile", profile)
+}
+
+const profileStorage = localStorage.getItem("profile");
+/*-------------------------------------------------*/
+return (
+<HashRouter>
       <Switch>
-        <Route exact path="/" component={Intro}/>
-        <Route exact path="/home" render={(props) => (<Home {...props} media={media} />)}/>
+        <Route exact path="/" render={() => (<Intro getProfile={getProfile} />)}/>
+        <Route exact path="/home" render={() => (<Home media={media} profile={profileStorage} />)}/>
+        <Route exact path="/series" render={() => (<Series media={media} profile={profileStorage} />)}/>
+        <Route exact path="/movies" render={() => (<Movies media={media} profile={profileStorage} />)}/>
       </Switch>
     </HashRouter>
   );

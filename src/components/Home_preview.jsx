@@ -1,19 +1,31 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import '../assets/styles/Home_preview.css'
+import { HashRouter, Link, Route } from 'react-router-dom';
+import '../assets/styles/Home_preview.css'  
 
-function Home_preview() {
+function Home_preview(props) {
+
+if(!props.profile){ 
+    window.location.href = "/"
+}
+
+const profilesMedia = props.profilesMedia;
+const profile = profilesMedia[props.profile];
+const page = profile[props.page];
+
+const backgroundImage = page.preview;
+const srcPng = page.png;
 
 const previewStyle = {
-        backgroundImage: 'url("https://i.ibb.co/Vt0D61h/courage-preview.jpg")',
-      };
+    backgroundImage: `url(${backgroundImage})`,
+    };
+
 
 return (
 
         <section className="principal-preview" style={previewStyle}>
             <div className="preview-container">
 
-                <img className="principal-png-btm" src="https://i.ibb.co/t2fj2NW/courage-png.png" alt=""/>
+                <img className="principal-png-btm" src={srcPng} alt=""/>
 
                 <div className="synopsis"> The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers.</div>
             </div>

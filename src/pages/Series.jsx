@@ -8,9 +8,6 @@ import Home_footer from '../components/Home_footer';
 
 const Series = (props) => {
 
-const profile = props.profile;
-const preview = `props.media.${profile}.series` 
-
   return props.media.length === 0 ?
     <Fragment>
     <Intro_header/>
@@ -19,7 +16,7 @@ const preview = `props.media.${profile}.series`
      :
      <Fragment>
          <Home_header/>
-         <Home_preview preview={preview}/>
+         <Home_preview profilesMedia={props.media.profiles} profile={props.profile} page="series"/>
          <Home_carousels media={props.media} getSeries={true} />
          <Home_footer/>
      </Fragment>
