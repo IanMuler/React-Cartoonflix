@@ -24,3 +24,7 @@ html{
     --padding-container: 0 5.1rem;
     --right-container: 5.1rem;
 }
+
+.d-none{
+    display: none;
+}

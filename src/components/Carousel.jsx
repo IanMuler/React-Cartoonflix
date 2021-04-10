@@ -9,17 +9,19 @@ function Carousel(props) {
 /*--------------------carousel function-----------------*/
 
 const [isMoving, setIsMoving] = useState(false);
+const [buttonLeftArrow, setButtonLeftArrow] = useState("d-none")
 
-let leftArrow;
+let rightArrow;
 
     const moveRight = () => {
         if(isMoving === false){
         const carousel = document.querySelector(`.pics.${props.classPic}`);
         const carouselWidth = carousel.offsetWidth;
 
-        leftArrow = document.querySelector(`.left-arrow.${props.classPic}`)
-
-        carousel.scrollLeft += (carouselWidth - leftArrow.offsetWidth*2) 
+        rightArrow = document.querySelector(`.right-arrow.${props.classPic}`)
+        carousel.scrollLeft += (carouselWidth - rightArrow.offsetWidth*2) 
+        
+        setButtonLeftArrow(`left-arrow`)
 
         setIsMoving(true);
         setTimeout(
@@ -34,9 +36,9 @@ let leftArrow;
         const carousel = document.querySelector(`.pics.${props.classPic}`);
         const carouselWidth = carousel.offsetWidth;
 
-        leftArrow = document.querySelector(`.left-arrow.${props.classPic}`)
+        rightArrow = document.querySelector(`.right-arrow.${props.classPic}`)
 
-        carousel.scrollLeft -= (carouselWidth - leftArrow.offsetWidth*2)
+        carousel.scrollLeft -= (carouselWidth - rightArrow.offsetWidth*2)
 
         setIsMoving(true);
         setTimeout(
@@ -48,8 +50,10 @@ let leftArrow;
 
 /*------------------------------------------------------------------------*/
 
+
 const divPics = `pics ${props.classPic}`;
-const buttonLeftArrow = `left-arrow ${props.classPic}`
+const buttonRightArrow = `right-arrow ${props.classPic}`
+
 
 let divCarouselContainer;
 (props.top) ?
@@ -124,7 +128,7 @@ return (
                         )}
                 </div>
 
-                <button onClick={moveRight} dir="right" className="right-arrow">
+                <button onClick={moveRight} dir="right" className={buttonRightArrow}>
                     <img dir="right" src="https://i.ibb.co/nQBdYN3/right-arrow.png" alt=""/>
                 </button>
             </div>
