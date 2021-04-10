@@ -77,18 +77,18 @@ a .profile-name{
 
 
 
-#profile1{
-    background-image: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
+#courage{
+    background: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
     background-size: cover;
 }
 
-#profile2{
-    background-image: url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg");
+#woody{
+    background: url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg");
     background-size: cover;
 }
 
-#profile3{
-    background-image: url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg");
+#ranger{
+    background: url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg");
     background-size: cover;
 }
 

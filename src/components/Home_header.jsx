@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../assets/styles/Home_header.css'
 
-function Home_header() {
+function Home_header(props) {
 
 const removeDropdownClass = () => {
     
@@ -28,6 +28,13 @@ const addDropdownClass = () => {
    
 }
 
+const profileBackground =
+    (props.profile === "courage")?{backgroundImage: 'url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg")'}
+    :
+    (props.profile === "woody")?{backgroundImage: 'url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg")'}
+    :
+    {backgroundImage: 'url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg")'}
+
 return (
     <header id="header" className="home__header">
         <nav className="home__nav">
@@ -45,8 +52,8 @@ return (
             </div>
             <div className="nav-secondary">
                 <div className="btn icon-search"></div>
-                <div onMouseOver={addDropdownClass} onMouseLeave={removeDropdownClass} className="nav-dropdown">
-                    <div className="nav-profile"></div>
+                <div onMouseOver={addDropdownClass} onMouseLeave={removeDropdownClass}  className="nav-dropdown">
+                    <div className="nav-profile" style={profileBackground}></div>
                     <span className="transform-arrow">▼</span>
 
                     <div className="nav-dropdown-list">

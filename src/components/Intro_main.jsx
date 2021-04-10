@@ -11,7 +11,7 @@ return (
         <ul className="intro__ul">
             <li className="intro__li">             
                 <Link className="profile-pic" to="/home">
-                    <div id="profile1" className="profile-img">
+                    <div id="courage" className="profile-img">
                         <div className="profile-border" value="courage" onClick={props.getProfile}>
                     </div>
                     </div>
@@ -20,7 +20,7 @@ return (
             </li>
             <li className="intro__li">
                 <Link className="profile-pic" to="/home">
-                    <div id="profile2"className="profile-img">
+                    <div id="woody"className="profile-img">
                         <div className="profile-border" value="woody" onClick={props.getProfile}>
                     </div>
                     </div>
@@ -29,7 +29,7 @@ return (
             </li>
             <li className="intro__li">
                 <Link className="profile-pic" to="/home">
-                    <div id="profile3"className="profile-img">
+                    <div id="ranger" className="profile-img">
                         <div className="profile-border" value="ranger" onClick={props.getProfile}>
                     </div>
                     </div>
