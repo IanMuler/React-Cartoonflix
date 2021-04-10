@@ -96,18 +96,18 @@ a .profile-name{
 
 
 
-#profile1{
-    background-image: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
+#courage{
+    background: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
     background-size: cover;
 }
 
-#profile2{
-    background-image: url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg");
+#woody{
+    background: url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg");
     background-size: cover;
 }
 
-#profile3{
-    background-image: url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg");
+#ranger{
+    background: url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg");
     background-size: cover;
 }
 
@@ -213,7 +213,6 @@ ul > li {
     height: 2.5vw;
     margin-right: 1.2rem;
     border-radius: 5px;
-    background-image: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
     background-size: cover;
 }
 
@@ -295,8 +294,7 @@ a:-webkit-any-link{
 }
 .principal-preview{
     width: 100%;
-    height: 56.25vw;
-    background-image: url("https://i.ibb.co/th1ZQv3/Wall-knd2.jpg");
+    height: 50vw;
     background-size: cover;
     padding: var(--padding-container);
     display: flex;
@@ -311,10 +309,6 @@ a:-webkit-any-link{
     display: flex;
     flex-direction: column;
     justify-content: end;
-}
-
-.principal-png-top{
-    width: 7vw;
 }
 
 .principal-png-btm{
@@ -642,7 +636,7 @@ a:-webkit-any-link{
 .carousel-container{
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom,rgba(20,20,20,0) 0%,rgba(20,20,20,1) 70%); 
+    background: linear-gradient(to top,rgba(20,20,20,1)75%,rgba(20,20,20,0.66)87%, rgba(20,20,20,0.33)93%, rgba(20,20,20,0)100%); 
     color: white;
     line-height: 1.25vw;
     font-size: 1.1vw; 
@@ -679,6 +673,7 @@ a:-webkit-any-link{
     align-items: center;
     cursor: pointer;
     z-index: 1;
+    opacity: 1;
 }
 
 .right-arrow{
@@ -809,5 +804,9 @@ html{
 
     --padding-container: 0 5.1rem;
     --right-container: 5.1rem;
+}
+
+.d-none{
+    display: none;
 }
 
