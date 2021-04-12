@@ -49,9 +49,9 @@ return (
 <HashRouter>
       <Switch>
         <Route exact path="/" render={() => (<Intro getProfile={getProfile} />)}/>
-        <Route exact path="/home" render={() => (<Home media={media} profile={profileStorage} />)}/>
-        <Route exact path="/series" render={() => (<Series media={media} profile={profileStorage} />)}/>
-        <Route exact path="/movies" render={() => (<Movies media={media} profile={profileStorage} />)}/>
+        <Route exact path="/home" render={() => (<Home media={media} getProfile={getProfile} profile={profileStorage} />)}/>
+        <Route exact path="/series" render={() => (<Series media={media} getProfile={getProfile} profile={profileStorage} />)}/>
+        <Route exact path="/movies" render={() => (<Movies media={media} getProfile={getProfile} profile={profileStorage} />)}/>
       </Switch>
     </HashRouter>
   );

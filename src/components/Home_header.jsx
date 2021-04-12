@@ -33,7 +33,9 @@ const profileBackground =
     :
     (props.profile === "woody")?{backgroundImage: 'url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg")'}
     :
-    {backgroundImage: 'url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg")'}
+    (props.profile === "ranger")?{backgroundImage: 'url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg")'}
+    :
+    {backgroundImage: 'url("")'}
 
 return (
     <header id="header" className="home__header">
@@ -57,18 +59,31 @@ return (
                     <span className="transform-arrow">▼</span>
 
                     <div className="nav-dropdown-list">
-                        <Link to="/">
-                        <div className="nav-profile-item">
-                            <div className="nav-profile nd"></div>
-                            <span>Woody</span>
+
+                        {props.profile !== "courage" &&
+                        <Link to="/home">
+                        <div onClick={props.getProfile} value="courage" className="nav-profile-item">
+                            <div onClick={props.getProfile} value="courage" className="nav-profile first"></div>
+                            <span onClick={props.getProfile} value="courage">Courage</span>
                         </div>
                         </Link>
-                        <Link to="/">
-                        <div className="nav-profile-item">
-                            <div className="nav-profile rd"></div>
-                            <span to="/">Ranger</span>
+                        }
+                        {props.profile !== "woody" &&
+                        <Link to="/home">
+                        <div onClick={props.getProfile} value="woody" className="nav-profile-item">
+                            <div onClick={props.getProfile} value="woody" className="nav-profile second"></div>
+                            <span onClick={props.getProfile} value="woody">Woody</span>
                         </div>
                         </Link>
+                        }
+                        {props.profile !== "ranger" &&
+                        <Link to="/home">
+                        <div onClick={props.getProfile} value="ranger" className="nav-profile-item">
+                            <div onClick={props.getProfile} value="ranger" className="nav-profile third"></div>
+                            <span onClick={props.getProfile} value="ranger">Ranger</span>
+                        </div>
+                        </Link>
+                        }    
                         <Link className="profile-manage" to="/">Manage Profiles</Link>
                     </div>
                 </div>

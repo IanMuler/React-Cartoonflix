@@ -13,7 +13,7 @@ return (
                     <div id="zoom-pic__play-btn" className="buttons">►</div>
                     <div className="buttons plus">+</div>
                 </div>
-                <div className="buttons"><span className="down-arrow">˅</span></div>
+                <div className="buttons" onClick={props.renderModal}><span className="down-arrow">˅</span></div>
             </div>
             <h3 id="zoom-movie-pic_title">{props.title}</h3>
             <div className="zoom-pic-down-info">
@@ -22,6 +22,7 @@ return (
             </div>
         </div>
     </div>
+
 )
 }
 

@@ -15,7 +15,7 @@ const Series = (props) => {
     </Fragment>
      :
      <Fragment>
-         <Home_header/>
+         <Home_header profile={props.profile} getProfile={props.getProfile}/>
          <Home_preview profilesMedia={props.media.profiles} profile={props.profile} page="series"/>
          <Home_carousels media={props.media} getSeries={true} />
          <Home_footer/>

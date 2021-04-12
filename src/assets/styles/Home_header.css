@@ -128,12 +128,17 @@ a:-webkit-any-link{
     text-decoration: none;
 }
 
-.nav-profile.nd {
+.nav-profile.first {
+    background-image: url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg");
+    background-size: cover;
+}
+
+.nav-profile.second {
     background-image: url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg");
     background-size: cover;
 }
 
-.nav-profile.rd {
+.nav-profile.third {
     background-image: url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg");
     background-size: cover;
 }

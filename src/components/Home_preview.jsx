@@ -27,7 +27,7 @@ return (
 
                 <img className="principal-png-btm" src={srcPng} alt=""/>
 
-                <div className="synopsis"> The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers.</div>
+                <div className="synopsis">{page.synopsis}</div>
             </div>
             <div className="principal-buttons">
                 <Link to="/">
