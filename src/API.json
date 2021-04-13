@@ -326,128 +326,127 @@
       "title": "Toy story",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/rGjPs8m/List-toystory.jpg"
+      "img": "https://i.ibb.co/kqx1JkG/List-toystory.webp"
     },
     {
       "id": "47",
       "title": "Atlantis",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/bBxXtd8/List-atlantis.jpg"
+      "img": "https://i.ibb.co/0c0rZMS/List-atlantis.webp"
     },
     {
       "id": "48",
       "title": "Mulan",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/L04Gdh9/list-mulan.jpg"
+      "img": "https://i.ibb.co/xq4y7Cj/list-mulan.webp"
     },
     {
       "id": "49",
       "title": "Tarzan",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/F01S2Hd/List-tarzan.jpg"
+      "img": "https://i.ibb.co/4YFhhfB/List-tarzan.webp"
     },
     {
       "id": "50",
       "title": "Pinocho",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/yYmy0zv/List-pinocho.jpg"
+      "img": "https://i.ibb.co/Y21W2CB/List-pinocho.webp"
     },
     {
       "id": "51",
       "title": "The incredibles",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/m4g2fjj/List-losincreibles.jpg"
+      "img": "https://i.ibb.co/8Y7RRsx/List-losincreibles.webp"
     },
     {
       "id": "52",
       "title": "Hercules",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/LntQJKR/List-hercules.jpg"
+      "img": "https://i.ibb.co/df8QvR5/List-hercules.webp"
     },
     {
       "id": "53",
       "title": "An extremely Goofy movie",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/dKZXDfR/List-goofy.jpg"
+      "img": "https://i.ibb.co/Qm9Wcvn/List-goofy.webp"
     },
     {
       "id": "54",
       "title": "Cars",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/8YFg9mF/List-cars.jpg"
+      "img": "https://i.ibb.co/DGLtGWg/List-cars.webp"
     },
     {
       "id": "55",
       "title": "Finding Nemo",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/Dgjv2Zr/List-buscandonemo.jpg"
+      "img": "https://i.ibb.co/wYXVz1f/List-buscandonemo.webp"
     }
   ],
 
   "profiles": {
     "courage": {
       "home": {
-        "preview": "https://i.ibb.co/Vt0D61h/courage-preview.jpg",
-        "png": "https://i.ibb.co/t2fj2NW/courage-png.png",
+        "preview": "https://i.ibb.co/tMjQcVL/courage-preview.webp",
+        "png": "https://i.ibb.co/X8WD2DS/courage-png.png",
         "synopsis": "The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers."
       },
       "series": {
-        "preview": "https://i.ibb.co/th1ZQv3/Wall-knd2.jpg",
-        "png": "https://i.ibb.co/dbk8WFb/Png-knd.png",
+        "preview": "https://i.ibb.co/b16KQ8M/courage-series-preview.webp",
+        "png": "https://i.ibb.co/dJFyx42/Png-knd.png",
         "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
       },
       "movies": {
-        "preview": "https://i.ibb.co/dgxrk1Z/courage-movie-preview.jpg",
-        "png": "https://i.ibb.co/54SVCgt/courage-movie-png.png",
+        "preview": "https://i.ibb.co/QnJbjTd/courage-movie-preview.webp",
+        "png": "https://i.ibb.co/Df6TFpv/courage-movie-png.png",
         "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
       }
     },
     "woody": {
       "home": {
-        "preview": "https://i.ibb.co/7G47xDD/woody-preview.jpg",
-        "png": "https://i.ibb.co/Zmq0Qny/woody-png.png",
+        "preview": "https://i.ibb.co/sKhxW5Q/woody-preview.webp",
+        "png": "https://i.ibb.co/hXcFTKJ/woody-png.png",
         "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire."
       },
       "series": {
-        "preview": "https://i.ibb.co/s66Ppkn/woody-series-preview.jpg",
-        "png": "https://i.ibb.co/CK1PMxR/woody-series-png.png",
-        "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
+        "preview": "https://i.ibb.co/k2cQF8j/woody-series-preview.webp",
+        "png": "https://i.ibb.co/p2vxhW5/woody-series-png.png",
+        "synopsis": "Phineas and Ferb invent, scheme, and stay one step ahead of their bratty sister. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz."
       },
       "movies": {
-        "preview": "https://i.ibb.co/41f1ZdS/woody-movies-preview.jpg",
-        "png": "https://i.ibb.co/4TFk0mR/woody-movies-png.png",
-        "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
+        "preview": "https://i.ibb.co/sqGJW7y/woody-movies-preview.webp",
+        "png": "https://i.ibb.co/qFwNHwT/woody-movies-png.png",
+        "synopsis": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room."
       }
     },
     "ranger": {
       "home": {
-        "preview": "https://i.ibb.co/HYBwG1c/ranger-preview.jpg",
-        "png": "https://i.ibb.co/BCs1TTQ/ranger-png.png",
-        "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire. Yzma, his former advisor, schemes to sabotage him so she can be empress instead."
+        "preview": "https://i.ibb.co/B6RpwM3/ranger-preview.webp",
+        "png": "https://i.ibb.co/vhVmhV5/ranger-png.png",
+        "synopsis": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd, Emperor of all he sees, and their horde of monsters."
       },
       "series": {
-        "preview": "https://i.ibb.co/P9YH3pF/ranger-series-preview.png",
-        "png": "https://i.ibb.co/9YX0f0d/ranger-series-png.png",
-        "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
+        "preview": "https://i.ibb.co/tbx6QFR/ranger-series-preview.webp",
+        "png": "https://i.ibb.co/DtnL5Sw/ranger-series-png.png",
+        "synopsis": "A group of young teens is unexpectedly sent to the mysterious Digital World and paired up with their own powerful, morphing monster called the Digimon."
       },
       "movies": {
-        "preview": "https://i.ibb.co/D4bMMxm/ranger-movies-preview.jpg",
-        "png": "https://i.ibb.co/X7jrr5h/ranger-movies-png.png",
+        "preview": "https://i.ibb.co/G9PgKML/ranger-movies-preview.webp",
+        "png": "https://i.ibb.co/4F5QWF7/ranger-movies-png.png",
         "synopsis": "Mulan takes her father's place and heads out to war. While preparing for war, Mulan is reunited with her past guardian Mushu and must find a way to prove her worth and defend her honor."
       }
     }
   }
 }
-
 
 
 
