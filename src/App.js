@@ -45,13 +45,30 @@ localStorage.setItem("profile", profile)
 
 const profileStorage = localStorage.getItem("profile");
 /*-------------------------------------------------*/
+/*-------------------------modal functions----------------------*/
+
+const [modal, setModal] = useState(false)
+const body = document.getElementById("body")
+
+const renderModal = () => {
+    setModal(true)
+    body.classList.add("hide-scroll")
+}
+
+const closeModal = () => {
+    setModal(false)
+    body.classList.remove("hide-scroll")
+}
+
+/*--------------------------------------------------------------*/
+
 return (
 <HashRouter>
       <Switch>
         <Route exact path="/" render={() => (<Intro getProfile={getProfile} />)}/>
-        <Route exact path="/home" render={() => (<Home media={media} getProfile={getProfile} profile={profileStorage} />)}/>
-        <Route exact path="/series" render={() => (<Series media={media} getProfile={getProfile} profile={profileStorage} />)}/>
-        <Route exact path="/movies" render={() => (<Movies media={media} getProfile={getProfile} profile={profileStorage} />)}/>
+        <Route exact path="/home" render={() => (<Home media={media} getProfile={getProfile} profile={profileStorage} modal={modal} renderModal={renderModal} closeModal={closeModal} />)}/>
+        <Route exact path="/series" render={() => (<Series media={media} getProfile={getProfile} profile={profileStorage} modal={modal} renderModal={renderModal} closeModal={closeModal} />)}/>
+        <Route exact path="/movies" render={() => (<Movies media={media} getProfile={getProfile} profile={profileStorage}  modal={modal} renderModal={renderModal} closeModal={closeModal}/>)}/>
       </Switch>
     </HashRouter>
   );

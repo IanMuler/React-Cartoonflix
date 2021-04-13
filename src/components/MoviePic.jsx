@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react'
 // import { Link } from 'react-router-dom';
 import '../assets/styles/MoviePic.css'
 import ZoomMoviePic from '../components/ZoomMoviePic';
-import InfoModal from '../components/InfoModal';
+import InfoModal from '../components/InfoModal'
 
 function MoviePic(props) {
 
@@ -34,22 +34,6 @@ const timeroff = () => {
     clearTimeout(window.timer)
 }
 
-/*-------------------------modal functions----------------------*/
-const [modal, setModal] = useState(false)
-const body = document.getElementById("body")
-
-const renderModal = () => {
-    setModal(true)
-    body.classList.add("hide-scroll")
-}
-
-const closeModal = () => {
-    setModal(false)
-    body.classList.remove("hide-scroll")
-}
-
-/*--------------------------------------------------------------*/
-
 return (
     <Fragment>
         <div onMouseOver={hovering} onMouseLeave={timeroff} onMouseOut={timeroff} className={props.className}>
@@ -57,15 +41,12 @@ return (
        </div>
     {isHovering &&
     <ZoomMoviePic onMouseLeave={deshovering} 
-    img={props.img} 
+    {...props}
     style={zoomValue}
-    title={props.title}
-    categorie={props.categorie}
-    duration={props.duration}
-    renderModal={renderModal}/>
+    />
     }
-    {modal && 
-    <InfoModal closeModal={closeModal}/>
+    {props.modal && 
+        <InfoModal {...props}/>
     }
     </Fragment>   
 )

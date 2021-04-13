@@ -77,52 +77,60 @@ return (
                     {props.series?.map((serie, i) =>
                         (seriesLength === i + 1)?
                         <SeriePic
+                        {...props}
                         key={serie.id}
                         id={serie.id}
                         title={serie.title}
                         img={serie.img}
                         categorie={serie.categorie}
                         seasons={serie.seasons} 
+                        banner={serie.banner}
+                        synopsis={serie.synopsis}
                         className="serie-pic last-pic"  
-                        classPic={props.classPic}
-                        isMoving={isMoving}            
+                        isMoving={isMoving} 
                         />
                         :
                         <SeriePic
+                        {...props}
                         key={serie.id}
                         id={serie.id}
                         title={serie.title}
                         img={serie.img}
                         categorie={serie.categorie}
-                        seasons={serie.seasons}  
+                        seasons={serie.seasons} 
+                        banner={serie.banner}
+                        synopsis={serie.synopsis} 
                         className="serie-pic"   
-                        classPic={props.classPic}
-                        isMoving={isMoving}          
+                        isMoving={isMoving} 
                         />   
                     )}
                     {props.movies?.map((movie, i) =>
                         (moviesLength === i + 1)?
                         <MoviePic
+                        {...props}
                         key={movie.id}
                         id={movie.id}
                         title={movie.title}
                         img={movie.img}
                         categorie={movie.categorie}
                         duration={movie.duration} 
+                        banner={movie.banner}
+                        synopsis={movie.synopsis}
                         className="movie-pic last-pic"  
-                        classPic={props.classPic} 
-                        isMoving={isMoving}           
+                        isMoving={isMoving}    
                         />
                         :
                         <MoviePic
+                        {...props}
                         key={movie.id}
                         id={movie.id}
                         title={movie.title}
                         img={movie.img}
                         categorie={movie.categorie}
                         duration={movie.duration}
+                        banner={movie.banner}
+                        synopsis={movie.synopsis}
                         className="movie-pic"   
-                        classPic={props.classPic}   
                         isMoving={isMoving}       
                         />  
                         )}

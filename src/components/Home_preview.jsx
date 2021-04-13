@@ -1,5 +1,6 @@
 import React from 'react'
-import { HashRouter, Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import InfoModal from '../components/InfoModal';
 import '../assets/styles/Home_preview.css'  
 
 function Home_preview(props) {
@@ -7,8 +8,7 @@ function Home_preview(props) {
 if(!props.profile){ 
     window.location.href = "/"
 }
-
-const profilesMedia = props.profilesMedia;
+const profilesMedia = props.media.profiles;
 const profile = profilesMedia[props.profile];
 const page = profile[props.page];
 
@@ -18,6 +18,7 @@ const srcPng = page.png;
 const previewStyle = {
     backgroundImage: `url(${backgroundImage})`,
     };
+
 
 
 return (
@@ -36,7 +37,7 @@ return (
                     Play
                 </button>
             </Link>
-                <button className="info-btn">
+                <button className="info-btn" onClick={props.renderModal}>
                     <div className="icon-info" role="presentation">
                         <svg viewBox="0 0 24 24">
                             <path
@@ -46,6 +47,9 @@ return (
                     More Info
                 </button>
             </div>
+            {props.modal && 
+                <InfoModal {...props} />
+            }
 
             <div className="age-categorie">+7</div>
         </section>

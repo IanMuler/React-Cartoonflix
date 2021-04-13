@@ -11,10 +11,16 @@ const readKey = ()=>{
     console.log("hola")
 }
 
+const bannerStyle = {
+    backgroundImage: `url(${props.banner})`,
+    };
+
+console.log(props.banner)
+
 return (
 <div id="info-modal" onKeyPress={readKey} >
     <div className="info-modal__banner" onKeyPress={readKey}>
-        <div className="info-modal__img-div">
+        <div className="info-modal__img-div" style={bannerStyle}>
         </div>
         <div className="info-modal__banner-info">
 
@@ -27,8 +33,8 @@ return (
                 </svg>
             </div>
 
-            {/* <span>{props.title}</span> */}
-            <h3>Mulan</h3>
+            
+            <h3>{props.title}</h3>
 
            
             <div className="buttons">
@@ -42,15 +48,12 @@ return (
             </div>
 
             <div className="banner-info__top-info">
-                {/* <span className="categorie">{props.categorie}</span>
-                <span className="duration">{props.seasons} Seasons</span> */}
-                <span className="categorie">+7</span>
-                <span>1h 30m</span>
+                <span className="categorie">{props.categorie}</span>
+                <span className="duration">{props.seasons} Seasons</span>       
             </div>
 
             <div className="banner-info__bottom-info">
-                {/* <span>{page.synopsis}</span> */}
-                <span className="synopsis" >The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers.</span>
+                <span>{props.synopsis}</span>
             </div>
 
         </div>
