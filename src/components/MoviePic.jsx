@@ -48,7 +48,6 @@ const closeModal = () => {
     body.classList.remove("hide-scroll")
 }
 
-
 /*--------------------------------------------------------------*/
 
 return (

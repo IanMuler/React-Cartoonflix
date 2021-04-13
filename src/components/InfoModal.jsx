@@ -4,9 +4,16 @@ import '../assets/styles/InfoModal.css'
 
 function InfoModal(props) {
 
+const readKey = ()=>{
+    // if (e.key === 'Escape') {
+    //     props.closeModal;
+    //   }
+    console.log("hola")
+}
+
 return (
-<div id="info-modal">
-    <div className="info-modal__banner">
+<div id="info-modal" onKeyPress={readKey} >
+    <div className="info-modal__banner" onKeyPress={readKey}>
         <div className="info-modal__img-div">
         </div>
         <div className="info-modal__banner-info">

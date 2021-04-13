@@ -5,108 +5,108 @@
 
       {
         "id": "1",
-        "title": "Ben 10",
+        "title": "looneytunes",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/QYpBXtr/List-billymandy.jpg"
+        "img":"https://i.ibb.co/8BBx8sj/List-looneytunes.webp"
       },
       {
         "id": "2",
         "title": "billymandy",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/1rR4hbR/List-ben10.jpg"
+        "img":"https://i.ibb.co/stwyVX7/List-billymandy.webp"
       },
       {
         "id": "3",
         "title": "chicassuperpoderas",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/rtGhCKm/List-chicassuperpoderas.jpg"
+        "img":"https://i.ibb.co/TTMdJZm/List-chicassuperpoderas.webp"
       },
       {
         "id": "4",
         "title": "johnnybravo",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/t8mRtMD/List-johnnybravo.png"
+        "img":"https://i.ibb.co/5s3pr5q/List-johnnybravo.webp"
       },
       {
         "id": "5",
         "title": "knd",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/LQ0FkwK/List-knd.jpg"
+        "img":"https://i.ibb.co/q1JRqvS/List-knd.webp"
       },
       {
         "id": "6",
-        "title": "looneytunes",
+        "title": "Ben 10",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/0n5bNmB/List-looneytunes.jpg"
+        "img":"https://i.ibb.co/Mg70HKs/List-ben10.webp"
       },
       {
         "id": "7",
         "title": "vacapollito",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/1JckTWQ/List-vacapollito.jpg"
+        "img":"https://i.ibb.co/QNsGDW6/List-vacapollito.webp"
       },
       {
         "id": "8",
         "title": "mansionfoster",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/PY5FFF2/List-mansionfoster.jpg"
+        "img":"https://i.ibb.co/NTxcWZw/List-mansionfoster.webp"
       },
       {
         "id": "9",
         "title": "muchalucha",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/zFdg297/List-muchalucha.jpg"
+        "img":"https://i.ibb.co/PDzWG19/List-muchalucha.webp"
       },
       {
         "id": "10",
         "title": "samuraijack",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/jH3vvWL/List-samuraijack.jpg"
+        "img":"https://i.ibb.co/8MyKLZ5/List-samuraijack.webp"
       },
       {
         "id": "11",
         "title": "scoobydoo",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/1RD0Lb9/List-scoobydoo.jpg"
+        "img":"https://i.ibb.co/r4WNL4H/List-scoobydoo.webp"
       },
       {
         "id": "12",
         "title": "teentitans",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/KFgnM3D/List-teentitans.webp"
+        "img":"https://i.ibb.co/R0vf410/List-teentitans.webp"
       },
       {
         "id": "13",
         "title": "tomyjerry",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/rFztJpn/List-tomyjerry.jpg"
+        "img":"https://i.ibb.co/x6wJy9B/List-tomyjerry.webp"
       },
       {
         "id": "14",
         "title": "dexter",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/3z4XhXs/List-dexter.jpg"
+        "img":"https://i.ibb.co/tztKmm4/List-dexter.webp"
       },
       {
         "id": "15",
         "title": "edededdy",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/MDb3QyQ/List-edededdy.jpg"
+        "img":"https://i.ibb.co/ssNGC3s/List-edededdy.webp"
       }
     ],
 
@@ -117,95 +117,95 @@
         "title": "artattack",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/ZM63w8h/List-artattack.webp"
+        "img":   "https://i.ibb.co/ZGXHSKq/List-artattack.webp"
       },
       {
         "id": "17",
         "title": "brandy",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/YX3cPL7/List-brandy.png"
+        "img":   "https://i.ibb.co/8B6G3tF/List-brandy.webp"
       },
       {
         "id": "18",
         "title": "buzz",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/8B1CJX8/List-buzz.jpg"
+        "img":   "https://i.ibb.co/L5zKTMJ/List-buzz.webp"
       },
       {
         "id": "19",
         "title": "dave",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/T8PH1xx/List-dave.jpg"
+        "img":   "https://i.ibb.co/FK3MMqt/List-dave.webp"
       },
       {
         "id": "20",
         "title": "gargoyle",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/Pr4tJmX/List-gargoyle.jpg"
+        "img":   "https://i.ibb.co/xzj14yk/List-gargoyle.webp"
       }, {
         "id": "21",
         "title": "hannamontan",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/41pg86w/List-hannamontan.jpg"
+        "img":   "https://i.ibb.co/9pPH2rT/List-hannamontan.webp"
       }, {
         "id": "22",
         "title": "jakelong",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/YT2Fx0k/List-jakelong.webp"
+        "img":   "https://i.ibb.co/98JNnmx/List-jakelong.webp"
       }, {
         "id": "23",
         "title": "kimpossible",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/X4RRJLs/List-kimpossible.jpg"
+        "img":   "https://i.ibb.co/YkSvQ6b/List-kimpossible.webp"
       }, {
         "id": "24",
         "title": "kuzcoserie",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/dG79bGw/List-kuzcoserie.jpg"
+        "img":   "https://i.ibb.co/tBPKhS7/List-kuzcoserie.webp"
       }, {
         "id": "25",
         "title": "liloystitcherie",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/HYP4N1P/List-liloystitchserie.jpg"
+        "img":   "https://i.ibb.co/t3nGZsQ/List-liloystitchserie.webp"
       }, {
         "id": "26",
         "title": "lizziemcguire",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/1R0jsZc/List-lizziemcguire.jpg"
+        "img":   "https://i.ibb.co/9ZwDJP2/List-lizziemcguire.webp"
       }, {
         "id": "27",
         "title": "phineasyferb",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/2yBcj4K/List-phineasyferb.webp"
+        "img":   "https://i.ibb.co/1zxtJkx/List-phineasyferb.webp"
       }, {
         "id": "28",
         "title": "recess",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/25Jp32w/List-recess.jpg"
+        "img":   "https://i.ibb.co/j9CMDVm/List-recess.webp"
       }, {
         "id": "29",
         "title": "thats-so-raven",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/gZbJ9SV/List-thats-so-raven.png"
+        "img":   "https://i.ibb.co/xz8HZtc/List-thats-so-raven.webp"
       }, {
         "id": "30",
         "title": "zackandcody",
         "seasons": 3,
         "categorie": "+7",
-        "img": "https://i.ibb.co/N3nhxtz/List-zackandcody.jpg"
+        "img":   "https://i.ibb.co/Q648L1R/List-zackandcody.webp"
       }
     ],
 
@@ -216,105 +216,105 @@
         "title": "escalofrios",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/mN0DvJP/List-escalofrios.jpg" 
+        "img":"https: //i.ibb.co/frQphSr/List-escalofrios.webp"
       },
       {
         "id": "32",
         "title": "inspectorgadget",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/9cDbcQH/List-inspectorgadget.webp" 
+        "img":"https: //i.ibb.co/3knXvWt/List-inspectorgadget.webp"
       },
       {
         "id": "33",
         "title": "kirby",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/vzB0s1R/List-kirby.jpg" 
+        "img":"https: //i.ibb.co/cFqmyJS/List-kirby.webp"
       },
       {
         "id": "34",
         "title": "medabots",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/MPbmR1L/List-medabots.jpg" 
+        "img":"https: //i.ibb.co/sJz4HD7/List-medabots.webp"
       },
       {
         "id": "35",
         "title": "megaman",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/g6djwgp/List-megaman.jpg" 
+        "img":"https: //i.ibb.co/h9KXYbH/List-megaman.webp"
       },
       {
         "id": "36",
         "title": "PRmightymorphin",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/WkQpxxW/List-PRmightymorphin.jpg" 
+        "img":"https: //i.ibb.co/6PKWSBf/List-PRmightymorphin.webp"
       },
       {
         "id": "37",
         "title": "PRrescue",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/r4k10xK/List-PRrescue.jpg" 
+        "img":"https: //i.ibb.co/5n4HzQr/List-PRrescue.webp"
       },
       {
         "id": "38",
         "title": "PRtimeforce",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/F8PXGks/List-PRtimeforce.png" 
+        "img":"https: //i.ibb.co/gmjpxt0/List-PRtimeforce.webp"
       },
       {
         "id": "39",
         "title": "PRwildforced",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/QM1DZgZ/List-PRwildforced.png" 
+        "img":"https: //i.ibb.co/RSCXvsV/List-PRwildforced.webp"
       },
       {
         "id": "40",
         "title": "sonicx",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/z88fgGC/List-sonicx.jpg" 
+        "img":"https: //i.ibb.co/H2VxMwf/List-sonicx.webp"
       },
       {
         "id": "41",
         "title": "spiderman",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/rZ96TZq/List-spiderman.jpg" 
+        "img":"https: //i.ibb.co/hLzWLVf/List-spiderman.webp"
       },
       {
         "id": "42",
         "title": "thewoody",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/H7sKLnX/List-thewoody.jpg" 
+        "img":"https: //i.ibb.co/tJHVZxF/List-thewoody.webp"
       },
       {
         "id": "43",
         "title": "ultimatemuscle",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/XWmLG3R/List-ultimatemuscle.jpg" 
+        "img":"https: //i.ibb.co/wK7jTKr/List-ultimatemuscle.webp"
       },
       {
         "id": "44",
         "title": "Xmen",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/V2mX8ks/List-Xmen.jpg" 
+        "img":"https: //i.ibb.co/NNqwq1j/List-Xmen.webp"
       },
       {
         "id": "45",
         "title": "digimon",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/cTXKrvw/List-digimon.png" 
+        "img":"https: //i.ibb.co/DR3FWVN/List-digimon.webp"
       }
     ]
 
@@ -326,127 +326,128 @@
       "title": "Toy story",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/rGjPs8m/List-toystory.jpg" 
+      "img": "https://i.ibb.co/rGjPs8m/List-toystory.jpg"
     },
     {
       "id": "47",
       "title": "Atlantis",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/bBxXtd8/List-atlantis.jpg" 
+      "img": "https://i.ibb.co/bBxXtd8/List-atlantis.jpg"
     },
     {
       "id": "48",
       "title": "Mulan",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/L04Gdh9/list-mulan.jpg" 
+      "img": "https://i.ibb.co/L04Gdh9/list-mulan.jpg"
     },
     {
       "id": "49",
       "title": "Tarzan",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/F01S2Hd/List-tarzan.jpg" 
+      "img": "https://i.ibb.co/F01S2Hd/List-tarzan.jpg"
     },
     {
       "id": "50",
       "title": "Pinocho",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/yYmy0zv/List-pinocho.jpg" 
+      "img": "https://i.ibb.co/yYmy0zv/List-pinocho.jpg"
     },
     {
       "id": "51",
       "title": "The incredibles",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/m4g2fjj/List-losincreibles.jpg" 
+      "img": "https://i.ibb.co/m4g2fjj/List-losincreibles.jpg"
     },
     {
       "id": "52",
       "title": "Hercules",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/LntQJKR/List-hercules.jpg" 
+      "img": "https://i.ibb.co/LntQJKR/List-hercules.jpg"
     },
     {
       "id": "53",
       "title": "An extremely Goofy movie",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/dKZXDfR/List-goofy.jpg" 
+      "img": "https://i.ibb.co/dKZXDfR/List-goofy.jpg"
     },
     {
       "id": "54",
       "title": "Cars",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/8YFg9mF/List-cars.jpg" 
+      "img": "https://i.ibb.co/8YFg9mF/List-cars.jpg"
     },
     {
       "id": "55",
       "title": "Finding Nemo",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/Dgjv2Zr/List-buscandonemo.jpg" 
+      "img": "https://i.ibb.co/Dgjv2Zr/List-buscandonemo.jpg"
     }
   ],
 
   "profiles": {
     "courage": {
-      "home" : {
-        "preview":"https://i.ibb.co/Vt0D61h/courage-preview.jpg",
+      "home": {
+        "preview": "https://i.ibb.co/Vt0D61h/courage-preview.jpg",
         "png": "https://i.ibb.co/t2fj2NW/courage-png.png",
         "synopsis": "The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers."
-        }, 
-      "series" : {
-        "preview":"https://i.ibb.co/th1ZQv3/Wall-knd2.jpg",
+      },
+      "series": {
+        "preview": "https://i.ibb.co/th1ZQv3/Wall-knd2.jpg",
         "png": "https://i.ibb.co/dbk8WFb/Png-knd.png",
         "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
-        },
-      "movies" : {
-        "preview":"https://i.ibb.co/dgxrk1Z/courage-movie-preview.jpg",
+      },
+      "movies": {
+        "preview": "https://i.ibb.co/dgxrk1Z/courage-movie-preview.jpg",
         "png": "https://i.ibb.co/54SVCgt/courage-movie-png.png",
         "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
-        }
+      }
     },
-      "woody": {
-        "home" : {
-          "preview":"https://i.ibb.co/7G47xDD/woody-preview.jpg",
-          "png": "https://i.ibb.co/Zmq0Qny/woody-png.png",
-          "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire."
-          }, 
-        "series" : {
-          "preview":"https://i.ibb.co/s66Ppkn/woody-series-preview.jpg",
-          "png": "https://i.ibb.co/CK1PMxR/woody-series-png.png",
-          "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
-          },
-        "movies" : {
-          "preview":"https://i.ibb.co/41f1ZdS/woody-movies-preview.jpg",
-          "png": "https://i.ibb.co/4TFk0mR/woody-movies-png.png",
-          "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
-          }
-        },
-        "ranger": {
-          "home" : {
-            "preview":"https://i.ibb.co/HYBwG1c/ranger-preview.jpg",
-            "png": "https://i.ibb.co/BCs1TTQ/ranger-png.png",
-            "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire. Yzma, his former advisor, schemes to sabotage him so she can be empress instead."
-            }, 
-          "series" : {
-            "preview":"https://i.ibb.co/P9YH3pF/ranger-series-preview.png",
-            "png": "https://i.ibb.co/9YX0f0d/ranger-series-png.png",
-            "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
-            },
-          "movies" : {
-            "preview":"https://i.ibb.co/D4bMMxm/ranger-movies-preview.jpg",
-            "png": "https://i.ibb.co/X7jrr5h/ranger-movies-png.png",
-            "synopsis": "Mulan takes her father's place and heads out to war. While preparing for war, Mulan is reunited with her past guardian Mushu and must find a way to prove her worth and defend her honor."
-            }
-          }
+    "woody": {
+      "home": {
+        "preview": "https://i.ibb.co/7G47xDD/woody-preview.jpg",
+        "png": "https://i.ibb.co/Zmq0Qny/woody-png.png",
+        "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire."
+      },
+      "series": {
+        "preview": "https://i.ibb.co/s66Ppkn/woody-series-preview.jpg",
+        "png": "https://i.ibb.co/CK1PMxR/woody-series-png.png",
+        "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
+      },
+      "movies": {
+        "preview": "https://i.ibb.co/41f1ZdS/woody-movies-preview.jpg",
+        "png": "https://i.ibb.co/4TFk0mR/woody-movies-png.png",
+        "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
+      }
+    },
+    "ranger": {
+      "home": {
+        "preview": "https://i.ibb.co/HYBwG1c/ranger-preview.jpg",
+        "png": "https://i.ibb.co/BCs1TTQ/ranger-png.png",
+        "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire. Yzma, his former advisor, schemes to sabotage him so she can be empress instead."
+      },
+      "series": {
+        "preview": "https://i.ibb.co/P9YH3pF/ranger-series-preview.png",
+        "png": "https://i.ibb.co/9YX0f0d/ranger-series-png.png",
+        "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
+      },
+      "movies": {
+        "preview": "https://i.ibb.co/D4bMMxm/ranger-movies-preview.jpg",
+        "png": "https://i.ibb.co/X7jrr5h/ranger-movies-png.png",
+        "synopsis": "Mulan takes her father's place and heads out to war. While preparing for war, Mulan is reunited with her past guardian Mushu and must find a way to prove her worth and defend her honor."
+      }
     }
   }
+}
+
 
 
 
