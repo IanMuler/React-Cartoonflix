@@ -5,108 +5,138 @@
 
       {
         "id": "1",
-        "title": "looneytunes",
+        "title": "Looney Tunes",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/8BBx8sj/List-looneytunes.webp"
+        "img":"https://i.ibb.co/8BBx8sj/List-looneytunes.webp",
+        "banner":"https://i.ibb.co/88kZdXQ/Modal-looneytunes.webp",
+        "synopsis":"A Saturday morning series, collecting of some of the most popular classic cartoons from the Looney Tunes catalogue."
       },
       {
         "id": "2",
-        "title": "billymandy",
+        "title": "The Grim Adventures of Billy & Mandy",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/stwyVX7/List-billymandy.webp"
+        "img":"https://i.ibb.co/stwyVX7/List-billymandy.webp",
+        "banner":"https://i.ibb.co/Hp6R7Rq/Modal-billyymandy.webp",
+        "synopsis":"The ill-tempered Grim Reaper gets into a wager that forces him to become the life-long companions of two scheming youngsters after he loses."
       },
       {
         "id": "3",
-        "title": "chicassuperpoderas",
+        "title": "The Powerpuff Girls",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/TTMdJZm/List-chicassuperpoderas.webp"
+        "img":"https://i.ibb.co/TTMdJZm/List-chicassuperpoderas.webp",
+        "banner":"https://i.ibb.co/SnhBSxz/Modal-superpoderosas.webp",
+        "synopsis":"Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things."
       },
       {
         "id": "4",
-        "title": "johnnybravo",
+        "title": "Johnny Bravo",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/5s3pr5q/List-johnnybravo.webp"
+        "img":"https://i.ibb.co/5s3pr5q/List-johnnybravo.webp",
+        "banner":"https://i.ibb.co/mB55pKN/Modal-johnnybravo.webp",
+        "synopsis":"The misadventures of a dumb blond egomaniac who is deluded about his own manliness."
       },
       {
         "id": "5",
-        "title": "knd",
+        "title": "Courage the Cowardly Dog",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/q1JRqvS/List-knd.webp"
+        "img":"https://i.ibb.co/q1JRqvS/List-knd.webp",
+        "banner":"https://i.ibb.co/KwMWSn7/Modal-coraje.webp",
+        "synopsis":"The offbeat adventures of Courage, a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers, paranormal events and menaces that appear around their land."
       },
       {
         "id": "6",
         "title": "Ben 10",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/Mg70HKs/List-ben10.webp"
+        "img":"https://i.ibb.co/Mg70HKs/List-ben10.webp",
+        "banner":"https://i.ibb.co/pKtKdmB/Modal-ben10.webp",
+        "synopsis":"The story of Ben Tennyson, a typical kid who becomes very atypical after he discovers the Omnitrix, a mysterious alien device with the power to transform the wearer into ten different alien species."
       },
       {
         "id": "7",
-        "title": "vacapollito",
+        "title": "Cow and Chicken",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/QNsGDW6/List-vacapollito.webp"
+        "img":"https://i.ibb.co/QNsGDW6/List-vacapollito.webp",
+        "banner":"https://i.ibb.co/2Ytt4nf/Modal-cowchicken.webp",
+        "synopsis":"The program focuses on the misadventures of two unlikely yet somehow biological siblings: Cow and Chicken."
       },
       {
         "id": "8",
-        "title": "mansionfoster",
+        "title": "Foster's Home for Imaginary Friends",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/NTxcWZw/List-mansionfoster.webp"
+        "img":"https://i.ibb.co/NTxcWZw/List-mansionfoster.webp",
+        "banner":"https://i.ibb.co/rH79qtR/Modal-fostermansion.webp",
+        "synopsis":"A boy and his beloved imaginary friend are able to stay together at an orphanage of sorts for imaginary friends that children have outgrown to be adopted by new children."
       },
       {
         "id": "9",
-        "title": "muchalucha",
+        "title": "¡Mucha Lucha!",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/PDzWG19/List-muchalucha.webp"
+        "img":"https://i.ibb.co/PDzWG19/List-muchalucha.webp",
+        "banner":"https://i.ibb.co/8MwbyxL/Modal-muchalucha.webp",
+        "synopsis":"The Story of three masked wrestlers in Wrestling school."
       },
       {
         "id": "10",
-        "title": "samuraijack",
+        "title": "Samurai Jack",
         "seasons": 3,
-        "categorie": "+7",
-        "img":"https://i.ibb.co/8MyKLZ5/List-samuraijack.webp"
+        "categorie": "+12",
+        "img":"https://i.ibb.co/8MyKLZ5/List-samuraijack.webp",
+        "banner":"https://i.ibb.co/TBF5yTz/Modal-samuraijack.webp",
+        "synopsis":"A samurai sent through time fights to return home and save the world."
       },
       {
         "id": "11",
-        "title": "scoobydoo",
+        "title": "What's New, Scooby-Doo?",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/r4WNL4H/List-scoobydoo.webp"
+        "img":"https://i.ibb.co/r4WNL4H/List-scoobydoo.webp",
+        "banner":"https://i.ibb.co/jgZxBk9/Modal-scoobydoo.webp",
+        "synopsis":"Scooby-Doo and the Mystery, Inc. gang are launched into the 21st century, with new mysteries to solve."
       },
       {
         "id": "12",
-        "title": "teentitans",
+        "title": "Teen Titans",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/R0vf410/List-teentitans.webp"
+        "img":"https://i.ibb.co/R0vf410/List-teentitans.webp",
+        "banner":"https://i.ibb.co/hsgBpC0/Modal-teentitans.webp",
+        "synopsis":"A team of five teenaged superheroes save the world from many villains around their city while experiencing things normal teens face today."
       },
       {
         "id": "13",
-        "title": "tomyjerry",
+        "title": "The New Tom & Jerry Show",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/x6wJy9B/List-tomyjerry.webp"
+        "img":"https://i.ibb.co/x6wJy9B/List-tomyjerry.webp",
+        "banner":"https://i.ibb.co/vvys75W/Modal-tomandjerry.webp",
+        "synopsis":"A modern continuation of the original Tom and Jerry cartoon, where the cat-and-mouse duo are now close friends through a series of adventures and chaos."
       },
       {
         "id": "14",
-        "title": "dexter",
+        "title": "Dexter's Laboratory",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/tztKmm4/List-dexter.webp"
+        "img":"https://i.ibb.co/tztKmm4/List-dexter.webp",
+        "banner":"https://i.ibb.co/ZL927hH/Modal-dexter.webp",
+        "synopsis":"The misadventures of a boy genius and his annoying sister."
       },
       {
         "id": "15",
-        "title": "edededdy",
+        "title": "Ed, Edd n Eddy",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/ssNGC3s/List-edededdy.webp"
+        "img":"https://i.ibb.co/ssNGC3s/List-edededdy.webp",
+        "banner":"https://i.ibb.co/xj90dWg/Modal-edededdy.webp",
+        "synopsis":"The off-the-wall, day-to-day life of three friends who have exactly the same name."
       }
     ],
 
@@ -114,98 +144,128 @@
 
       {
         "id": "16",
-        "title": "artattack",
+        "title": "Art Attack",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/ZGXHSKq/List-artattack.webp"
+        "img":   "https://i.ibb.co/ZGXHSKq/List-artattack.webp",
+        "banner":"https://i.ibb.co/sqqw8wV/Modal-artattack.webp",
+        "synopsis":"An educational series presenting various art project suggestions and creations."
       },
       {
         "id": "17",
-        "title": "brandy",
+        "title": "Brandy & Mr. Whiskers",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/8B6G3tF/List-brandy.webp"
+        "img":   "https://i.ibb.co/8B6G3tF/List-brandy.webp",
+        "banner":"https://i.ibb.co/7v0hrj2/Modal-brandy.webp",
+        "synopsis":"A snobbish dog named Brandy Harrington and a dim-witted rabbit named Mr. Whiskers try to make the best of things when they get stranded in the Amazon rainforest together."
       },
       {
         "id": "18",
-        "title": "buzz",
+        "title": "Buzz Lightyear of Star Command",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/L5zKTMJ/List-buzz.webp"
+        "img":   "https://i.ibb.co/L5zKTMJ/List-buzz.webp",
+        "banner":"https://i.ibb.co/Bs3zz6X/Modal-buzz.webp",
+        "synopsis":"The further adventures of Buzz Lightyear as a Space Ranger of Star Command and his comrades."
       },
       {
         "id": "19",
-        "title": "dave",
+        "title": "Dave the Barbarian",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/FK3MMqt/List-dave.webp"
+        "img":   "https://i.ibb.co/FK3MMqt/List-dave.webp",
+        "banner":"https://i.ibb.co/cXksnZ0/Modal-dave.webp",
+        "synopsis":"Follow the adventures of Dave, one incredibly unusual barbarian, who's more interested in raising his family and cooking yummy gourmet meals than conquering new lands."
       },
       {
         "id": "20",
-        "title": "gargoyle",
+        "title": "Gargoyles",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/xzj14yk/List-gargoyle.webp"
-      }, {
+        "img":   "https://i.ibb.co/xzj14yk/List-gargoyle.webp",
+        "banner":"https://i.ibb.co/TLSV2t6/Modal-gargoyles.webp",
+        "synopsis":"A clan of heroic night creatures pledge to protect modern New York City as they did in Scotland one thousand years earlier."
+        }, {
         "id": "21",
-        "title": "hannamontan",
+        "title": "Hannah Montana",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/9pPH2rT/List-hannamontan.webp"
-      }, {
+        "img": "https://i.ibb.co/9pPH2rT/List-hannamontan.webp",
+        "banner":"https://i.ibb.co/rxrTDBG/Modal-hannahmontana.webp",
+        "synopsis":"Adventures of a teenage pop star who keeps her identity secret from even her closest friends by using a disguise on-stage."
+        }, {
         "id": "22",
-        "title": "jakelong",
+        "title": "American Dragon: Jake Long",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/98JNnmx/List-jakelong.webp"
-      }, {
+        "img":"https://i.ibb.co/98JNnmx/List-jakelong.webp",
+        "banner":"https://i.ibb.co/dL7Xj9J/Modal-jakelong.webp",
+        "synopsis":"A teenage slacker is given the ability to turn into the American Dragon and defends all mythical creatures that secretly reside in the human world."
+        }, {
         "id": "23",
-        "title": "kimpossible",
+        "title": "Kim Possible",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/YkSvQ6b/List-kimpossible.webp"
-      }, {
+        "img":"https://i.ibb.co/YkSvQ6b/List-kimpossible.webp",
+        "banner":"https://i.ibb.co/kcNksJS/Modal-kimpossible.webp",
+        "synopsis":"A high school cheerleader and her accident-prone best friend balance their duties as global crime-fighters with the typical challenges of adolescence."
+        }, {
         "id": "24",
-        "title": "kuzcoserie",
+        "title": "The Emperor's New School",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/tBPKhS7/List-kuzcoserie.webp"
-      }, {
+        "img":"https://i.ibb.co/tBPKhS7/List-kuzcoserie.webp",
+        "banner":"https://i.ibb.co/Wtdjjb7/Modal-kuzco.webp",
+        "synopsis":"Continuation of 2000's The Emperor's New Groove, showcasing Kuzco's attempts to graduate from his kingdom's school, and his former advisor Yzma's evil attempts to keep him from his goal."
+        }, {
         "id": "25",
-        "title": "liloystitcherie",
+        "title": "Lilo & Stitch: The Series",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/t3nGZsQ/List-liloystitchserie.webp"
-      }, {
+        "img":"https://i.ibb.co/t3nGZsQ/List-liloystitchserie.webp",
+        "banner":"https://i.ibb.co/VW9MTfS/Modal-liloandstitch.webp",
+        "synopsis":"The rambunctious human and alien duo must hunt down Dr. Jumba Jookiba's 625 other experimental creatures infesting Hawaii."
+        }, {
         "id": "26",
-        "title": "lizziemcguire",
+        "title": "Lizzie McGuire",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/9ZwDJP2/List-lizziemcguire.webp"
-      }, {
+        "img":"https://i.ibb.co/9ZwDJP2/List-lizziemcguire.webp",
+        "banner":"https://i.ibb.co/mRZRBBg/Modal-lizziemcguire.webp",
+        "synopsis":"The daily adventures of an adolescent girl whose real thoughts and emotions are expressed by her sarcastic animated alter ego."
+        }, {
         "id": "27",
-        "title": "phineasyferb",
+        "title": "Phineas and Ferb",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/1zxtJkx/List-phineasyferb.webp"
-      }, {
+        "img":"https://i.ibb.co/1zxtJkx/List-phineasyferb.webp",
+        "banner":"https://i.ibb.co/LpWStFf/Modal-phineasandferb.webp",
+        "synopsis":"Phineas and Ferb invent, scheme, and stay one step ahead of their bratty sister. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz."
+        }, {
         "id": "28",
-        "title": "recess",
+        "title": "Recess",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/j9CMDVm/List-recess.webp"
-      }, {
+        "img":"https://i.ibb.co/j9CMDVm/List-recess.webp",
+        "banner":"https://i.ibb.co/31zwCjK/Modal-recess.webp",
+        "synopsis":"Comic tales of a group of good friends, four boys and two girls, during breaks in primary school, as they grow up, relate to each other, and have brushes with authority."
+        }, {
         "id": "29",
-        "title": "thats-so-raven",
+        "title": "That's So Raven",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/xz8HZtc/List-thats-so-raven.webp"
-      }, {
+        "img":"https://i.ibb.co/xz8HZtc/List-thats-so-raven.webp",
+        "banner":"https://i.ibb.co/26Bn64J/Modal-raven.webp",
+        "synopsis":"A teenage girl periodically receives brief psychic visions of the near future. Trying to make these visions come true results in trouble, and hilarious situations, for the girl and her friends."
+        }, {
         "id": "30",
-        "title": "zackandcody",
+        "title": "The Suite Life of Zack & Cody",
         "seasons": 3,
         "categorie": "+7",
-        "img":   "https://i.ibb.co/Q648L1R/List-zackandcody.webp"
+        "img":"https://i.ibb.co/Q648L1R/List-zackandcody.webp",
+        "banner":"https://i.ibb.co/Hx4zSTB/Modal-zackandcody.webp",
+        "synopsis":"Comedy about identical twins living at the Tipton Hotel with their single mother who is a lounge singer at the hotel."
       }
     ],
 
@@ -213,108 +273,138 @@
 
       {
         "id": "31",
-        "title": "escalofrios",
+        "title": "Goosebumps",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/frQphSr/List-escalofrios.webp"
+        "img":"https://i.ibb.co/frQphSr/List-escalofrios.webp",
+        "banner":"https://i.ibb.co/PjN3FD1/Modal-goosebumps.webp",
+        "synopsis":"A series of scary anthology stories based on the children's books by R.L. Stine. Series one was hosted by R.L. Stine."
       },
       {
         "id": "32",
-        "title": "inspectorgadget",
+        "title": "Inspector Gadget",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/3knXvWt/List-inspectorgadget.webp"
+        "img":"https://i.ibb.co/3knXvWt/List-inspectorgadget.webp",
+        "banner":"https://i.ibb.co/ccWMJWH/Modal-gadget.webp",
+        "synopsis":"A bumbling bionic police inspector stumbles about on his cases, while his niece and dog secretly do the real investigative work."
       },
       {
         "id": "33",
-        "title": "kirby",
+        "title": "Kirby: Right Back at Ya!",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/cFqmyJS/List-kirby.webp"
+        "img":"https://i.ibb.co/cFqmyJS/List-kirby.webp",
+        "banner":"https://i.ibb.co/jWrvywz/Modal-kirby.webp",
+        "synopsis":"Kirby crashes onto Planet Popstar and befriends the villagers that live In Cappytown. Unfortunately, King Dedede, the greedy ruler and Escargon, his assistant, aren't happy with that and do whatever they can to drive him out."
       },
       {
         "id": "34",
-        "title": "medabots",
+        "title": "Medabots",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/sJz4HD7/List-medabots.webp"
+        "img":"https://i.ibb.co/sJz4HD7/List-medabots.webp",
+        "banner":"https://i.ibb.co/4N0FVNF/Modal-medabots.webp",
+        "synopsis":"10-year-old Ikki Tenrio has always dreamed about becoming a top-ranked medafighter, and now that he has his own medabot he can finally pursue his dream."
       },
       {
         "id": "35",
-        "title": "megaman",
+        "title": "MegaMan: NT Warrior",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/h9KXYbH/List-megaman.webp"
+        "img":"https://i.ibb.co/h9KXYbH/List-megaman.webp",
+        "banner":"https://i.ibb.co/Zd3pKm5/Modal-megaman.webp",
+        "synopsis":"Lan Hikari and his virtual buddy Megaman travel around Den Tech City stopping the evil forces of World Three."
       },
       {
         "id": "36",
-        "title": "PRmightymorphin",
+        "title": "Mighty Morphin Power Rangers",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/6PKWSBf/List-PRmightymorphin.webp"
+        "img":"https://i.ibb.co/6PKWSBf/List-PRmightymorphin.webp",
+        "banner":"https://i.ibb.co/D726kps/Modal-PRmightymorphin.webp",
+        "synopsis":"A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd, Emperor of all he sees, and their horde of monsters."
       },
       {
         "id": "37",
-        "title": "PRrescue",
+        "title": "Power Rangers Lightspeed Rescue ",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/5n4HzQr/List-PRrescue.webp"
+        "img":"https://i.ibb.co/5n4HzQr/List-PRrescue.webp",
+        "banner":"https://i.ibb.co/DQY4r0y/Modal-PRrescue.webp",
+        "synopsis":"Five young adults are recruited by the Lightspeed Rescue organization to protect the city of Marnier Bay from the forces of evil."
       },
       {
         "id": "38",
-        "title": "PRtimeforce",
+        "title": "Power Rangers Time Force ",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/gmjpxt0/List-PRtimeforce.webp"
+        "img":"https://i.ibb.co/gmjpxt0/List-PRtimeforce.webp",
+        "banner":"https://i.ibb.co/6WSZL39/Modal-PRtimeforce.webp",
+        "synopsis":"The Time Force Power Rangers travel to the past to stop Ransik and his band of criminal mutants."
       },
       {
         "id": "39",
-        "title": "PRwildforced",
+        "title": "Power Rangers Wild Force ",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/RSCXvsV/List-PRwildforced.webp"
+        "img":"https://i.ibb.co/RSCXvsV/List-PRwildforced.webp",
+        "banner":"https://i.ibb.co/ZfZ2jzf/Modal-PRwildforce.webp",
+        "synopsis":"Five teenagers are chosen by five Power Animals to become the Wild Force Rangers, to fight the evil Jinderax and Toxica and their evil Orgs."
       },
       {
         "id": "40",
-        "title": "sonicx",
+        "title": "Sonic X",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/H2VxMwf/List-sonicx.webp"
+        "img":"https://i.ibb.co/H2VxMwf/List-sonicx.webp",
+        "banner":"https://i.ibb.co/594n164/Modal-Sonic-X.webp",
+        "synopsis":"A slight malfunction causes Chaos Control, and sends Sonic the Hedgehog to Earth. While there, Sonic meets Chris Thorndyke, who aids at collecting the Chaos Emeralds, so Sonic and friends can go home."
       },
       {
         "id": "41",
-        "title": "spiderman",
+        "title": "Spider-Man",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/hLzWLVf/List-spiderman.webp"
+        "img":"https://i.ibb.co/hLzWLVf/List-spiderman.webp",
+        "banner":"https://i.ibb.co/c6frD6K/Modal-spiderman.webp",
+        "synopsis":"A young man with spider-like abilities fights crime as a superhero in New York City while trying to have a normal personal life."
       },
       {
         "id": "42",
-        "title": "thewoody",
+        "title": "The Woody Woodpecker Show",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/tJHVZxF/List-thewoody.webp"
+        "img":"https://i.ibb.co/tJHVZxF/List-thewoody.webp",
+        "banner":"https://i.ibb.co/0M35bJj/Modal-woodypeacker.webp",
+        "synopsis":"An updated iteration Woody Woodpecker and friends with Chilly Willy and even Winnie Woodpecker, Knothead and Splinter appearing in their own segments."
       },
       {
         "id": "43",
-        "title": "ultimatemuscle",
+        "title": "Ultimate Muscle: The Kinnikuman Legacy",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/wK7jTKr/List-ultimatemuscle.webp"
+        "img":"https://i.ibb.co/wK7jTKr/List-ultimatemuscle.webp",
+        "banner":"https://i.ibb.co/gRWrj83/Modal-ultimatemuscle.webp",
+        "synopsis":"Bulging Biceps! The world of wrestling will never be the same! There's a new kid in town...Kid Muscle! A superhero wrestler."
       },
       {
         "id": "44",
-        "title": "Xmen",
+        "title": "X-men",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/NNqwq1j/List-Xmen.webp"
+        "img":"https://i.ibb.co/NNqwq1j/List-Xmen.webp",
+        "banner":"https://i.ibb.co/Nt6CXbm/Modal-xmen.webp",
+        "synopsis":"A team of mutant superheroes fight for justice and human acceptance in the Marvel Comics universe."
       },
       {
         "id": "45",
-        "title": "digimon",
+        "title": "Digimon: Digital Monsters",
         "seasons": 3,
         "categorie": "+7",
-        "img":"https://i.ibb.co/DR3FWVN/List-digimon.webp"
+        "img":"https://i.ibb.co/DR3FWVN/List-digimon.webp",
+        "banner":"https://i.ibb.co/D5bDs6N/Modal-Digimon.webp",
+        "synopsis":"A group of young teens is unexpectedly sent to the mysterious Digital World and paired up with their own powerful, morphing monster called the Digimon. Together the entire group set out on an adventure to fight evil and save the world."
       }
     ]
 
@@ -432,22 +522,21 @@
       "home": {
         "preview": "https://i.ibb.co/B6RpwM3/ranger-preview.webp",
         "png": "https://i.ibb.co/vhVmhV5/ranger-png.png",
-        "synopsis": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd, Emperor of all he sees, and their horde of monsters."
+        "synopsis": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd and their monsters."
       },
       "series": {
         "preview": "https://i.ibb.co/tbx6QFR/ranger-series-preview.webp",
         "png": "https://i.ibb.co/DtnL5Sw/ranger-series-png.png",
-        "synopsis": "A group of young teens is unexpectedly sent to the mysterious Digital World and paired up with their own powerful, morphing monster called the Digimon."
+        "synopsis": "A group of young teens is sent to the Digital World and paired up with their own powerful, morphing monster called the Digimon."
       },
       "movies": {
         "preview": "https://i.ibb.co/G9PgKML/ranger-movies-preview.webp",
         "png": "https://i.ibb.co/4F5QWF7/ranger-movies-png.png",
-        "synopsis": "Mulan takes her father's place and heads out to war. While preparing for war, Mulan is reunited with her past guardian Mushu and must find a way to prove her worth and defend her honor."
+        "synopsis": "Mulan takes her father's place and heads out to war. She must find a way to prove her worth and defend her honor."
       }
     }
   }
 }
-
 
 
 

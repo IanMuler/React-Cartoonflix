@@ -29,11 +29,11 @@ const addDropdownClass = () => {
 }
 
 const profileBackground =
-    (props.profile === "courage")?{backgroundImage: 'url("https://i.ibb.co/b5vTpTw/Filepicture-Coraje.jpg")'}
+    (props.profile === "courage")?{backgroundImage: 'url("https://i.ibb.co/c1n88Z3/Filepicture-Coraje.webp")'}
     :
-    (props.profile === "woody")?{backgroundImage: 'url("https://i.ibb.co/0j0cZ3x/Filepicture-Woody.jpg")'}
+    (props.profile === "woody")?{backgroundImage: 'url("https://i.ibb.co/gvF31FC/Filepicture-Woody.webp")'}
     :
-    (props.profile === "ranger")?{backgroundImage: 'url("https://i.ibb.co/cLKFbT4/Filepicture-Ranger-Green.jpg")'}
+    (props.profile === "ranger")?{backgroundImage: 'url("https://i.ibb.co/0Fmr687/Filepicture-Ranger-Green.webp")'}
     :
     {backgroundImage: 'url("")'}
 
