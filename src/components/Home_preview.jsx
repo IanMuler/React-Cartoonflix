@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import InfoModal from '../components/InfoModal';
 import '../assets/styles/Home_preview.css'  
@@ -19,7 +19,24 @@ const previewStyle = {
     backgroundImage: `url(${backgroundImage})`,
     };
 
+/*-------------------------modal functions----------------------*/
 
+const [modal, setModal] = useState(false)
+const body = document.getElementById("body")
+
+console.log(document.body.offsetWidth);
+
+const renderModal = () => {
+    setModal(true)
+    body.classList.add("hide-scroll")
+}
+
+const closeModal = () => {
+    setModal(false)
+    body.classList.remove("hide-scroll")
+}
+
+/*--------------------------------------------------------------*/
 
 return (
 
@@ -37,7 +54,7 @@ return (
                     Play
                 </button>
             </Link>
-                <button className="info-btn" onClick={props.renderModal}>
+                <button className="info-btn" onClick={renderModal}>
                     <div className="icon-info" role="presentation">
                         <svg viewBox="0 0 24 24">
                             <path
@@ -47,8 +64,14 @@ return (
                     More Info
                 </button>
             </div>
-            {props.modal && 
-                <InfoModal {...props} />
+            {modal && 
+                <InfoModal
+                banner={page.banner}
+                title={page.title}
+                categorie={page.categorie}
+                seasons={page.seasons}
+                synopsis={page.synopsis}
+                closeModal={closeModal} />
             }
 
             <div className="age-categorie">+7</div>

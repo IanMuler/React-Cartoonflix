@@ -416,70 +416,90 @@
       "title": "Toy story",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/kqx1JkG/List-toystory.webp"
+      "img": "https://i.ibb.co/kqx1JkG/List-toystory.webp",
+      "banner":"https://i.ibb.co/X5mpZWb/Modal-toystory.webp",
+      "synopsis":"A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room."
     },
     {
       "id": "47",
-      "title": "Atlantis",
+      "title": "Atlantis: The Lost Empire",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/0c0rZMS/List-atlantis.webp"
+      "img": "https://i.ibb.co/0c0rZMS/List-atlantis.webp",
+      "banner":"https://i.ibb.co/kHqD3pW/Modal-atlantis.webp",
+      "synopsis":"A young linguist named Milo Thatch joins an intrepid group of explorers to find the mysterious lost continent of Atlantis."
     },
     {
       "id": "48",
       "title": "Mulan",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/xq4y7Cj/list-mulan.webp"
+      "img": "https://i.ibb.co/xq4y7Cj/list-mulan.webp",
+      "banner":"https://i.ibb.co/L0dPypJ/Modal-mulan.webp",
+      "synopsis":"Mulan takes her father's place and heads out to war. She must find a way to prove her worth and defend her honor."
     },
     {
       "id": "49",
       "title": "Tarzan",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/4YFhhfB/List-tarzan.webp"
+      "img": "https://i.ibb.co/4YFhhfB/List-tarzan.webp",
+      "banner":"https://i.ibb.co/fDhZV9f/Modal-tarzan.webp",
+      "synopsis":"A man raised by gorillas must decide where he really belongs when he discovers he is a human."
     },
     {
       "id": "50",
-      "title": "Pinocho",
+      "title": "Pinocchio",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/Y21W2CB/List-pinocho.webp"
+      "img": "https://i.ibb.co/Y21W2CB/List-pinocho.webp",
+      "banner":"https://i.ibb.co/0jwXHLW/Modal-pinocchio.webp",
+      "synopsis":"A living puppet, with the help of a cricket as his conscience, must prove himself worthy to become a real boy."
     },
     {
       "id": "51",
       "title": "The incredibles",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/8Y7RRsx/List-losincreibles.webp"
+      "img": "https://i.ibb.co/8Y7RRsx/List-losincreibles.webp",
+      "banner":"https://i.ibb.co/0rtqQC9/Modal-theincredibles.webp",
+      "synopsis":"A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world."
     },
     {
       "id": "52",
       "title": "Hercules",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/df8QvR5/List-hercules.webp"
+      "img": "https://i.ibb.co/df8QvR5/List-hercules.webp",
+      "banner":"https://i.ibb.co/x7CL65w/Modal-hercules.webp",
+      "synopsis":"The son of Zeus and Hera is stripped of his immortality as an infant and must become a true hero in order to reclaim it."
     },
     {
       "id": "53",
       "title": "An extremely Goofy movie",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/Qm9Wcvn/List-goofy.webp"
+      "img": "https://i.ibb.co/Qm9Wcvn/List-goofy.webp",
+      "banner":"https://i.ibb.co/48ndLnn/Modal-goofy.webp",
+      "synopsis":"Max goes to college, but to his embarassment his father loses his job and goes to his son's campus."
     },
     {
       "id": "54",
       "title": "Cars",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/DGLtGWg/List-cars.webp"
+      "img": "https://i.ibb.co/DGLtGWg/List-cars.webp",
+      "banner":"https://i.ibb.co/FsTFGZH/Modal-cars.webp",
+      "synopsis":"A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family."
     },
     {
       "id": "55",
       "title": "Finding Nemo",
       "duration": "1h 30m",
       "categorie": "+7",
-      "img": "https://i.ibb.co/wYXVz1f/List-buscandonemo.webp"
+      "img": "https://i.ibb.co/wYXVz1f/List-buscandonemo.webp",
+      "banner":"https://i.ibb.co/xYsmJ9Z/Modal-findingnemo.webp",
+      "synopsis":"After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
     }
   ],
 
@@ -537,6 +557,7 @@
     }
   }
 }
+
 
 
 

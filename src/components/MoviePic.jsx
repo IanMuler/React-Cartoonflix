@@ -33,6 +33,23 @@ const deshovering = () => {
 const timeroff = () => {
     clearTimeout(window.timer)
 }
+/*---------------------------------------------------*/
+/*-------------------------modal functions----------------------*/
+
+const [modal, setModal] = useState(false)
+const body = document.getElementById("body")
+
+const renderModal = () => {
+    setModal(true)
+    body.classList.add("hide-scroll")
+}
+
+const closeModal = () => {
+    setModal(false)
+    body.classList.remove("hide-scroll")
+}
+
+/*--------------------------------------------------------------*/
 
 return (
     <Fragment>
@@ -40,13 +57,17 @@ return (
         <img src={props.img} alt={props.title}/>
        </div>
     {isHovering &&
-    <ZoomMoviePic onMouseLeave={deshovering} 
+    <ZoomMoviePic 
     {...props}
+    onMouseLeave={deshovering} 
+    renderModal={renderModal}
     style={zoomValue}
     />
     }
-    {props.modal && 
-        <InfoModal {...props}/>
+    {modal && 
+        <InfoModal {...props}
+        closeModal={closeModal}
+        />
     }
     </Fragment>   
 )

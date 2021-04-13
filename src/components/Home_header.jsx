@@ -42,7 +42,7 @@ return (
         <nav className="home__nav">
             <div className="nav-primary">
                 <Link to="/">
-                    <img src="https://i.ibb.co/0f8zbPq/Cartoon-Flix-logo.png" alt="Logo"/>
+                    <img src="https://i.ibb.co/ZJyC7jd/Cartoon-Flix-logo.png" alt="Logo"/>
                 </Link>
 
                 <ul className="nav-list">

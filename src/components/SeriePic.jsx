@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react'
 // import { Link } from 'react-router-dom';
 import '../assets/styles/SeriePic.css'
 import ZoomSeriePic from '../components/ZoomSeriePic';
+import InfoModal from '../components/InfoModal';
 
 function SeriePic(props) {
 
@@ -32,19 +33,41 @@ const deshovering = () => {
 const timeroff = () => {
     clearTimeout(window.timer)
 }
+/*--------------------------------------------------------------*/
+/*-------------------------modal functions----------------------*/
 
+const [modal, setModal] = useState(false)
+const body = document.getElementById("body")
+
+const renderModal = () => {
+    setModal(true)
+    body.classList.add("hide-scroll")
+}
+
+const closeModal = () => {
+    setModal(false)
+    body.classList.remove("hide-scroll")
+}
+
+/*--------------------------------------------------------------*/
 return (
     <Fragment>
         <div onMouseOver={hovering} onMouseLeave={timeroff} onMouseOut={timeroff} className={props.className}>
         <img src={props.img} alt={props.title}/>
        </div>
     {isHovering &&
-    <ZoomSeriePic onMouseLeave={deshovering}
-    img={props.img} 
+    <ZoomSeriePic 
+    {...props}
+    onMouseLeave={deshovering}
+    renderModal={renderModal}
     style={zoomValue}
-    categorie={props.categorie}
-    seasons={props.seasons}
-    renderModal={props.renderModal}/>
+    />
+    }
+    {modal && 
+        <InfoModal 
+        {...props}
+        closeModal={closeModal}
+        />
     }
     </Fragment>   
 )

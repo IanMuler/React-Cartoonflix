@@ -70,7 +70,7 @@ return (
             <div className="carousel">
 
                 <button id="left-arrow" onClick={moveLeft} dir="left" className={buttonLeftArrow}>
-                    <img dir="left" src="https://i.ibb.co/W2n2YHC/left-arrow.png" alt=""/>
+                    <img dir="left" src="https://i.ibb.co/9TF3Gw9/left-arrow.png" alt=""/>
                 </button>
 
                 <div className={divPics}>
@@ -137,7 +137,7 @@ return (
                 </div>
 
                 <button onClick={moveRight} dir="right" className={buttonRightArrow}>
-                    <img dir="right" src="https://i.ibb.co/nQBdYN3/right-arrow.png" alt=""/>
+                    <img dir="right" src="https://i.ibb.co/FKbRLV9/right-arrow.png" alt=""/>
                 </button>
             </div>
         </section>

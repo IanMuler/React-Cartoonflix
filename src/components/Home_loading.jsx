@@ -5,7 +5,7 @@ function Home_loading() {
 
 return (
    <div id="loading">
-       <img src="https://i.ibb.co/tDgmKn8/Loading.png" alt=""/>
+       <img src="https://i.ibb.co/j8y67YZ/Loading.png" alt=""/>
    </div>
 )
 }

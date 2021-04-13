@@ -39,7 +39,7 @@ return (
             <li className="intro__li" id="li-add">
                 <Link className="profile-pic"  to="">
                     <div className="add-img">
-                        <img src="https://i.ibb.co/mvH4wV7/File-Picture-Add.png" alt="Add"/>
+                        <img src="https://i.ibb.co/TH0n1ng/File-Picture-Add.png" alt="Add"/>
                     </div>
                     <div className="profile-name">Add Profile</div>
                 </Link>

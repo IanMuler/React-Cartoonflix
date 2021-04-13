@@ -31,4 +31,5 @@ html{
 
 .hide-scroll{
     overflow: hidden;
+    padding-right: 10px;
 }

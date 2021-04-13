@@ -7,7 +7,7 @@ return (
     <header className="intro__header">
         <nav className="intro__nav">
             <Link to="/">
-                <img src="https://i.ibb.co/0f8zbPq/Cartoon-Flix-logo.png" alt="Logo" />
+                <img src="https://i.ibb.co/ZJyC7jd/Cartoon-Flix-logo.png" alt="Logo" />
             </Link>
         </nav>
     </header>

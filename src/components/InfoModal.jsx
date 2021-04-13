@@ -15,7 +15,7 @@ const bannerStyle = {
     backgroundImage: `url(${props.banner})`,
     };
 
-console.log(props.banner)
+    console.log(document.body.offsetWidth);  
 
 return (
 <div id="info-modal" onKeyPress={readKey} >
@@ -49,11 +49,19 @@ return (
 
             <div className="banner-info__top-info">
                 <span className="categorie">{props.categorie}</span>
-                <span className="duration">{props.seasons} Seasons</span>       
+
+                {props.seasons &&
+                <span className="seasons">{props.seasons}
+                {props.seasons === 1 ? " Season" :" Seasons"}
+                </span>}
+                
+                {props.duration &&
+                <span className="duration">{props.duration}</span>}
+                   
             </div>
 
             <div className="banner-info__bottom-info">
-                <span>{props.synopsis}</span>
+                <span className="synopsis">{props.synopsis}</span>
             </div>
 
         </div>
