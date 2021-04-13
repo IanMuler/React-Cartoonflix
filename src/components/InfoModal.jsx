@@ -17,8 +17,17 @@ const bannerStyle = {
 
     console.log(document.body.offsetWidth);  
 
+const readInfoModal = (e) => {
+
+    const id = e.target.attributes.id?.nodeValue
+
+    if(id === "info-modal"){
+        props.closeModal()
+    }
+}
+
 return (
-<div id="info-modal" onKeyPress={readKey} >
+<div id="info-modal" onKeyPress={readKey} onClick={readInfoModal} >
     <div className="info-modal__banner" onKeyPress={readKey}>
         <div className="info-modal__img-div" style={bannerStyle}>
         </div>

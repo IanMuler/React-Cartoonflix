@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Home_header from '../components/Home_header';
 import Intro_header from '../components/Intro_header';
 import Home_preview from '../components/Home_preview';
@@ -7,6 +7,7 @@ import Home_loading from '../components/Home_loading';
 import Home_footer from '../components/Home_footer';
 
 const Series = (props) => {
+
 
   return props.media.length === 0 ?
     <Fragment>

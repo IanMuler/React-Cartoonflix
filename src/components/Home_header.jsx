@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
+import React, { Component, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../assets/styles/Home_header.css'
 
 function Home_header(props) {
-
+    
+    useEffect(() => {
+            window.scrollTo(0, 0);
+          },);
+          
+    /*--------------------profiles dropdown list--------------------------------*/
 const removeDropdownClass = () => {
     
     let dropdown = document.querySelector('.nav-dropdown-list')
@@ -27,6 +32,7 @@ const addDropdownClass = () => {
     clearTimeout(window.mytimeout);    
    
 }
+/*------------------------------------------------------------*/
 
 const profileBackground =
     (props.profile === "courage")?{backgroundImage: 'url("https://i.ibb.co/c1n88Z3/Filepicture-Coraje.webp")'}
@@ -36,6 +42,8 @@ const profileBackground =
     (props.profile === "ranger")?{backgroundImage: 'url("https://i.ibb.co/0Fmr687/Filepicture-Ranger-Green.webp")'}
     :
     {backgroundImage: 'url("")'}
+    
+
 
 return (
     <header id="header" className="home__header">

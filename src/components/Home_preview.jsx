@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom';
 import InfoModal from '../components/InfoModal';
 import '../assets/styles/Home_preview.css'  
@@ -23,8 +23,6 @@ const previewStyle = {
 
 const [modal, setModal] = useState(false)
 const body = document.getElementById("body")
-
-console.log(document.body.offsetWidth);
 
 const renderModal = () => {
     setModal(true)

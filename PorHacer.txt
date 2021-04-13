@@ -1,0 +1,2 @@
+♦ Cambiar botones por los de Netflix
+♦ MediaQueries
