@@ -508,51 +508,88 @@
       "home": {
         "preview": "https://i.ibb.co/tMjQcVL/courage-preview.webp",
         "png": "https://i.ibb.co/X8WD2DS/courage-png.png",
-        "synopsis": "The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers."
+        "synopsis": "The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers.",
+        "banner":"https://i.ibb.co/KwMWSn7/Modal-coraje.webp",
+        "title": "Courage the Cowardly Dog",       
+        "categorie": "+7",
+        "seasons": "3"
       },
       "series": {
         "preview": "https://i.ibb.co/b16KQ8M/courage-series-preview.webp",
         "png": "https://i.ibb.co/dJFyx42/Png-knd.png",
-        "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology."
+        "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology.",
+        "banner": "",
+        "title": "",       
+        "categorie": "",
+        "seasons": "",
+        "duration": ""  
       },
       "movies": {
         "preview": "https://i.ibb.co/QnJbjTd/courage-movie-preview.webp",
         "png": "https://i.ibb.co/Df6TFpv/courage-movie-png.png",
-        "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus."
+        "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus.",
+        "banner": "https://i.ibb.co/x7CL65w/Modal-hercules.webp",
+        "title": "Hercules",       
+        "categorie": "+7",
+        "duration": "1h 30m"  
       }
     },
     "woody": {
       "home": {
         "preview": "https://i.ibb.co/sKhxW5Q/woody-preview.webp",
         "png": "https://i.ibb.co/hXcFTKJ/woody-png.png",
-        "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire."
+        "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire.",
+        "banner": "https://i.ibb.co/Wtdjjb7/Modal-kuzco.webp",
+        "title": "The Emperor's New School",       
+        "categorie": "+7",
+        "seasons": 3  
       },
       "series": {
         "preview": "https://i.ibb.co/k2cQF8j/woody-series-preview.webp",
         "png": "https://i.ibb.co/p2vxhW5/woody-series-png.png",
-        "synopsis": "Phineas and Ferb invent, scheme, and stay one step ahead of their bratty sister. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz."
+        "synopsis": "Phineas and Ferb invent, scheme, and stay one step ahead of their bratty sister. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.",
+        "banner": "https://i.ibb.co/LpWStFf/Modal-phineasandferb.webp",
+        "title": "Phineas and Ferb",       
+        "categorie": "+7",
+        "seasons": 3
       },
       "movies": {
         "preview": "https://i.ibb.co/sqGJW7y/woody-movies-preview.webp",
         "png": "https://i.ibb.co/qFwNHwT/woody-movies-png.png",
-        "synopsis": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room."
+        "synopsis": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+        "banner": "https://i.ibb.co/X5mpZWb/Modal-toystory.webp",
+        "title": "Toy story",       
+        "categorie": "+7",
+        "duration": "1h 30m"  
       }
     },
     "ranger": {
       "home": {
         "preview": "https://i.ibb.co/B6RpwM3/ranger-preview.webp",
         "png": "https://i.ibb.co/vhVmhV5/ranger-png.png",
-        "synopsis": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd and their monsters."
+        "synopsis": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd and their monsters.",
+        "banner": "https://i.ibb.co/D726kps/Modal-PRmightymorphin.webp",
+        "title": "Mighty Morphin Power Rangers",       
+        "categorie": "+7",
+        "seasons": 3  
       },
       "series": {
         "preview": "https://i.ibb.co/tbx6QFR/ranger-series-preview.webp",
         "png": "https://i.ibb.co/DtnL5Sw/ranger-series-png.png",
-        "synopsis": "A group of young teens is sent to the Digital World and paired up with their own powerful, morphing monster called the Digimon."
+        "synopsis": "A group of young teens is sent to the Digital World and paired up with their own powerful, morphing monster called the Digimon.",
+        "banner": "https://i.ibb.co/D5bDs6N/Modal-Digimon.webp",
+        "title": "Digimon: Digital Monsters",       
+        "categorie": "+7",
+        "seasons": 3  
       },
       "movies": {
         "preview": "https://i.ibb.co/G9PgKML/ranger-movies-preview.webp",
         "png": "https://i.ibb.co/4F5QWF7/ranger-movies-png.png",
-        "synopsis": "Mulan takes her father's place and heads out to war. She must find a way to prove her worth and defend her honor."
+        "synopsis": "Mulan takes her father's place and heads out to war. She must find a way to prove her worth and defend her honor.",
+        "banner": "https://i.ibb.co/L0dPypJ/Modal-mulan.webp",
+        "title": "Mulan",       
+        "categorie": "+7",
+        "duration": "1h 30m"  
       }
     }
   }

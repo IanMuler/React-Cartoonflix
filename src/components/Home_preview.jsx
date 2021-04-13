@@ -70,6 +70,7 @@ return (
                 title={page.title}
                 categorie={page.categorie}
                 seasons={page.seasons}
+                duration={page.duration}
                 synopsis={page.synopsis}
                 closeModal={closeModal} />
             }

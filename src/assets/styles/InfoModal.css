@@ -34,7 +34,8 @@
 .info-modal__banner-info{
     height: fit-content;
     margin-top: -15rem;
-    background: linear-gradient(to top,rgba(20,20,20,1)70%,rgba(20,20,20,0.66)80%, rgba(20,20,20,0.33)92%, rgba(20,20,20,0)100%);  
+    background: rgb(24, 24, 24);
+    background: linear-gradient(to top,rgb( 24, 24, 24)70%,rgba( 24, 24, 24,0.66)80%, rgba( 24, 24, 24,0.33)92%, rgba( 24, 24, 24,0)100%);  
     padding: 0 20vw 2rem 5rem;
 }
 
