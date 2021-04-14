@@ -37,19 +37,19 @@ const timeroff = () => {
 /*-------------------------modal functions----------------------*/
 
 const [modal, setModal] = useState(false)
-const body = document.getElementById("body")
 
 const renderModal = () => {
     setModal(true)
-    body.classList.add("hide-scroll")
+    props.disableScrolling()
 }
 
 const closeModal = () => {
     setModal(false)
-    body.classList.remove("hide-scroll")
+    props.enableScrolling() 
 }
 
 /*--------------------------------------------------------------*/
+
 return (
     <Fragment>
         <div onMouseOver={hovering} onMouseLeave={timeroff} onMouseOut={timeroff} className={props.className}>

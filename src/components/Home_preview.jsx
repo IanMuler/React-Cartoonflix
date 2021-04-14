@@ -22,19 +22,19 @@ const previewStyle = {
 /*-------------------------modal functions----------------------*/
 
 const [modal, setModal] = useState(false)
-const body = document.getElementById("body")
 
 const renderModal = () => {
     setModal(true)
-    body.classList.add("hide-scroll")
+    props.disableScrolling()
 }
 
 const closeModal = () => {
     setModal(false)
-    body.classList.remove("hide-scroll")
+    props.enableScrolling() 
 }
 
 /*--------------------------------------------------------------*/
+
 
 return (
 
@@ -52,7 +52,7 @@ return (
                     Play
                 </button>
             </Link>
-                <button className="info-btn" onClick={renderModal}>
+                <button className="info-btn" onClick={renderModal} >
                     <div className="icon-info" role="presentation">
                         <svg viewBox="0 0 24 24">
                             <path
@@ -70,12 +70,13 @@ return (
                 seasons={page.seasons}
                 duration={page.duration}
                 synopsis={page.synopsis}
-                closeModal={closeModal} />
+                closeModal={closeModal}
+                />
             }
 
             <div className="age-categorie">+7</div>
         </section>
 )
-}
 
+}
 export default Home_preview;

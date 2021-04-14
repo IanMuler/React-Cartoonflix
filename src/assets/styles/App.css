@@ -28,7 +28,3 @@ html{
 .d-none{
     display: none;
 }
-
-.hide-scroll{
-    overflow: hidden;
-}

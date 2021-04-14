@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect}from 'react'
 import { Link } from 'react-router-dom';
 import '../assets/styles/InfoModal.css'
 
@@ -11,12 +11,6 @@ const readKey = ()=>{
     console.log("hola")
 }
 
-const bannerStyle = {
-    backgroundImage: `url(${props.banner})`,
-    };
-
-    console.log(document.body.offsetWidth);  
-
 const readInfoModal = (e) => {
 
     const id = e.target.attributes.id?.nodeValue
@@ -25,6 +19,13 @@ const readInfoModal = (e) => {
         props.closeModal()
     }
 }
+
+const bannerStyle = {
+    backgroundImage: `url(${props.banner})`,
+    };
+
+    console.log(document.body.offsetWidth);  
+
 
 return (
 <div id="info-modal" onKeyPress={readKey} onClick={readInfoModal} >

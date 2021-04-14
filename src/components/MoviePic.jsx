@@ -41,12 +41,12 @@ const body = document.getElementById("body")
 
 const renderModal = () => {
     setModal(true)
-    body.classList.add("hide-scroll")
+    props.disableScrolling()
 }
 
 const closeModal = () => {
     setModal(false)
-    body.classList.remove("hide-scroll")
+    props.enableScrolling() 
 }
 
 /*--------------------------------------------------------------*/

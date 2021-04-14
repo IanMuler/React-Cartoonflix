@@ -45,14 +45,32 @@ localStorage.setItem("profile", profile)
 
 const profileStorage = localStorage.getItem("profile");
 /*-------------------------------------------------*/
+/*------------block scroll on modal------------*/
+function disableScrolling(){
+let x=window.scrollX;
+let y=window.scrollY;
+window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+
+function enableScrolling(){
+window.onscroll=function(){};
+}
+/*-------------------------------------------------*/
 
 return (
 <HashRouter>
       <Switch>
         <Route exact path="/" render={() => (<Intro getProfile={getProfile} />)}/>
-        <Route exact path="/home" render={() => (<Home media={media} getProfile={getProfile} profile={profileStorage} />)}/>
-        <Route exact path="/series" render={() => (<Series media={media} getProfile={getProfile} profile={profileStorage}/>)}/>
-        <Route exact path="/movies" render={() => (<Movies media={media} getProfile={getProfile} profile={profileStorage}/>)}/>
+        <Route exact path="/home" render={() => 
+          (<Home 
+          media={media} 
+          getProfile={getProfile}
+          profile={profileStorage} 
+          disableScrolling={disableScrolling} 
+          enableScrolling={enableScrolling}/>)}/>
+        <Route exact path="/series" render={() => (<Series media={media} getProfile={getProfile} profile={profileStorage} disableScrolling={disableScrolling} enableScrolling={enableScrolling}/>)}/>
+        <Route exact path="/movies" render={() => (<Movies media={media} getProfile={getProfile} profile={profileStorage} disableScrolling={disableScrolling} enableScrolling={enableScrolling}/>)}/>
       </Switch>
     </HashRouter>
   );
