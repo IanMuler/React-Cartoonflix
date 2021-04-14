@@ -5,9 +5,9 @@ import '../assets/styles/InfoModal.css'
 function InfoModal(props) {
 
 const readKey = ()=>{
-    // if (e.key === 'Escape') {
-    //     props.closeModal;
-    //   }
+    if (e.key === 'Escape') {
+         props.closeModal;
+      }
     console.log("hola")
 }
 
@@ -26,8 +26,8 @@ const bannerStyle = {
 
 
 return (
-<div id="info-modal" onKeyPress={readKey} onClick={readInfoModal} >
-    <div className="info-modal__banner" onKeyPress={readKey}>
+<div id="info-modal" onClick={readInfoModal} >
+    <div className="info-modal__banner" >
     <div className="icon-close" onClick={props.closeModal}>
                 <svg viewBox="0 0 24 24" data-uia="previewModal-closebtn" role="button" aria-label="close" tabIndex="0">
                     <path
