@@ -15,17 +15,16 @@
 }
 
 .info-modal__banner{
-    width: 55%;   
+    width: 70rem;   
     height: fit-content;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
-    
 }
 
 .info-modal__img-div{
     width: 100%;
-    height: 32vw;
+    height: 40rem;
     background-size: cover;
     background-position: center;
 }
@@ -61,6 +60,7 @@
 .info-modal__banner-info h3{
     margin-bottom: 3rem;
     text-shadow: 2px 2px 2px black;
+    font-size: 2rem
 }
 
 .info-modal__banner-info .buttons {
@@ -93,8 +93,8 @@
 
 .banner-info__top-info{
     width: 100% ;
-    margin-top: 4rem;
-    font-size: 1.9rem;
+    margin-top: 3vw;
+    font-size: 1.6rem;
 }
 
 .banner-info__top-info .categorie{
@@ -107,4 +107,8 @@
 
 .banner-info__bottom-info{
     margin-top: 2rem;
+}
+
+.info-modal__banner-info .synopsis{
+    font-size: 1.6rem;
 }

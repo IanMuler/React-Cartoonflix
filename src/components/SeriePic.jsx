@@ -40,6 +40,7 @@ const [modal, setModal] = useState(false)
 
 const renderModal = () => {
     setModal(true)
+    console.log((props))
     props.disableScrolling()
 }
 

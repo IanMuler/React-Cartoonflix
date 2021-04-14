@@ -46,14 +46,14 @@ localStorage.setItem("profile", profile)
 const profileStorage = localStorage.getItem("profile");
 /*-------------------------------------------------*/
 /*------------block scroll on modal------------*/
-function disableScrolling(){
+const disableScrolling = () => {
 let x=window.scrollX;
 let y=window.scrollY;
 window.onscroll=function(){window.scrollTo(x, y);};
 }
 
 
-function enableScrolling(){
+const enableScrolling = () => {
 window.onscroll=function(){};
 }
 /*-------------------------------------------------*/

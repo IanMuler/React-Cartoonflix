@@ -27,7 +27,7 @@
         "seasons": 3,
         "categorie": "+7",
         "img":"https://i.ibb.co/TTMdJZm/List-chicassuperpoderas.webp",
-        "banner":"https://i.ibb.co/SnhBSxz/Modal-superpoderosas.webp",
+        "banner":"https://i.ibb.co/ZXwZnDR/Modal-superpoderosas.webp",
         "synopsis":"Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things."
       },
       {
@@ -512,17 +512,16 @@
         "banner":"https://i.ibb.co/KwMWSn7/Modal-coraje.webp",
         "title": "Courage the Cowardly Dog",       
         "categorie": "+7",
-        "seasons": "3"
+        "seasons": 3
       },
       "series": {
         "preview": "https://i.ibb.co/b16KQ8M/courage-series-preview.webp",
         "png": "https://i.ibb.co/dJFyx42/Png-knd.png",
         "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology.",
-        "banner": "",
-        "title": "",       
-        "categorie": "",
-        "seasons": "",
-        "duration": ""  
+        "banner": "https://i.ibb.co/Gpk6SV9/Modal-knd.webp",
+        "title": "Kids Next Door",       
+        "categorie": "+7",
+        "seasons": 3 
       },
       "movies": {
         "preview": "https://i.ibb.co/QnJbjTd/courage-movie-preview.webp",

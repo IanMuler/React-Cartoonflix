@@ -24,17 +24,11 @@ const bannerStyle = {
     backgroundImage: `url(${props.banner})`,
     };
 
-    console.log(document.body.offsetWidth);  
-
 
 return (
 <div id="info-modal" onKeyPress={readKey} onClick={readInfoModal} >
     <div className="info-modal__banner" onKeyPress={readKey}>
-        <div className="info-modal__img-div" style={bannerStyle}>
-        </div>
-        <div className="info-modal__banner-info">
-
-            <div className="icon-close" onClick={props.closeModal}>
+    <div className="icon-close" onClick={props.closeModal}>
                 <svg viewBox="0 0 24 24" data-uia="previewModal-closebtn" role="button" aria-label="close" tabIndex="0">
                     <path
                         d="M12 10.586l7.293-7.293 1.414 1.414L13.414 12l7.293 7.293-1.414 1.414L12 13.414l-7.293 7.293-1.414-1.414L10.586 12 3.293 4.707l1.414-1.414L12 10.586z"
@@ -42,6 +36,11 @@ return (
                     </path>
                 </svg>
             </div>
+        <div className="info-modal__img-div" style={bannerStyle}>
+        </div>
+        <div className="info-modal__banner-info">
+
+            
 
             
             <h3>{props.title}</h3>
