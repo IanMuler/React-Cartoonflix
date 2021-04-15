@@ -37,7 +37,7 @@ return (
                 </Link>
             </li>
             <li className="intro__li" id="li-add">
-                <Link className="profile-pic"  to="">
+                <Link className="profile-pic"  to="/error">
                     <div className="add-img">
                         <img src="https://i.ibb.co/TH0n1ng/File-Picture-Add.png" alt="Add"/>
                     </div>

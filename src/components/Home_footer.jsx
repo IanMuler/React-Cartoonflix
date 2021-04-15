@@ -1,5 +1,7 @@
 import React from 'react'
 import '../assets/styles/Home_footer.css'
+import { Link } from 'react-router-dom'
+
 function Home_footer(props) {
 
 
@@ -8,72 +10,72 @@ return (
     <ul className="footer_container-links">
 
         <li className="footer_link">
-            <a className="member-footer-link" href="/browse/subtitles">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Audio and Subtitles</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="/browse/audio-description">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Audio Description</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="https://help.netflix.com/">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Help Center</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="/redeem">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Gift Cards</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="https://media.netflix.com/">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Media Center</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="http://ir.netflix.com/">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Investor Relations</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="https://jobs.netflix.com/">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Jobs</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="https://help.netflix.com/legal/termsofuse">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Terms of
                     Use</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="https://help.netflix.com/legal/privacy">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Privacy</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="https://help.netflix.com/legal/notices">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Legal
                     Notices</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="/Cookies">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Cookie Preferences</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="https://help.netflix.com/legal/corpinfo">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Corporate
                     Information</span>
-            </a>
+            </Link>
         </li>
         <li className="footer_link">
-            <a className="member-footer-link" href="https://help.netflix.com/contactus">
+            <Link className="member-footer-link" to="/error">
                 <span className="member-footer-link-content">Contact Us</span>
-            </a>
+            </Link>
         </li>
     </ul>
     <a href="https://github.com/IanMuler/React-Cartoonflix"><div className="icon-github"></div></a>

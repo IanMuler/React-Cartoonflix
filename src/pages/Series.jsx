@@ -16,7 +16,7 @@ const Series = (props) => {
     </Fragment>
      :
      <Fragment>
-         <Home_header {...props}/>
+         <Home_header {...props} page="series"/>
          <Home_preview {...props} page="series"/>
          <Home_carousels {...props} getSeries={true} />
          <Home_footer/>

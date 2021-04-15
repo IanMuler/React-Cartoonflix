@@ -4,14 +4,20 @@ import '../assets/styles/InfoModal.css'
 
 function InfoModal(props) {
 
-const readKey = ()=>{
+/*---------close Modal with scape------*/
+useEffect(() => {
+    document.addEventListener("keydown",handleKey)
+})
+
+const handleKey = (e)=>{
     if (e.key === 'Escape') {
-         props.closeModal;
+         props.closeModal();
       }
-    console.log("hola")
 }
 
-const readInfoModal = (e) => {
+/*-----------------------------------------*/
+/*--------close with click out modal----------*/ 
+const handleClick = (e) => {
 
     const id = e.target.attributes.id?.nodeValue
 
@@ -20,13 +26,14 @@ const readInfoModal = (e) => {
     }
 }
 
+/*--------------------------------------------*/
+
 const bannerStyle = {
     backgroundImage: `url(${props.banner})`,
     };
 
-
 return (
-<div id="info-modal" onClick={readInfoModal} >
+<div id="info-modal" onClick={handleClick} >
     <div className="info-modal__banner" >
     <div className="icon-close" onClick={props.closeModal}>
                 <svg viewBox="0 0 24 24" data-uia="previewModal-closebtn" role="button" aria-label="close" tabIndex="0">

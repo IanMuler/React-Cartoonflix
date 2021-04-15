@@ -15,7 +15,7 @@ const Home = (props) => {
     </Fragment>
      :
      <Fragment>
-         <Home_header {...props}/>
+         <Home_header {...props} page="home"/>
          <Home_preview {...props} page="home" />
          <Home_carousels {...props}  getSeries={true} getMovies={true}/>
          <Home_footer/>

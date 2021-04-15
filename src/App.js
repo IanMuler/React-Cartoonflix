@@ -4,6 +4,7 @@ import Intro from './pages/Intro.jsx';
 import Home from './pages/Home.jsx';
 import Series from './pages/Series.jsx';
 import Movies from './pages/Movies.jsx';
+import Error from './pages/Error.jsx';
 import './assets/styles/App.css'
 
 function App (){
@@ -63,14 +64,33 @@ return (
       <Switch>
         <Route exact path="/" render={() => (<Intro getProfile={getProfile} />)}/>
         <Route exact path="/home" render={() => 
+
           (<Home 
           media={media} 
           getProfile={getProfile}
           profile={profileStorage} 
           disableScrolling={disableScrolling} 
           enableScrolling={enableScrolling}/>)}/>
-        <Route exact path="/series" render={() => (<Series media={media} getProfile={getProfile} profile={profileStorage} disableScrolling={disableScrolling} enableScrolling={enableScrolling}/>)}/>
-        <Route exact path="/movies" render={() => (<Movies media={media} getProfile={getProfile} profile={profileStorage} disableScrolling={disableScrolling} enableScrolling={enableScrolling}/>)}/>
+
+          <Route exact path="/series" render={() => 
+
+          (<Series 
+          media={media} 
+          getProfile={getProfile} 
+          profile={profileStorage} 
+          disableScrolling={disableScrolling} 
+          enableScrolling={enableScrolling}/>)}/>
+
+          <Route exact path="/movies" render={() => (
+          
+          <Movies 
+          media={media} 
+          getProfile={getProfile} 
+          profile={profileStorage} 
+          disableScrolling={disableScrolling} 
+          enableScrolling={enableScrolling}/>)}/>
+
+          <Route component={Error}/>
       </Switch>
     </HashRouter>
   );

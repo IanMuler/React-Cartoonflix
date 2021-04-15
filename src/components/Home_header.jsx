@@ -6,9 +6,14 @@ function Home_header(props) {
     
     useEffect(() => {
             window.scrollTo(0, 0);
+
+            /*---------section class active-------------*/
+            const section = document.getElementById(props.page)
+            section.classList.add("a-active")
+            /*------------------------------------*/
           },);
           
-    /*--------------------profiles dropdown list--------------------------------*/
+/*--------------------profiles dropdown list--------------------------------*/
 const removeDropdownClass = () => {
     
     let dropdown = document.querySelector('.nav-dropdown-list')
@@ -54,10 +59,10 @@ return (
                 </Link>
 
                 <ul className="nav-list">
-                    <li><Link className="a-active" to="/home">Home</Link></li>
-                    <li><Link to="/series">Series</Link></li>
-                    <li><Link to="/movies">Movies</Link></li>
-                    <li><Link to="/my-list">My List</Link></li>
+                    <li><Link id="home" to="/home">Home</Link></li>
+                    <li><Link id="series" to="/series">Series</Link></li>
+                    <li><Link id="movies" to="/movies">Movies</Link></li>
+                    <li><Link id="my-list" to="/my-list">My List</Link></li>
                 </ul>
             </div>
             <div className="nav-secondary">

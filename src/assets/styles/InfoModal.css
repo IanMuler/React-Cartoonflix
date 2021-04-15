@@ -34,7 +34,7 @@
     margin-top: -15rem;
     background: rgb(24, 24, 24);
     background: linear-gradient(to top,rgb( 24, 24, 24)60%,rgb( 24, 24, 24,0.86)65%,rgb( 24, 24, 24,0.72)70%,rgb( 24, 24, 24,0.58)75%,rgba( 24, 24, 24,0.44)80%, rgba( 24, 24, 24,0.30)85%,rgb( 24, 24, 24,0.16)90%,rgb( 24, 24, 24,0.02)95%, rgba( 23, 24, 24,0)100%);
-    padding: 0 20vw 2rem 5rem;
+    padding: 0 0 2rem 5rem;
 }
 
 .icon-close{
@@ -110,5 +110,7 @@
 }
 
 .info-modal__banner-info .synopsis{
+    display: block;
+    width: 65%;
     font-size: 1.6rem;
 }
