@@ -1,4 +1,4 @@
-# React-Cartoonflix
-Netflix clone 
+# react-cartoonflix
+Netflix clone w/ React, Redux
 
 https://ianmuler.github.io/React-Cartoonflix/
