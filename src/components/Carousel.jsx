@@ -118,6 +118,7 @@ return (
                         id={movie.id}
                         title={movie.title}
                         img={movie.img}
+                        imgMovie={movie.imgMovie}
                         categorie={movie.categorie}
                         duration={movie.duration} 
                         banner={movie.banner}
@@ -132,6 +133,7 @@ return (
                         id={movie.id}
                         title={movie.title}
                         img={movie.img}
+                        imgMovie={movie.imgMovie}
                         categorie={movie.categorie}
                         duration={movie.duration}
                         banner={movie.banner}

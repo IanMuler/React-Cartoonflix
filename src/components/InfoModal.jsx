@@ -1,4 +1,4 @@
-import React, {useEffect}from 'react'
+import React, {useState, useEffect}from 'react'
 import { connect } from 'react-redux'
 import { setFavorite, deleteFavorite } from '../actions'
 import { Link } from 'react-router-dom';
@@ -6,6 +6,18 @@ import '../assets/styles/InfoModal.css'
 
 function InfoModal(props) {
 
+const [isAdded, setIsAdded] = useState(false)
+
+useEffect(() => {
+    if(props.myList.length !== 0){
+    if(props.myList.find(item => item.id === props.id)){
+    setIsAdded(true)}
+    else{
+    setIsAdded(false)
+    }
+}
+})
+    
 /*---------close Modal with scape------*/
 useEffect(() => {
 document.addEventListener("keydown",handleKey)
@@ -84,18 +96,23 @@ return (
                     Play
                 </button>
                 </Link>
+
+                {!isAdded &&
                 <div className="button-plus" onClick={handleSetFavorite}>
                     <svg viewBox="0 0 24 24">
                         <path d="M13 11h8v2h-8v8h-2v-8H3v-2h8V3h2v8z" fill="currentColor">
                         </path>
                     </svg>
                 </div>
+                }
+                {isAdded &&
                 <div className="button-plus" onClick={()=>{handleDeleteFavorite(props.id)}}>
                     <svg viewBox="0 0 24 24">
                         <path fill="currentColor"
                             d="M3.707 12.293l-1.414 1.414L8 19.414 21.707 5.707l-1.414-1.414L8 16.586z"></path>
                     </svg>
                 </div>
+                }
 
             </div>
 

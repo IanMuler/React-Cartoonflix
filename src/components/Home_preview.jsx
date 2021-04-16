@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import { connect } from 'react-redux'
 import { Link } from 'react-router-dom';
 import InfoModal from '../components/InfoModal';
 import '../assets/styles/Home_preview.css'  
@@ -8,6 +9,9 @@ function Home_preview(props) {
 if(!props.profile){ 
     window.location.href = "/"
 }
+
+const { myList } = props;
+
 const profilesMedia = props.media.profiles;
 const profile = profilesMedia[props.profile];
 const page = profile[props.page];
@@ -70,6 +74,7 @@ return (
                 seasons={page.seasons}
                 duration={page.duration}
                 synopsis={page.synopsis}
+                myList={myList}
                 closeModal={closeModal}
                 />
             }
@@ -79,4 +84,11 @@ return (
 )
 
 }
-export default Home_preview;
+
+const mapStateToProps = (state, props) => {
+    return{
+        myList: state.myList[props.profile]
+    }
+}
+
+export default connect(mapStateToProps, null)(Home_preview);

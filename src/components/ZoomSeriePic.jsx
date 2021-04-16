@@ -8,11 +8,13 @@ function ZoomSeriePic(props) {
  const [isAdded, setIsAdded] = useState(false)
 
 useEffect(() => {
-    if(props.myList?.find(item => item.id === props.id)){
+    if(props.myList.length !== 0){
+    if(props.myList.find(item => item.id === props.id)){
     setIsAdded(true)}
     else{
     setIsAdded(false)
     }
+}
 })
  
 

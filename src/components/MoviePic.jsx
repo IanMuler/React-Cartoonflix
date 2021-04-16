@@ -54,7 +54,7 @@ const closeModal = () => {
 return (
     <Fragment>
         <div onMouseOver={hovering} onMouseLeave={timeroff} onMouseOut={timeroff} className={props.className}>
-        <img src={props.img} alt={props.title}/>
+        <img src={props.imgMovie} alt={props.title}/>
        </div>
     {isHovering &&
     <ZoomMoviePic 

@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { connect } from 'react-redux'
 import { setFavorite, deleteFavorite } from '../actions'
 import '../assets/styles/ZoomMoviePic.css'
 
 function ZoomMoviePic(props) {
+
+const [isAdded, setIsAdded] = useState(false)
+
+useEffect(() => {
+    if(props.myList.length !== 0){
+    if(props.myList.find(item => item.id === props.id)){
+    setIsAdded(true)}
+    else{
+    setIsAdded(false)
+    }
+    }
+}) 
 
 const handleSetFavorite = () => {
     props.setFavorite(
@@ -27,7 +39,7 @@ props.deleteFavorite(itemId, props.profile)
 
 return (
 <div id="zoom-movie-pic" style={props.style} onMouseLeave={props.onMouseLeave}>
-    <img src={props.img} alt="" />
+    <img src={props.imgMovie} alt="" />
     <div className="zoom-pic-down">
         <div className="zoom-pic-down-buttons">
             <div className="buttons-left">
@@ -37,18 +49,23 @@ return (
                         <path d="M6 4l15 8-15 8z" fill="currentColor"></path>
                     </svg>
                 </div>
+
+                {!isAdded &&
                 <div onClick={handleSetFavorite} className="buttons">
                 {/* ADD */}
                     <svg viewBox="0 0 24 24">
                         <path d="M13 11h8v2h-8v8h-2v-8H3v-2h8V3h2v8z" fill="currentColor"></path>
                     </svg>
                 </div>
+                }
+                {isAdded &&
                 <div onClick={()=>{handleDeleteFavorite(props.id)}} className="buttons">
                 <svg viewBox="0 0 24 24">
                         <path fill="currentColor"
                             d="M3.707 12.293l-1.414 1.414L8 19.414 21.707 5.707l-1.414-1.414L8 16.586z"></path>
                     </svg>
                 </div>
+                }
             </div>
             <div className="buttons" onClick={props.renderModal}>
             {/* INFO */}
