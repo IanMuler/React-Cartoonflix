@@ -8,6 +8,8 @@ function InfoModal(props) {
 
 const [isAdded, setIsAdded] = useState(false)
 
+console.log(props.id, props.img)
+
 useEffect(() => { 
     
     if(props.myList.find(item => item.id === props.id)){

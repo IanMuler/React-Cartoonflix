@@ -68,6 +68,8 @@ return (
             </div>
             {modal && 
                 <InfoModal
+                id={page.id}
+                img={page.img}
                 banner={page.banner}
                 title={page.title}
                 categorie={page.categorie}
