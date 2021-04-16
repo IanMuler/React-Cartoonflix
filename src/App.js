@@ -7,7 +7,7 @@ import Movies from './pages/Movies.jsx';
 import Error from './pages/Error.jsx';
 import './assets/styles/App.css'
 
-function App (){
+function App (props){
 
   /*---------------Scroll dark-----------------*/
   window.addEventListener("scroll", function(){
@@ -22,15 +22,6 @@ function App (){
     }
 })
 
-/*-----------------get API data------------------*/
-  const API = "https://raw.githubusercontent.com/IanMuler/React-Cartoonflix/main/src/API.json"
-  const [media, setMedia] = useState([]);
-
-  useEffect(() => {
-    fetch(API)
-      .then(response => response.json())
-      .then(data => setMedia(data));
-  }, [] )
 
 /*-----------------get profile value--------------*/
 
@@ -41,22 +32,33 @@ const getProfile = (e) => {
 }
 
 if(profile){
-localStorage.setItem("profile", profile)
+  localStorage.setItem("profile", profile)
 }
 
 const profileStorage = localStorage.getItem("profile");
 /*-------------------------------------------------*/
 /*------------block scroll on modal------------*/
 const disableScrolling = () => {
-let x=window.scrollX;
-let y=window.scrollY;
-window.onscroll=function(){window.scrollTo(x, y);};
+  let x=window.scrollX;
+  let y=window.scrollY;
+  window.onscroll=function(){window.scrollTo(x, y);};
 }
-
 
 const enableScrolling = () => {
-window.onscroll=function(){};
+  window.onscroll=function(){};
 }
+/*-----------------get and set API data to store------------------*/
+  const API = "https://raw.githubusercontent.com/IanMuler/React-Cartoonflix/main/src/API.json"
+  const [media, setMedia] = useState([]);
+
+  useEffect(() => {
+     fetch(API)
+       .then(response => response.json())
+       .then(data => setMedia(data))
+   }, [] )
+
+
+
 /*-------------------------------------------------*/
 
 return (
@@ -66,7 +68,7 @@ return (
         <Route exact path="/home" render={() => 
 
           (<Home 
-          media={media} 
+          media={media}
           getProfile={getProfile}
           profile={profileStorage} 
           disableScrolling={disableScrolling} 
@@ -75,7 +77,7 @@ return (
           <Route exact path="/series" render={() => 
 
           (<Series 
-          media={media} 
+          media={media}
           getProfile={getProfile} 
           profile={profileStorage} 
           disableScrolling={disableScrolling} 
@@ -83,8 +85,8 @@ return (
 
           <Route exact path="/movies" render={() => (
           
-          <Movies 
-          media={media} 
+          <Movies
+          media={media}
           getProfile={getProfile} 
           profile={profileStorage} 
           disableScrolling={disableScrolling} 

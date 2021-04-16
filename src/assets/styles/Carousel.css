@@ -27,7 +27,7 @@
 
 .left-arrow, .right-arrow{
     border: none;
-    width: 5.14rem;
+    width: 5.13rem;
     outline:none;
     background: rgba(0,0,0,.4);
     position: absolute;
@@ -39,6 +39,11 @@
     cursor: pointer;
     z-index: 1;
     opacity: 1;
+}
+
+#arrow-space{
+    width: 5.13rem;
+    height: auto;
 }
 
 .right-arrow{

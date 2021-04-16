@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from 'react'
-// import { Link } from 'react-router-dom';
 import '../assets/styles/SeriePic.css'
 import ZoomSeriePic from '../components/ZoomSeriePic';
 import InfoModal from '../components/InfoModal';
@@ -40,7 +39,6 @@ const [modal, setModal] = useState(false)
 
 const renderModal = () => {
     setModal(true)
-    console.log((props))
     props.disableScrolling()
 }
 

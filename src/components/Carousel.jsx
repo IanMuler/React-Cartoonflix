@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, Fragment } from 'react'
 // import { Link } from 'react-router-dom';
 import SeriePic from '../components/SeriePic'
 import MoviePic from '../components/MoviePic'
@@ -54,11 +54,12 @@ let rightArrow;
 const divPics = `pics ${props.classPic}`;
 const buttonRightArrow = `right-arrow ${props.classPic}`
 
-
+/*------------------set class to top carousel----------------------------*/
 let divCarouselContainer;
 (props.top) ?
 divCarouselContainer = "carousel-container top" :
 divCarouselContainer = "carousel-container"
+/*---------------------------------------------------------------------- */
 
 const seriesLength = props.series?.length;
 const moviesLength = props.movies?.length;
@@ -75,10 +76,13 @@ return (
 
                 <div className={divPics}>
                     {props.series?.map((serie, i) =>
+                        
                         (seriesLength === i + 1)?
+                        <Fragment
+                        key={serie.id}
+                        >
                         <SeriePic
                         {...props}
-                        key={serie.id}
                         id={serie.id}
                         title={serie.title}
                         img={serie.img}
@@ -86,9 +90,11 @@ return (
                         seasons={serie.seasons} 
                         banner={serie.banner}
                         synopsis={serie.synopsis}
-                        className="serie-pic last-pic"  
+                        className="serie-pic last-pic"
                         isMoving={isMoving} 
                         />
+                        <div><div id="arrow-space"></div></div> 
+                        </Fragment>
                         :
                         <SeriePic
                         {...props}
@@ -100,7 +106,7 @@ return (
                         seasons={serie.seasons} 
                         banner={serie.banner}
                         synopsis={serie.synopsis} 
-                        className="serie-pic"   
+                        className="serie-pic"
                         isMoving={isMoving} 
                         />   
                     )}

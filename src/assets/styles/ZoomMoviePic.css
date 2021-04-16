@@ -10,7 +10,7 @@
     box-shadow: rgb(0 0 0 / 75%) 0px 3px 10px;
     z-index: 2;
     transform: scale(1.2);
-    animation: scaleXY 0.2s;
+    animation: scaleMovie 0.2s;
 }
 
 #zoom-movie-pic img{
