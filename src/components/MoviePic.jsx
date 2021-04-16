@@ -6,6 +6,7 @@ import InfoModal from '../components/InfoModal'
 
 function MoviePic(props) {
 
+
 /*--------------------zoom card functions-------------------*/
 
 const [isHovering, setIsHovering] = useState(false)

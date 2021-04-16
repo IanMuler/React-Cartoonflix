@@ -13,10 +13,10 @@ function Home_carousels(props) {
     })
 
     const { myList } = props;
-    const seriesCn = props.media.series.cn;
-    const seriesDisney = props.media.series.disney;
-    const seriesFoxKids = props.media.series.foxkids;
-    const movies = props.media.movies;
+    const seriesCn = props.media?.series.cn;
+    const seriesDisney = props.media?.series.disney;
+    const seriesFoxKids = props.media?.series.foxkids;
+    const movies = props.media?.movies;
 
 
 

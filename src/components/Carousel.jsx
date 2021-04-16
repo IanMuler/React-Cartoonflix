@@ -59,7 +59,9 @@ let divCarouselContainer;
 (props.top) ?
 divCarouselContainer = "carousel-container top" :
 divCarouselContainer = "carousel-container"
+
 /*---------------------------------------------------------------------- */
+
 
 const seriesLength = props.series?.length;
 const moviesLength = props.movies?.length;

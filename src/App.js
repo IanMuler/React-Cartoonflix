@@ -4,6 +4,7 @@ import Intro from './pages/Intro.jsx';
 import Home from './pages/Home.jsx';
 import Series from './pages/Series.jsx';
 import Movies from './pages/Movies.jsx';
+import MyList from './pages/MyList.jsx';
 import Error from './pages/Error.jsx';
 import './assets/styles/App.css'
 
@@ -87,6 +88,14 @@ return (
           
           <Movies
           media={media}
+          getProfile={getProfile} 
+          profile={profileStorage} 
+          disableScrolling={disableScrolling} 
+          enableScrolling={enableScrolling}/>)}/>
+
+          <Route exact path="/my-list" render={() => (
+          
+          <MyList
           getProfile={getProfile} 
           profile={profileStorage} 
           disableScrolling={disableScrolling} 

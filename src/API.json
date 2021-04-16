@@ -516,6 +516,8 @@
   "profiles": {
     "courage": {
       "home": {
+        "id": "5",
+        "img":"https://i.ibb.co/q1JRqvS/List-knd.webp",
         "preview": "https://i.ibb.co/tMjQcVL/courage-preview.webp",
         "png": "https://i.ibb.co/X8WD2DS/courage-png.png",
         "synopsis": "The adventures of a cowardly dog who must overcome his own fears to heroically defend his unknowing farmer owners from all kinds of dangers.",
@@ -525,6 +527,8 @@
         "seasons": 3
       },
       "series": {
+        "id": "56",
+        "img": "https://i.ibb.co/d43q39H/My-List-KND.webp",
         "preview": "https://i.ibb.co/b16KQ8M/courage-series-preview.webp",
         "png": "https://i.ibb.co/dJFyx42/Png-knd.png",
         "synopsis": "The series follows the adventures of a group of children who operate from a high-tech tree house, fighting against adults with advanced technology.",
@@ -534,6 +538,8 @@
         "seasons": 3 
       },
       "movies": {
+        "id": "52",
+        "img":"https://i.ibb.co/NFTFXg9/My-List-hercules.webp",  
         "preview": "https://i.ibb.co/QnJbjTd/courage-movie-preview.webp",
         "png": "https://i.ibb.co/Df6TFpv/courage-movie-png.png",
         "synopsis": "Hercules, a son of gods, needs to perform a rite of passage on Earth to prove himself worthy of living with the gods on Mount Olympus.",
@@ -545,6 +551,8 @@
     },
     "woody": {
       "home": {
+        "id": "24",
+        "img":"https://i.ibb.co/tBPKhS7/List-kuzcoserie.webp",
         "preview": "https://i.ibb.co/sKhxW5Q/woody-preview.webp",
         "png": "https://i.ibb.co/hXcFTKJ/woody-png.png",
         "synopsis": "The series centers on Kuzco, who must graduate from Kuzco Academy to become emperor of the Kuzconian Empire.",
@@ -554,6 +562,8 @@
         "seasons": 3  
       },
       "series": {
+        "id": "27",
+        "img":"https://i.ibb.co/1zxtJkx/List-phineasyferb.webp",
         "preview": "https://i.ibb.co/k2cQF8j/woody-series-preview.webp",
         "png": "https://i.ibb.co/p2vxhW5/woody-series-png.png",
         "synopsis": "Phineas and Ferb invent, scheme, and stay one step ahead of their bratty sister. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.",
@@ -563,6 +573,8 @@
         "seasons": 3
       },
       "movies": {
+        "id": "46",
+        "img":"https://i.ibb.co/Dzzv8p8/My-List-Toy-Story.webp",  
         "preview": "https://i.ibb.co/sqGJW7y/woody-movies-preview.webp",
         "png": "https://i.ibb.co/qFwNHwT/woody-movies-png.png",
         "synopsis": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
@@ -574,6 +586,8 @@
     },
     "ranger": {
       "home": {
+        "id": "36",
+        "img":"https://i.ibb.co/6PKWSBf/List-PRmightymorphin.webp",
         "preview": "https://i.ibb.co/B6RpwM3/ranger-preview.webp",
         "png": "https://i.ibb.co/vhVmhV5/ranger-png.png",
         "synopsis": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd and their monsters.",
@@ -583,6 +597,8 @@
         "seasons": 3  
       },
       "series": {
+        "id": "45",
+        "img":"https://i.ibb.co/DR3FWVN/List-digimon.webp",
         "preview": "https://i.ibb.co/tbx6QFR/ranger-series-preview.webp",
         "png": "https://i.ibb.co/DtnL5Sw/ranger-series-png.png",
         "synopsis": "A group of young teens is sent to the Digital World and paired up with their own powerful, morphing monster called the Digimon.",
@@ -592,6 +608,8 @@
         "seasons": 3  
       },
       "movies": {
+        "id": "48",
+        "img":"https://i.ibb.co/h74bmkk/My-List-Mulan.webp",  
         "preview": "https://i.ibb.co/G9PgKML/ranger-movies-preview.webp",
         "png": "https://i.ibb.co/4F5QWF7/ranger-movies-png.png",
         "synopsis": "Mulan takes her father's place and heads out to war. She must find a way to prove her worth and defend her honor.",

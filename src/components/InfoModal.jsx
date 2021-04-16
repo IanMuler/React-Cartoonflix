@@ -8,29 +8,34 @@ function InfoModal(props) {
 
 const [isAdded, setIsAdded] = useState(false)
 
-useEffect(() => {
-    if(props.myList.length !== 0){
+useEffect(() => { 
+    
     if(props.myList.find(item => item.id === props.id)){
     setIsAdded(true)}
     else{
     setIsAdded(false)
     }
-}
-})
-    
-/*---------close Modal with scape------*/
-useEffect(() => {
-document.addEventListener("keydown",handleKey)
-})
 
-const handleKey = (e)=>{
-if (e.key === 'Escape') {
-props.closeModal();
-document.removeEventListener("keydown",handleKey)
+    /*---------close Modal with scape------*/
+    document.addEventListener("keydown",handleKey)
+    const handleKey = (e)=>{
+        if (e.key === 'Escape') {
+        props.closeModal();
+        document.removeEventListener("keydown",handleKey)
+        }
+        }
+    /*-----------------------------------------*/
 }
-}
+)
 
-/*-----------------------------------------*/
+useEffect(() => { // componetWillUnmount para restaurar el scroll si se cierra el modal desde myList
+    return () => {
+        props.closeModal();;
+    }
+}, [])
+
+
+
 /*--------close with click out modal----------*/
 const handleClick = (e) => {
 
