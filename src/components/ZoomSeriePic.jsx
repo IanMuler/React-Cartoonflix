@@ -93,7 +93,14 @@ return (
         </div>
         <div className="zoom-pic-down-info">
             <span className="categorie">{props.categorie}</span>
-            <span className="duration">{props.seasons} Seasons</span>
+            {props.seasons &&
+            <span className="seasons">{props.seasons} 
+            {props.seasons === 1 ? " Season" :" Seasons"}
+            </span>
+            }
+            {props.duration &&
+            <span className="duration">{props.duration}</span>
+            }
         </div>
     </div>
 </div>

@@ -18,8 +18,6 @@ function Home_carousels(props) {
     const seriesFoxKids = props.media?.series.foxkids;
     const movies = props.media?.movies;
 
-
-
 return (
     <Fragment>
         {props.getMyList && myList.length !== 0 &&

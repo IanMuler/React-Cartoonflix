@@ -77,6 +77,7 @@ return (
                 duration={page.duration}
                 synopsis={page.synopsis}
                 myList={myList}
+                profile={props.profile}
                 closeModal={closeModal}
                 />
             }

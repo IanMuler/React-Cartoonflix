@@ -11,7 +11,7 @@ const [isAdded, setIsAdded] = useState(false)
 console.log(props.id, props.img)
 
 useEffect(() => { 
-    
+
     if(props.myList.find(item => item.id === props.id)){
     setIsAdded(true)}
     else{
@@ -20,16 +20,17 @@ useEffect(() => {
 
     /*---------close Modal with scape------*/
     document.addEventListener("keydown",handleKey)
-    const handleKey = (e)=>{
-        if (e.key === 'Escape') {
-        props.closeModal();
-        document.removeEventListener("keydown",handleKey)
-        }
-        }
-    /*-----------------------------------------*/
+
 }
 )
 
+const handleKey = (e)=>{
+    if (e.key === 'Escape') {
+        props.closeModal();
+        document.removeEventListener("keydown",handleKey)
+        }
+    }
+    
 useEffect(() => { // componetWillUnmount para restaurar el scroll si se cierra el modal desde myList
     return () => {
         props.closeModal();;

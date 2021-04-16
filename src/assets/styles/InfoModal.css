@@ -9,7 +9,7 @@
     z-index: 4;
     display: flex;
     justify-content: center;
-    padding-top: 3.4rem;
+    align-items: center;
     animation: opacity;
     animation-duration: 0.3s;
 }

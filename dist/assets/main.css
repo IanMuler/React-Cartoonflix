@@ -302,7 +302,7 @@ a:-webkit-any-link{
     z-index: 4;
     display: flex;
     justify-content: center;
-    padding-top: 3.4rem;
+    align-items: center;
     animation: opacity;
     animation-duration: 0.3s;
 }
@@ -512,6 +512,7 @@ a:-webkit-any-link{
 }
 .serie-pic{
     min-width: calc(20% - 0.3vw);
+    width: calc(20% - 0.3vw);
     height: 11vw;
     margin-right: 0.3vw;
     border-radius: 5px;
@@ -519,8 +520,8 @@ a:-webkit-any-link{
 }
 
 .serie-pic.last-pic{
-    min-width: calc(20% - 0.3vw + 5.1rem);
-    padding-right: 5.1rem;
+    min-width: calc(20% - 0.3vw);
+    margin: 0;
 }
 
 .serie-pic img{
@@ -542,7 +543,7 @@ a:-webkit-any-link{
     box-shadow: rgb(0 0 0 / 75%) 0px 3px 10px;
     z-index: 2;
     transform: scale(1.3);
-    animation: scaleXY 0.2s;
+    animation: scaleSerie 0.2s;
 }
 
 
@@ -640,7 +641,7 @@ a:-webkit-any-link{
     box-shadow: rgb(0 0 0 / 75%) 0px 3px 10px;
     z-index: 2;
     transform: scale(1.2);
-    animation: scaleXY 0.2s;
+    animation: scaleMovie 0.2s;
 }
 
 #zoom-movie-pic img{
@@ -753,7 +754,7 @@ a:-webkit-any-link{
 
 .left-arrow, .right-arrow{
     border: none;
-    width: 5.14rem;
+    width: 5.13rem;
     outline:none;
     background: rgba(0,0,0,.4);
     position: absolute;
@@ -765,6 +766,11 @@ a:-webkit-any-link{
     cursor: pointer;
     z-index: 1;
     opacity: 1;
+}
+
+#arrow-space{
+    width: 5.13rem;
+    height: auto;
 }
 
 .right-arrow{
@@ -867,6 +873,9 @@ padding-bottom: 3.5rem;
 .icon-github:hover{
     filter: brightness(2);
 }
+#my-list-page{
+    padding-top: 7rem;
+}
 #error {
     position: fixed;
     top: 0;
@@ -914,6 +923,7 @@ html{
 #app {
     width: 100%;
     height: 100%;
+    min-height: 100vh;
     font-family:'Netflix Sans', Arial, Helvetica, sans-serif;
     background: #141414;
 
@@ -942,12 +952,21 @@ html{
     100% { transform: rotate(360deg); }
 }
 
-@keyframes scaleXY {
+@keyframes scaleSerie {
     from{
         transform: scale(1);
     }
     to{
         transform: scale(1.3);
+    }
+}
+
+@keyframes scaleMovie {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
     }
 }
 

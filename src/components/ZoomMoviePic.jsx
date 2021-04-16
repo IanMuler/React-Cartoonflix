@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
 import { setFavorite, deleteFavorite } from '../actions'
 import '../assets/styles/ZoomMoviePic.css'
 
@@ -43,13 +44,14 @@ return (
     <div className="zoom-pic-down">
         <div className="zoom-pic-down-buttons">
             <div className="buttons-left">
+                <a href="https://stream02.peliscloud.net/public/dist/index.html?id=362ffed92dd3a060dc54576f1d4f1429">
                 <div id="zoom-pic__play-btn" className="buttons">
                 {/* PLAY */}                
                     <svg viewBox="0 0 24 24">
                         <path d="M6 4l15 8-15 8z" fill="currentColor"></path>
                     </svg>
                 </div>
-
+                </a>
                 {!isAdded &&
                 <div onClick={handleSetFavorite} className="buttons">
                 {/* ADD */}

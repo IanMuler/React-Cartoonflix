@@ -90,6 +90,7 @@ return (
                         img={serie.img}
                         categorie={serie.categorie}
                         seasons={serie.seasons} 
+                        duration={serie.duration}
                         banner={serie.banner}
                         synopsis={serie.synopsis}
                         className="serie-pic last-pic"
@@ -106,6 +107,7 @@ return (
                         img={serie.img}
                         categorie={serie.categorie}
                         seasons={serie.seasons} 
+                        duration={serie.duration}
                         banner={serie.banner}
                         synopsis={serie.synopsis} 
                         className="serie-pic"

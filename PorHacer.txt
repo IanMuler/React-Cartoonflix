@@ -1,3 +1,0 @@
-♦ Condicionar botones en ZoomMovie e InfoModal
-♦ Conectar redux con localStorage
-♦ MediaQueries

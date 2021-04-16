@@ -8,7 +8,7 @@ import MyList from './pages/MyList.jsx';
 import Error from './pages/Error.jsx';
 import './assets/styles/App.css'
 
-function App (props){
+function App (){
 
   /*---------------Scroll dark-----------------*/
   window.addEventListener("scroll", function(){
