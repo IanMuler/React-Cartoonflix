@@ -1,7 +1,7 @@
 .intro__main{
     text-align: center;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Netflix Sans', Arial, Helvetica, sans-serif;
     animation: opacity 0.3s linear, miniscaleXY 0.3s reverse linear;
 } 
 
@@ -9,6 +9,7 @@
     width: 100%;
     font-size: 3.5vw;
     letter-spacing: 1px;
+
 }
 
 .intro__ul{
@@ -93,5 +94,87 @@ a .profile-name{
     background-size: cover;
 }
 
+/*------------media queries--------------------*/
 
+@media (max-width: 800px){
 
+.intro__main{
+    width: 45%;
+}
+
+.intro__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.intro__li{
+   width: 18vw;
+   height: 21vw;
+   margin-bottom: 2rem;
+}
+
+.profile-pic .profile-img, .profile-pic .add-img {
+    width: 18vw;
+    height: 18vw;
+}
+
+.profile-pic .add-img img {
+    width: 18vw;
+}
+
+.profile-border {
+    width: 18vw;
+    height: 18vw;
+}
+
+a .profile-name {
+    font-size: 2.7vw;
+    top: 19vw;
+
+}
+
+.intro__main .profile-title {
+    font-size: 4vw;
+}
+
+}
+
+@media (max-width: 800px){
+
+    .intro__main{
+        width: 55%;
+    }
+    
+    .intro__li{
+       width: 23vw;
+       height: 27vw;
+       margin-right: 0;
+       margin-bottom: 2rem;
+    }
+    
+    .profile-pic .profile-img, .profile-pic .add-img {
+        width: 23vw;
+        height: 23vw;
+    }
+    
+    .profile-pic .add-img img {
+        width: 23vw;
+    }
+    
+    .profile-border {
+        width: 23vw;
+        height: 23vw;
+    }
+    
+    a .profile-name {
+        font-size: 3vw;
+        top: 24vw;
+    
+    }
+    
+    .intro__main .profile-title {
+        font-size: 4vw;
+    }
+    
+    }

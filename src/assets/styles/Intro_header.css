@@ -17,3 +17,11 @@
 .intro__nav img{
     width: 15rem; 
 }
+
+/*----------media queries-----------------*/
+
+@media (max-width: 400px){
+.intro__nav{
+    padding: 0 2.5rem;
+}
+}
