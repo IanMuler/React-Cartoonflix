@@ -99,7 +99,7 @@ return (
 
 
             <div className="buttons">
-                <Link to="/">
+                <a href={props.mediaLink}>
                 <button className="play-btn">
                 <div className="icon-play" role="presentation">
                     <svg viewBox="0 0 24 24">
@@ -108,7 +108,7 @@ return (
                 </div>
                     Play
                 </button>
-                </Link>
+                </a>
 
                 {!isAdded &&
                 <div className="button-plus" onClick={handleSetFavorite}>

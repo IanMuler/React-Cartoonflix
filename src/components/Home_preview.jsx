@@ -80,6 +80,7 @@ return (
                 seasons={page.seasons}
                 duration={page.duration}
                 synopsis={page.synopsis}
+                mediaLink={page.mediaLink}
                 myList={myList}
                 profile={props.profile}
                 closeModal={closeModal}
