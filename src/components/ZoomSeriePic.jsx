@@ -35,7 +35,8 @@ const handleSetFavorite = () => {
         "categorie": props.categorie,
         "img": props.img, 
         "banner": props.banner,
-        "synopsis": props.synopsis
+        "synopsis": props.synopsis,
+        "mediaLink": props.mediaLink
         }, 
         props.profile
     )
@@ -48,7 +49,7 @@ const handleDeleteFavorite = (itemId) => {
 
 return (
 <div id="zoom-pic" style={props.style} onMouseLeave={props.deshovering} ref={ZoomSeriePicRef}>
-    <img src={props.img} alt="" />
+    <img src={props.img} onClick={props.renderModal} alt="" />
     <div className="zoom-pic-down">
         <div className="zoom-pic-down-buttons">
             <div className="buttons-left">

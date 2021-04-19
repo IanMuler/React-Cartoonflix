@@ -89,6 +89,7 @@ return (
                         seasons={serie.seasons} 
                         duration={serie.duration}
                         banner={serie.banner}
+                        mediaLink={serie.mediaLink}
                         synopsis={serie.synopsis}
                         className="serie-pic last-pic"
                         isMoving={isMoving} 
@@ -106,6 +107,7 @@ return (
                         seasons={serie.seasons} 
                         duration={serie.duration}
                         banner={serie.banner}
+                        mediaLink={serie.mediaLink}
                         synopsis={serie.synopsis} 
                         className="serie-pic"
                         isMoving={isMoving} 
@@ -123,6 +125,7 @@ return (
                         categorie={movie.categorie}
                         duration={movie.duration} 
                         banner={movie.banner}
+                        mediaLink={movie.mediaLink}
                         synopsis={movie.synopsis}
                         className="movie-pic last-pic"  
                         isMoving={isMoving}    
@@ -139,6 +142,7 @@ return (
                         duration={movie.duration}
                         banner={movie.banner}
                         synopsis={movie.synopsis}
+                        mediaLink={movie.mediaLink}
                         className="movie-pic"   
                         isMoving={isMoving}       
                         />  

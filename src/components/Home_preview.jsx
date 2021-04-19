@@ -50,7 +50,7 @@ return (
                 <div className="synopsis">{page.synopsis}</div>
             </div>
             <div className="principal-buttons">
-                <Link to="/">
+                <a href={page.mediaLink}>
                 <button className="play-btn">
                 <div className="icon-play" role="presentation">
                     <svg viewBox="0 0 24 24">
@@ -59,7 +59,7 @@ return (
                 </div>
                     Play
                 </button>
-            </Link>
+            </a>
                 <button className="info-btn" onClick={renderModal} >
                     <div className="icon-info" role="presentation">
                         <svg viewBox="0 0 24 24">

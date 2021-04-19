@@ -65,7 +65,8 @@ props.setFavorite(
 "categorie": props.categorie,
 "img": props.img,
 "banner": props.banner,
-"synopsis": props.synopsis
+"synopsis": props.synopsis,
+"mediaLink": props.mediaLink
 },
 props.profile
     )
