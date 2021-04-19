@@ -3,11 +3,13 @@
     height: 50vw;
     min-height: 30rem;
     background-size: cover;
+    background-position: center;
     padding: var(--padding-container);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 5vw;
+    color: white;
 }
 
 .preview-container{
@@ -22,27 +24,9 @@
     width: 27vw;
 }
 
-.principal-preview{
-    font-size: 1.4vw;
-    color: white;
-}
-
 .principal-buttons{
     margin-top: 2vw;
     display: flex;
-}
-
-.play-btn{
-    padding: 0.8rem;
-    padding-left: 2rem;
-    padding-right: 2.4rem;
-    border-radius: 5px;
-    font-size: 1.2vw;
-    border: none;
-    font-weight: 700;
-    background: white;
-    cursor: pointer;
-    margin-right: 1rem;
 }
 
 .play-btn span{
@@ -54,7 +38,7 @@
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-.info-btn{
+.info-btn, .play-btn{
     padding: 0.8rem;
     padding-left: 2rem;
     padding-right: 2.4rem;
@@ -67,14 +51,19 @@
     display: flex;
     align-items: center;
     color: white;
+}
 
+.play-btn{
+    margin-right: 1rem;
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .info-btn:hover{
     background-color:rgba(109, 109, 110, 0.4);
 }
 
-.icon-info{
+.icon-info, .icon-play{
     width: 2.4rem;
     height: 2.4rem;
     margin-right: 1rem;
@@ -97,7 +86,82 @@
     line-height: normal;
     width: 100%;
     font-size: 1.4vw;
-    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 60%);
     margin-top: 1.3vw;
-    -webkit-font-smoothing: antialiased;
+}
+
+/*-------------------------media queries-----------------*/
+
+@media (max-width: 800px) and (max-aspect-ratio: 1/1){
+
+    .principal-preview{
+    padding-top: 14rem;
+    height: 80vw;
+    }
+
+    .preview-container{
+        width: 50%;
+    }
+
+    .principal-png-btm{
+        width: 35vw;
+    }
+
+    .info-btn, .play-btn{
+    font-size: 1.4vw;
+    padding: 0.6rem;
+    padding-left: 1.7rem;
+    padding-right: 2rem;
+    }
+    .icon-info, .icon-play{
+    width: 2rem;
+    height: 2rem;
+    }
+
+    .synopsis{
+    font-size: 1.8vw;
+    }
+
+    .age-categorie{
+        top: 50vw;
+        font-size: 2vw;
+        padding: .5vw 3.6vw .5vw .8vw;
+    }
+}
+
+@media (max-width: 400px) and (max-aspect-ratio: 1/1){
+
+    .principal-preview{
+    height: 90vw;
+    padding-bottom: 10vw;
+    }
+
+    
+    .preview-container{
+        width: 65%;
+    }
+
+    .principal-png-btm{
+        width: 38vw;
+    }
+
+    .info-btn, .play-btn{
+    font-size: 1.8vw;
+    padding: 0.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.6rem;
+    }
+
+    .icon-info, .icon-play{
+    width: 1.4rem;
+    height: 1.4rem;
+    }
+
+    .synopsis{
+    font-size: 2.4vw;
+    }
+
+    .age-categorie{
+        top: 60vw;
+    }
 }

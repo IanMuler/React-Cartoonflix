@@ -5,45 +5,45 @@ import '../assets/styles/Intro_main.css'
 function Intro_main(props) {
 
 return (
-    <main className="intro__main">
+<main className="intro__main">
     <div className="profile-title">Who's watching?</div>
     <div>
         <ul className="intro__ul">
-            <li className="intro__li">             
-                <Link className="profile-pic" to="/home">
-                    <div id="courage" className="profile-img">
-                        <div className="profile-border" value="courage" onClick={props.getProfile}>
+            <Link className="profile-link" to="/home" value="courage" onClick={props.getProfile}>
+            <li className="intro__li" value="courage" onClick={props.getProfile}>
+                <div id="courage" className="profile-img">
+                    <div className="profile-border" value="courage" onClick={props.getProfile}>
                     </div>
-                    </div>
-                    <div className="profile-name">Courage</div>
-                </Link>
+                </div>
+                <div className="profile-name" value="courage" onClick={props.getProfile}>Courage</div>
             </li>
-            <li className="intro__li">
-                <Link className="profile-pic" to="/home">
-                    <div id="woody"className="profile-img">
-                        <div className="profile-border" value="woody" onClick={props.getProfile}>
+            </Link>
+            <Link className="profile-link" to="/home" value="woody" onClick={props.getProfile}>
+            <li className="intro__li" value="woody" onClick={props.getProfile}>
+                <div id="woody" className="profile-img">
+                    <div className="profile-border" value="woody" onClick={props.getProfile}>
                     </div>
-                    </div>
-                    <div className="profile-name">Woody</div>
-                </Link>
+                </div>
+                <div className="profile-name" value="woody" onClick={props.getProfile}>Woody</div>
             </li>
-            <li className="intro__li">
-                <Link className="profile-pic" to="/home">
-                    <div id="ranger" className="profile-img">
-                        <div className="profile-border" value="ranger" onClick={props.getProfile}>
+            </Link>
+            <Link className="profile-link" to="/home" value="ranger" onClick={props.getProfile}>
+            <li className="intro__li" value="ranger" onClick={props.getProfile}>
+                <div id="ranger" className="profile-img">
+                    <div className="profile-border" value="ranger" onClick={props.getProfile}>
                     </div>
-                    </div>
-                    <div className="profile-name">Ranger</div>
-                </Link>
+                </div>
+                <div className="profile-name" value="ranger" onClick={props.getProfile}>Ranger</div>
             </li>
-            <li className="intro__li" id="li-add">
-                <Link className="profile-pic"  to="/error">
-                    <div className="add-img">
-                        <img src="https://i.ibb.co/TH0n1ng/File-Picture-Add.png" alt="Add"/>
-                    </div>
-                    <div className="profile-name">Add Profile</div>
-                </Link>
+            </Link>
+            <Link id="link-add" className="profile-link" to="/add-profile">
+            <li className="intro__li" >
+                <div className="add-img">
+                    <img src="https://i.ibb.co/TH0n1ng/File-Picture-Add.png" alt="Add" />
+                </div>
+                <div className="profile-name">Add Profile</div>
             </li>
+            </Link>
 
         </ul>
     </div>

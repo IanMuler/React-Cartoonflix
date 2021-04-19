@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background: linear-gradient(to top,rgba(20,20,20,1)75%,rgba(20,20,20,0.66)87%, rgba(20,20,20,0.33)93%, rgba(20,20,20,0)100%); 
-    color: white;
+    color: #ffffffea;
     line-height: 1.25vw;
     font-size: 1.1vw; 
     margin-bottom: 3.5vw;
@@ -20,14 +20,13 @@
 .carousel{
     width: 100%;
     height: auto;
-    color: white;
-    font-size: 20px;
+    color: #e5e5e5;
     position: relative;
 }
 
 .left-arrow, .right-arrow{
     border: none;
-    width: 5.13rem;
+    width: var(--right-container);
     outline:none;
     background: rgba(0,0,0,.4);
     position: absolute;
@@ -42,7 +41,7 @@
 }
 
 #arrow-space{
-    width: 5.13rem;
+    width: var(--right-container);
     height: auto;
 }
 
@@ -53,12 +52,14 @@
 .left-arrow img, .right-arrow img {
     width: 3rem;
     height: 4rem;
-    display: var(--arrow-display, none);
+    display: none;
 }
 
-.left-arrow:hover, .right-arrow:hover{
-    --arrow-display: block;
-    background: rgba(0,0,0,.6);
+.left-arrow:hover{
+background: rgba(0,0,0,.6);
+}
+.left-arrow:hover img, .right-arrow:hover img{
+    display: block;  
 } 
 
 .pics{
@@ -68,4 +69,34 @@
     padding: var(--padding-container);
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+/*-------------------------media queries-----------------*/
+
+@media (max-width: 800px) and (max-aspect-ratio: 1/1){
+
+    .carousel-container{
+        margin-bottom: 6vw;
+    }
+    
+
+    .carousel-container .carousel-title{
+    line-height: 0.7vw;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    }
+
+    .left-arrow img, .right-arrow img {
+        width: 1.5rem;
+        height: 2rem;
+    }
+}
+
+@media (max-width: 400px) and (max-aspect-ratio: 1/1){
+    
+    .carousel-container .carousel-title{
+    font-size: 4vw;
+    }
+
 }

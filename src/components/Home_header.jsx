@@ -16,8 +16,8 @@ function Home_header(props) {
 /*--------------------profiles dropdown list--------------------------------*/
 const removeDropdownClass = () => {
     
-    let dropdown = document.querySelector('.nav-dropdown-list')
-    let arrow = document.querySelector('.transform-arrow')
+    const dropdown = document.querySelector('.nav-dropdown-list')
+    const arrow = document.querySelector('.transform-arrow')
     
     window.mytimeout = setTimeout(function(){
         dropdown.classList.remove('visible')
@@ -25,18 +25,26 @@ const removeDropdownClass = () => {
     }, 400);
 }
 
+const forceRemoveDropdownClass = () => {
+    
+    const dropdown = document.querySelector('.nav-dropdown-list')
+    const arrow = document.querySelector('.transform-arrow')
+    
+        dropdown.classList.remove('visible')
+        arrow.classList.remove('rotated')
+}
+
 const addDropdownClass = () => {
 
-    let dropdown = document.querySelector('.nav-dropdown-list');
-    let arrow = document.querySelector('.transform-arrow')
+    const dropdown = document.querySelector('.nav-dropdown-list');
+    const arrow = document.querySelector('.transform-arrow')
 
     dropdown.classList.add('visible')
     arrow.classList.add('rotated')
 
-
     clearTimeout(window.mytimeout);    
-   
 }
+
 /*------------------------------------------------------------*/
 
 const profileBackground =
@@ -64,17 +72,18 @@ return (
                     <li><Link id="movies" to="/movies">Movies</Link></li>
                     <li><Link id="my-list" to="/my-list">My List</Link></li>
                 </ul>
+
             </div>
             <div className="nav-secondary">
                 <div className="btn icon-search"></div>
-                <div onMouseOver={addDropdownClass} onMouseLeave={removeDropdownClass}  className="nav-dropdown">
+                <div onMouseOver={addDropdownClass} onMouseLeave={removeDropdownClass} className="nav-dropdown">
                     <div className="nav-profile" style={profileBackground}></div>
                     <span className="transform-arrow">▼</span>
 
                     <div className="nav-dropdown-list">
 
                         {props.profile !== "courage" &&
-                        <Link to="/home">
+                        <Link to="/home" onClick={forceRemoveDropdownClass}>
                         <div onClick={props.getProfile} value="courage" className="nav-profile-item">
                             <div onClick={props.getProfile} value="courage" className="nav-profile first"></div>
                             <span onClick={props.getProfile} value="courage">Courage</span>
@@ -82,7 +91,7 @@ return (
                         </Link>
                         }
                         {props.profile !== "woody" &&
-                        <Link to="/home">
+                        <Link to="/home" onClick={forceRemoveDropdownClass}>
                         <div onClick={props.getProfile} value="woody" className="nav-profile-item">
                             <div onClick={props.getProfile} value="woody" className="nav-profile second"></div>
                             <span onClick={props.getProfile} value="woody">Woody</span>
@@ -90,7 +99,7 @@ return (
                         </Link>
                         }
                         {props.profile !== "ranger" &&
-                        <Link to="/home">
+                        <Link to="/home" onClick={forceRemoveDropdownClass}>
                         <div onClick={props.getProfile} value="ranger" className="nav-profile-item">
                             <div onClick={props.getProfile} value="ranger" className="nav-profile third"></div>
                             <span onClick={props.getProfile} value="ranger">Ranger</span>

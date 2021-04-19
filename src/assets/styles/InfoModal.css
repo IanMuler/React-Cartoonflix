@@ -12,10 +12,11 @@
     align-items: center;
     animation: opacity;
     animation-duration: 0.3s;
+    color: white;
 }
 
 .info-modal__banner{
-    width: 70rem;   
+    width: 50vw;   
     height: fit-content;
     border-radius: 5px;
     overflow: hidden;
@@ -60,7 +61,8 @@
 .info-modal__banner-info h3{
     margin-bottom: 3rem;
     text-shadow: 2px 2px 2px black;
-    font-size: 2rem
+    font-size: 2rem;
+    line-height: 1.2;
 }
 
 .info-modal__banner-info .buttons {
@@ -113,4 +115,74 @@
     display: block;
     width: 65%;
     font-size: 1.6rem;
+}
+
+/*-------------------------media queries-----------------*/
+
+@media (max-width: 800px) and (max-aspect-ratio: 1/1){
+
+    .info-modal__banner{
+        width: 80vw;   
+    }
+
+    .info-modal__banner-info{
+        padding: 0 0 2rem 2rem;
+    }
+ 
+    .icon-close{
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .info-modal__banner-info .buttons .button-plus{
+        width: 4.5vw;
+        height: 4.5vw;
+        margin-left: 0.5rem;
+        border: 2px solid rgb(175, 175, 175, 0.8);
+    }
+
+    .banner-info__top-info{
+        margin-top: 4vw;
+        font-size: 1.3rem;
+    }
+
+    .info-modal__banner-info .synopsis{
+        width: 75%;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 400px) and (max-aspect-ratio: 1/1){
+
+    .info-modal__banner{
+        width: 90vw;   
+    }
+
+    .info-modal__banner-info{
+        padding: 0 0 2rem 1rem;
+    }
+
+    .info-modal__img-div{
+        height: 30rem;
+    }
+
+    .icon-close{
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+
+    .info-modal__banner-info .buttons .button-plus{
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+
+    .banner-info__top-info{
+        margin-top: 7vw;
+        font-size: 1.3rem;
+    }
+
+    .info-modal__banner-info .synopsis{
+        width: 80%;
+        font-size: 1.2rem;
+    }
 }

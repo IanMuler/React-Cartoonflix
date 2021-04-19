@@ -5,11 +5,12 @@ import Carousel from '../components/Carousel'
 
 function Home_carousels(props) {
     
-    const [seriesTop, setSeriesTop] = useState()
+    const [carouselTop, setCarouselTop] = useState()
     
     useEffect(() => {
-        if(props.getMyList && myList.length !== 0){ setSeriesTop(false) }
-        else{ setSeriesTop(true) }
+        /* en caso de no tener MY LIST el siguiente carousel pasa a ser el TOP (primero)*/
+        if(props.getMyList && myList.length !== 0){ setCarouselTop(false) }
+        else{ setCarouselTop(true) }
     })
 
     const { myList } = props;
@@ -25,7 +26,7 @@ return (
         }
         {props.getSeries &&
         <Fragment>
-        <Carousel series={seriesCn} classPic="cn" title="Cartoon Network" top={seriesTop} {...props} />
+        <Carousel series={seriesCn} classPic="cn" title="Cartoon Network" top={carouselTop} {...props} />
         <Carousel series={seriesDisney} classPic="disney" title="Disney" {...props} />
         <Carousel series={seriesFoxKids} classPic="fox-kids" title="Fox Kids / Jetix" {...props} />
         </Fragment>

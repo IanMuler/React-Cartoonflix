@@ -100,7 +100,11 @@ return (
             <div className="buttons">
                 <Link to="/">
                 <button className="play-btn">
-                    <span>►</span>
+                <div className="icon-play" role="presentation">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M6 4l15 8-15 8z" fill="currentColor"></path>
+                        </svg>
+                </div>
                     Play
                 </button>
                 </Link>

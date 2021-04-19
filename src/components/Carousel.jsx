@@ -1,29 +1,39 @@
-import React, { useState, Fragment } from 'react'
-// import { Link } from 'react-router-dom';
+import React, { useState, useEffect, Fragment } from 'react'
 import SeriePic from '../components/SeriePic'
 import MoviePic from '../components/MoviePic'
 import '../assets/styles/Carousel.css'
 
 function Carousel(props) {
 
-/*--------------------carousel function-----------------*/
+const [carousel, setCarousel] = useState()
+const [rightArrow, setRightArrow] = useState()
 
+const classPics = `pics ${props.classPic}`;
+const classButtonRight = `right-arrow ${props.classPic}`
+const [classButtonLeft, setClassButtonLeft] = useState("d-none") //esconde LEFT ARROW hasta realizar moveRight
+
+const seriesLength = props.series?.length;
+const moviesLength = props.movies?.length;
+
+let carouselWidth;
+
+useEffect(() => {
+    setCarousel(document.querySelector(`.pics.${props.classPic}`));
+    setRightArrow(document.querySelector(`.right-arrow.${props.classPic}`))
+})
+    
+
+/*--------------------carousel functions-----------------*/
 const [isMoving, setIsMoving] = useState(false);
-const [buttonLeftArrow, setButtonLeftArrow] = useState("d-none")
-
-let rightArrow;
-
+    
     const moveRight = () => {
         if(isMoving === false){
-        const carousel = document.querySelector(`.pics.${props.classPic}`);
-        const carouselWidth = carousel.offsetWidth;
-
-        rightArrow = document.querySelector(`.right-arrow.${props.classPic}`)
+        carouselWidth = carousel.offsetWidth;
         carousel.scrollLeft += (carouselWidth - rightArrow.offsetWidth*2) 
         
-        setButtonLeftArrow(`left-arrow`)
+        setClassButtonLeft(`left-arrow`) 
 
-        setIsMoving(true);
+        setIsMoving(true); // booleano asignado para que la función no se llamada hasta asegurarse que terminó de moverse
         setTimeout(
             function() {
                 setIsMoving(false)}
@@ -33,11 +43,7 @@ let rightArrow;
 
     const moveLeft = () => {
         if(isMoving === false){
-        const carousel = document.querySelector(`.pics.${props.classPic}`);
-        const carouselWidth = carousel.offsetWidth;
-
-        rightArrow = document.querySelector(`.right-arrow.${props.classPic}`)
-
+        carouselWidth = carousel.offsetWidth;
         carousel.scrollLeft -= (carouselWidth - rightArrow.offsetWidth*2)
 
         setIsMoving(true);
@@ -49,34 +55,25 @@ let rightArrow;
     } 
 
 /*------------------------------------------------------------------------*/
-
-
-const divPics = `pics ${props.classPic}`;
-const buttonRightArrow = `right-arrow ${props.classPic}`
-
 /*------------------set class to top carousel----------------------------*/
-let divCarouselContainer;
+let classCarouselContainer;
 (props.top) ?
-divCarouselContainer = "carousel-container top" :
-divCarouselContainer = "carousel-container"
+classCarouselContainer = "carousel-container top" :
+classCarouselContainer = "carousel-container"
 
 /*---------------------------------------------------------------------- */
 
-
-const seriesLength = props.series?.length;
-const moviesLength = props.movies?.length;
-
 return (
 
-<section className={divCarouselContainer} >
+<section className={classCarouselContainer} >
             <h3 className="carousel-title">{props.title}</h3>
             <div className="carousel">
 
-                <button id="left-arrow" onClick={moveLeft} dir="left" className={buttonLeftArrow}>
+                <button id="left-arrow" onClick={moveLeft} dir="left" className={classButtonLeft}>
                     <img dir="left" src="https://i.ibb.co/9TF3Gw9/left-arrow.png" alt=""/>
                 </button>
 
-                <div className={divPics}>
+                <div className={classPics}>
                     {props.series?.map((serie, i) =>
                         
                         (seriesLength === i + 1)?
@@ -148,7 +145,7 @@ return (
                         )}
                 </div>
 
-                <button onClick={moveRight} dir="right" className={buttonRightArrow}>
+                <button onClick={moveRight} dir="right" className={classButtonRight}>
                     <img dir="right" src="https://i.ibb.co/FKbRLV9/right-arrow.png" alt=""/>
                 </button>
             </div>

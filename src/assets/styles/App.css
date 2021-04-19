@@ -30,6 +30,23 @@ html{
     display: none;
 }
 
+/*----------------Media queries---------------------*/
+
+@media (max-width: 800px) and (max-aspect-ratio: 1/1){
+
+    #app {
+    --padding-container: 0 3rem;
+    --right-container: 3rem;
+    }
+}
+
+@media (max-width: 400px) and (max-aspect-ratio: 1/1){
+
+    #app {
+    --padding-container: 0 2.5rem;
+    --right-container: 2.5rem;
+    }
+}
 /*----------------Keyframes----------------------*/
 
 @keyframes opacity{
