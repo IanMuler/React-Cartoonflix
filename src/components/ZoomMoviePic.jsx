@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { setFavorite, deleteFavorite } from '../actions'
@@ -8,12 +8,20 @@ function ZoomMoviePic(props) {
 
 const [isAdded, setIsAdded] = useState(false)
 
+let ZoomMoviePicRef = useRef();
+
 useEffect(() => {
     if(props.myList.find(item => item.id === props.id)){
     setIsAdded(true)}
     else{
     setIsAdded(false)
     }
+
+    document.addEventListener("touchstart", (e) => {        //cerrar al TOUCH fuera del componente
+        if(!ZoomMoviePicRef.current.contains(e.target)){
+            props.deshovering()
+        }
+    })
 }) 
 
 const handleSetFavorite = () => {
@@ -37,12 +45,12 @@ props.deleteFavorite(itemId, props.profile)
 
 
 return (
-<div id="zoom-movie-pic" style={props.style} onMouseLeave={props.onMouseLeave}>
+<div id="zoom-movie-pic" style={props.style} onMouseLeave={props.deshovering} ref={ZoomMoviePicRef}>
     <img src={props.imgMovie} alt="" />
     <div className="zoom-pic-down">
         <div className="zoom-pic-down-buttons">
             <div className="buttons-left">
-                <a href="https://stream02.peliscloud.net/public/dist/index.html?id=362ffed92dd3a060dc54576f1d4f1429">
+                <a href={props.mediaLink}>
                 <div id="zoom-pic__play-btn" className="buttons">
                 {/* PLAY */}                
                     <svg viewBox="0 0 24 24">

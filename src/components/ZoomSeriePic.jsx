@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import { connect } from 'react-redux'
 import { setFavorite, deleteFavorite } from '../actions'
 import '../assets/styles/ZoomSeriePic.css'
@@ -7,6 +7,8 @@ function ZoomSeriePic(props) {
 
  const [isAdded, setIsAdded] = useState(false)
 
+ let ZoomSeriePicRef = useRef();
+
 useEffect(() => {
    
     if(props.myList.find(item => item.id === props.id)){
@@ -14,6 +16,13 @@ useEffect(() => {
     else{
     setIsAdded(false)
     }
+
+    document.addEventListener("touchstart", (e) => { //cerrar al TOUCH fuera del componente
+        if(!ZoomSeriePicRef.current.contains(e.target)){
+            props.deshovering()
+        }
+    })
+
 })
  
 
@@ -36,18 +45,21 @@ const handleDeleteFavorite = (itemId) => {
     props.deleteFavorite(itemId, props.profile)
 }
 
+
 return (
-<div id="zoom-pic" style={props.style} onMouseLeave={props.onMouseLeave}>
+<div id="zoom-pic" style={props.style} onMouseLeave={props.deshovering} ref={ZoomSeriePicRef}>
     <img src={props.img} alt="" />
     <div className="zoom-pic-down">
         <div className="zoom-pic-down-buttons">
             <div className="buttons-left">
+            <a href={props.mediaLink}>
                 <div id="zoom-pic__play-btn" className="buttons"> 
                 {/* PLAY */}
                     <svg viewBox="0 0 24 24">
                         <path d="M6 4l15 8-15 8z" fill="currentColor"></path>
                     </svg>
                 </div>
+            </a>
 
                 {!isAdded &&
                 <div onClick={handleSetFavorite} className="buttons">

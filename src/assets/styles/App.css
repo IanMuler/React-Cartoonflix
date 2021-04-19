@@ -22,6 +22,9 @@ html{
     font-family:'Netflix Sans', Arial, Helvetica, sans-serif;
     background: #141414;
 
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* Quitar fondo azul al TOUCH en mobile */
+    -webkit-tap-highlight-color: transparent;
+
     --padding-container: 0 5.1rem;
     --right-container: 5.1rem;
 }

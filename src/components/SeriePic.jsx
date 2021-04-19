@@ -25,7 +25,8 @@ const hovering = (e) => {
 }
 
 const deshovering = () => {
-    window.secondtimer = setTimeout(function(){setIsHovering(false)},300); 
+    // window.secondtimer = setTimeout(function(){setIsHovering(false)},300); 
+   setIsHovering(false)
     timeroff();
 }
 
@@ -57,7 +58,7 @@ return (
     {isHovering &&
     <ZoomSeriePic 
     {...props}
-    onMouseLeave={deshovering}
+    deshovering={deshovering}
     renderModal={renderModal}
     style={zoomValue}
     />
