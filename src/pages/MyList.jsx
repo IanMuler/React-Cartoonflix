@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import Home_header from '../components/HOCs/Home_header';
-import Home_carousels from '../components/HOCs/Home_carousels'
-import Home_footer from '../components/HOCs/Home_footer';
+import Home_header from '../components/pageItems/Home_header';
+import Home_carousels from '../components/pageItems/Home_carousels'
+import Home_footer from '../components/pageItems/Home_footer';
 import '../assets/styles/pages/MyList.css'
 
 const MyList = (props) => {
