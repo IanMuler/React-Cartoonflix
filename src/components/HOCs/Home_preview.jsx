@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState} from 'react'
 import { connect } from 'react-redux'
-import { Link } from 'react-router-dom';
-import InfoModal from '../components/InfoModal';
-import '../assets/styles/Home_preview.css'  
+import InfoModal from '../items/InfoModal';
+import '../../assets/styles/HOCs/Home_preview.css'  
 
 function Home_preview(props) {
 

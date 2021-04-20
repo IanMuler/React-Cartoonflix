@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../assets/styles/Intro_main.css'
+import '../../assets/styles/HOCs/Intro_main.css'
 
 function Intro_main(props) {
 

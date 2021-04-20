@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import { connect } from 'react-redux'
-import Carousel from '../components/Carousel'
+import Carousel from '../items/Carousel'
 
 
 function Home_carousels(props) {

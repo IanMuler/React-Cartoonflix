@@ -1,12 +1,11 @@
 import React, { Fragment, useState } from 'react'
-// import { Link } from 'react-router-dom';
-import '../assets/styles/MoviePic.css'
-import ZoomMoviePic from '../components/ZoomMoviePic';
-import InfoModal from '../components/InfoModal'
+import '../../assets/styles/items/SeriePic.css'
+import ZoomSeriePic from './ZoomSeriePic';
+import InfoModal from './InfoModal';
 
-function MoviePic(props) {
+function SeriePic(props) {
 
-
+    
 /*--------------------zoom card functions-------------------*/
 
 const [isHovering, setIsHovering] = useState(false)
@@ -16,30 +15,28 @@ const [zoomValue, setZoomValue] = useState({});
 const hovering = (e) => {
     if(props.isMoving === false){
     window.timer = setTimeout(function(){setIsHovering(true)},500);  
-
     const carousel = document.querySelector(`.pics.${props.classPic}`);
 
     const left = (e.target.offsetLeft - carousel.scrollLeft);
     const width = e.target.offsetWidth
-       
+        
     setZoomValue({ left: left, width: width })
-    }
+}
 }
 
 const deshovering = () => {
-    // window.secondtimer = setTimeout(function(){setIsHovering(false)},300);  
+    // window.secondtimer = setTimeout(function(){setIsHovering(false)},300); 
    setIsHovering(false)
-   timeroff();
+    timeroff();
 }
 
 const timeroff = () => {
     clearTimeout(window.timer)
 }
-/*---------------------------------------------------*/
+/*--------------------------------------------------------------*/
 /*-------------------------modal functions----------------------*/
 
 const [modal, setModal] = useState(false)
-const body = document.getElementById("body")
 
 const renderModal = () => {
     setModal(true)
@@ -56,18 +53,19 @@ const closeModal = () => {
 return (
     <Fragment>
         <div onMouseOver={hovering} onMouseLeave={timeroff} onMouseOut={timeroff} className={props.className}>
-        <img src={props.imgMovie} alt={props.title}/>
+        <img src={props.img} alt={props.title}/>
        </div>
     {isHovering &&
-    <ZoomMoviePic 
+    <ZoomSeriePic 
     {...props}
-    deshovering={deshovering} 
+    deshovering={deshovering}
     renderModal={renderModal}
     style={zoomValue}
     />
     }
     {modal && 
-        <InfoModal {...props}
+        <InfoModal 
+        {...props}
         closeModal={closeModal}
         />
     }
@@ -75,4 +73,4 @@ return (
 )
 }
 
-export default MoviePic;
+export default SeriePic;

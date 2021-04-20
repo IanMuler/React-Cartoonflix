@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from 'react'
-import SeriePic from '../components/SeriePic'
-import MoviePic from '../components/MoviePic'
-import '../assets/styles/Carousel.css'
+import SeriePic from './SeriePic'
+import MoviePic from './MoviePic'
+import '../../assets/styles/items/Carousel.css'
 
 function Carousel(props) {
 

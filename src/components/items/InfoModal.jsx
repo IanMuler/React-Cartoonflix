@@ -1,8 +1,7 @@
 import React, {useState, useEffect}from 'react'
 import { connect } from 'react-redux'
-import { setFavorite, deleteFavorite } from '../actions'
-import { Link } from 'react-router-dom';
-import '../assets/styles/InfoModal.css'
+import { setFavorite, deleteFavorite } from '../../actions'
+import '../../assets/styles/items/InfoModal.css'
 
 function InfoModal(props) {
 

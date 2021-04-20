@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 import { connect } from 'react-redux'
-import { setFavorite, deleteFavorite } from '../actions'
-import '../assets/styles/ZoomSeriePic.css'
+import { setFavorite, deleteFavorite } from '../../actions'
+import '../../assets/styles/items/ZoomSeriePic.css'
 
 function ZoomSeriePic(props) {
 

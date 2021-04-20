@@ -1,10 +1,10 @@
-import React, { Fragment, useEffect } from 'react';
-import Home_header from '../components/Home_header';
-import Intro_header from '../components/Intro_header';
-import Home_preview from '../components/Home_preview';
-import Home_carousels from '../components/Home_carousels'
-import Home_loading from '../components/Home_loading';
-import Home_footer from '../components/Home_footer';
+import React, { Fragment } from 'react';
+import Home_header from '../components/HOCs/Home_header';
+import Intro_header from '../components/HOCs/Intro_header';
+import Home_preview from '../components/HOCs/Home_preview';
+import Home_carousels from '../components/HOCs/Home_carousels'
+import Home_loading from '../components/HOCs/Home_loading';
+import Home_footer from '../components/HOCs/Home_footer';
 
 const Series = (props) => {
 

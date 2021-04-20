@@ -1,6 +1,6 @@
-import React, { Component, useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import '../assets/styles/Home_header.css'
+import '../../assets/styles/HOCs/Home_header.css'
 
 function Home_header(props) {
     

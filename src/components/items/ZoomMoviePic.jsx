@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { connect } from 'react-redux'
-import { Link } from 'react-router-dom'
-import { setFavorite, deleteFavorite } from '../actions'
-import '../assets/styles/ZoomMoviePic.css'
+import { setFavorite, deleteFavorite } from '../../actions'
+import '../../assets/styles/items/ZoomMoviePic.css'
 
 function ZoomMoviePic(props) {
 

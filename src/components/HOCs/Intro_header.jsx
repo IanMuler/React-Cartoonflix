@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../assets/styles/Intro_header.css'
+import '../../assets/styles/HOCs/Intro_header.css'
 
 function Intro_header() {
 return (

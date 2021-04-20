@@ -1,8 +1,8 @@
-import React, { Fragment, useEffect } from 'react';
-import Home_header from '../components/Home_header';
-import Home_carousels from '../components/Home_carousels'
-import Home_footer from '../components/Home_footer';
-import '../assets/styles/MyList.css'
+import React, { Fragment } from 'react';
+import Home_header from '../components/HOCs/Home_header';
+import Home_carousels from '../components/HOCs/Home_carousels'
+import Home_footer from '../components/HOCs/Home_footer';
+import '../assets/styles/pages/MyList.css'
 
 const MyList = (props) => {
 

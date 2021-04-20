@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import App from './App';
 import reducer from './reducers';
-import {loadState, saveState} from './LocalStorage'
+import {loadState, saveState} from './scripts/LocalStorage'
 
 
 const immutableState = {

@@ -1,7 +1,7 @@
 import React from 'react';
-import Intro_header from '../components/Intro_header';
-import Intro_main from '../components/Intro_main';
-import '../assets/styles/Intro.css'
+import Intro_header from '../components/HOCs/Intro_header';
+import Intro_main from '../components/HOCs/Intro_main';
+import '../assets/styles/pages/Intro.css'
 
 function Intro (props){
   return (

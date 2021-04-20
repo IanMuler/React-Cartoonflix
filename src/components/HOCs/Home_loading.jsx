@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/Home_loading.css'
+import '../../assets/styles/HOCs/Home_loading.css'
 
 function Home_loading() {
 
