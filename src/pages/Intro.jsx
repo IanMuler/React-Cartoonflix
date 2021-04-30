@@ -1,6 +1,6 @@
 import React from 'react';
-import Intro_header from '../components/pageItems/Intro_header';
-import Intro_main from '../components/pageItems/Intro_main';
+import Intro_header from '../components/PageItems/Intro_header';
+import Intro_main from '../components/PageItems/Intro_main';
 import '../assets/styles/pages/Intro.css'
 
 function Intro (props){

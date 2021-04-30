@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import Home_header from '../components/pageItems/Home_header';
-import Intro_header from '../components/pageItems/Intro_header';
-import Home_preview from '../components/pageItems/Home_preview';
-import Home_carousels from '../components/pageItems/Home_carousels'
-import Home_loading from '../components/pageItems/Home_loading';
-import Home_footer from '../components/pageItems/Home_footer';
+import Home_header from '../components/PageItems/Home_header';
+import Intro_header from '../components/PageItems/Intro_header';
+import Home_preview from '../components/PageItems/Home_preview';
+import Home_carousels from '../components/PageItems/Home_carousels'
+import Home_loading from '../components/PageItems/Home_loading';
+import Home_footer from '../components/PageItems/Home_footer';
 
 const Home = (props) => {
 

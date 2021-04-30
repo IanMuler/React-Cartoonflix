@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import { connect } from 'react-redux'
 import InfoModal from '../items/InfoModal';
-import '../../assets/styles/pageItems/Home_preview.css'  
+import '../../assets/styles/PageItems/Home_preview.css'  
 
 function Home_preview(props) {
 

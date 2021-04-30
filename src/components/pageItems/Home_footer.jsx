@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../assets/styles/pageItems/Home_footer.css'
+import '../../assets/styles/PageItems/Home_footer.css'
 import { Link } from 'react-router-dom'
 
 function Home_footer(props) {

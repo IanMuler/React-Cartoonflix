@@ -6,7 +6,6 @@ import App from './App';
 import reducer from './reducers';
 import {loadState, saveState} from './scripts/LocalStorage'
 
-
 const immutableState = {
   "myList": {
     "courage": [],

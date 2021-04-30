@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import '../../assets/styles/pageItems/Home_header.css'
+import '../../assets/styles/PageItems/Home_header.css'
 
 function Home_header(props) {
     

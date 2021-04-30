@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/pages/Error.css'
-import Intro_header from '../components/pageItems/Intro_header';
+import Intro_header from '../components/PageItems/Intro_header';
 
 function Error() {
       return( 
